@@ -7,6 +7,7 @@
                     "id": "1",
                     "labels": ["Cuatrimestre Uno"],
                     "properties": {
+                        "name":"Laboratorio I",
                     }
                 }, {
                     "id": "2",
