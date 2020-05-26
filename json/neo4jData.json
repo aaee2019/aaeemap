@@ -6,8 +6,8 @@
                 "nodes": [{
                     "id": "1",
                     "labels": ["Cuatrimestre Uno"],
-                    "title": "Titulo de prueba",
                     "properties": {
+                        "title": "Titulo de prueba",
                     }
                 }, {
                     "id": "2",
