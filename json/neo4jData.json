@@ -11,7 +11,7 @@
                     }
                 }, {
                     "id": "2",
-                    "labels": ["Laboratorio"],
+                    "labels": ["Cuatrimestre Dos"],
                      "properties": {
                     }
                 }, {
@@ -41,7 +41,7 @@
                     }
                 }, {
                     "id": "8",
-                    "labels": ["Seminario de pensamiento tecnocientífico"],
+                    "labels": ["Cuatrimestre Dos"],
                     "properties": {
                     }
                 }, {
@@ -81,16 +81,16 @@
                     }
                 }, {
                     "id": "16",
-                    "labels": ["Computación Estructura de Algoritmos y Datos"],
+                    "labels": ["Cuatrimestre Uno"],
                     "properties": {}
                 }, {
                     "id": "17",
-                    "labels": ["Problemas de historia del siglo XX"],
+                    "labels": ["Cuatrimestre Dos"],
                     "properties": {
                     }
                 }, {
                     "id": "18",
-                    "labels": ["Informática Imagen"],
+                    "labels": ["Cuatrimestre Dos"],
                     "properties": {
                     }
                 }, {
