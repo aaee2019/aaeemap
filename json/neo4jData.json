@@ -47,13 +47,13 @@
                     }
                 }, {
                     "id": "8",
-                    "labels": ["CuatrimestreDos],
+                    "labels": ["CuatrimestreDos"],
                     "properties":{
                         "title": "Seminario de pensamiento tecnocientífico",
                     }
                 }, {
                     "id": "9",
-                    "labels": ["CuatrimestreTres],
+                    "labels": ["CuatrimestreTres"],
                     "properties": {
                          "title": "Tecnologías sonoras y visuales",
                     }
@@ -125,7 +125,7 @@
                     }                        
                 }, {
                     "id": "21",
-                    "labels": ["CuatrimestreCuatro],
+                    "labels": ["CuatrimestreCuatro"],
                     "properties": {
                         "title":"Cultura Contemporánea",
                     }
