@@ -113,7 +113,7 @@
                     "properties": {
                     }
                 }, 
-                          {
+                   {
                     "id": "23",
                     "labels": [" "],
                     "properties": {
@@ -125,8 +125,7 @@
                 }, {
                     "id": "25",
                     "labels": [" "],
-                    "properties": {
-                    }
+                    "properties": {}
                 }],
                 "relationships": [{
                     "id": "1",
