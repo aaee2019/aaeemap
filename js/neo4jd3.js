@@ -75,7 +75,9 @@
             nodeOutlineFillColor: undefined,
             nodeRadius: 25,
             relationshipColor: '#a5abb6',
-            zoomFit: false
+            zoomFit: false,
+            titled: false,
+            eachNodeHasItsOwnColor: false
               },
           builtRelations = {},
           relationCount = {},
@@ -259,7 +261,9 @@
         if (options.images) {
             appendImageToNode(n);
         }
-
+                if (options.titled) {
+            appendTitleToNode(n);
+        }
         return n;
     }
 
@@ -268,16 +272,19 @@
                    .attr('class', 'outline')
                    .attr('r', options.nodeRadius)
                    .style('fill', function(d) {
+             if (options.eachNodeHasItsOwnColor)
+                            return d.color;
                        return options.nodeOutlineFillColor ? options.nodeOutlineFillColor : class2color(d.labels[0]);
                    })
                    .style('stroke', function(d) {
+            if (options.eachNodeHasItsOwnColor)
+                            return d.color;
                        return options.nodeOutlineFillColor ? class2darkenColor(options.nodeOutlineFillColor) : class2darkenColor(d.labels[0]);
                    });
-//                   .append('title').text(function(d) {
-//                       return toString(d);
-//                   });
+          /*.append('title').text(function(d) {
+                 return toString(d);
+                });*/
     }
-
     function appendRingToNode(node) {
         return node.append('circle')
                    .attr('class', 'ring')
@@ -286,11 +293,21 @@
                        return toString(d);
                    });
     }
+    function appendTitleToNode(node) {
+        return node.append('text')
+                    .attr('y', '50')
+                    .attr('x', '-50')
+                    .attr('font-size', '12')
+                    .attr('fill', '#666')
+                    .html(function(d){
+                      return d.properties.name;
+                    });
+    }
 
     function appendTextToNode(node) {
         return node.append('text')
                    .attr('class', function(d) {
-                    return 'text' ;
+                    return 'text' + (icon(d) ? ' icon' : '');
             
                    })
                    .attr('fill', '#282828')
