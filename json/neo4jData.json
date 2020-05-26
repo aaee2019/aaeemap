@@ -6,7 +6,7 @@
                 "nodes": [{
                     "id": "1",
                     "labels": ["Cuatrimestre Uno"],
-                    "properties": {
+                    "properties": {"Laboratorio I"
                     }
                 }, {
                     "id": "2",
