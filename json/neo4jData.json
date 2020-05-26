@@ -5,38 +5,38 @@
             "graph": {
                 "nodes": [{
                     "id": "1",
-                    "labels": ["Cuatrimestreuno"],
-                    "properties": { 
-                        "title": "Titulo de prueba",
+                    "labels": ["Laboratorio"],
+                    "title": "Titulo de prueba",
+                    "properties": {
                     }
                 }, {
                     "id": "2",
-                    "labels": ["Laboratorio II"],
+                    "labels": ["Laboratorio"],
                      "properties": {
                     }
                 }, {
                     "id": "3",
-                    "labels": ["Laboratorio III"],
+                    "labels": ["Laboratorio"],
                     "properties": {
                     }
                 }, {
                     "id": "4",
-                    "labels": ["Laboratorio IV"],
+                    "labels": ["Laboratorio"],
                     "properties": {
                     }
                 }, {
                     "id": "5",
-                    "labels": ["Laboratorio V"],
+                    "labels": ["Laboratorio"],
                     "properties": {
                     }
                 }, {
                     "id": "6",
-                    "labels": ["Laboratorio VI"],
+                    "labels": ["Laboratorio"],
                     "properties": {
                     }
                 }, {
                     "id": "7",
-                    "labels": ["Cuatrimestreuno"],
+                    "labels": ["Seminario de prácticas artísticas"],
                     "properties": {
                     }
                 }, {
@@ -76,7 +76,7 @@
                     }
                 }, {
                     "id": "15",
-                    "labels": ["Cuatrimestreuno"],
+                    "labels": ["Introducción a las problemáticas del mundo contemporáneo"],
                     "properties": {
                     }
                 }, {
