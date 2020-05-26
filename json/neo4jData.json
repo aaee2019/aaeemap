@@ -16,22 +16,22 @@
                     }
                 }, {
                     "id": "3",
-                    "labels": ["Laboratorio"],
+                    "labels": ["Cuatrimestre Tres"],
                     "properties": {
                     }
                 }, {
                     "id": "4",
-                    "labels": ["Laboratorio"],
+                    "labels": ["Cuatrimestre Cuatro"],
                     "properties": {
                     }
                 }, {
                     "id": "5",
-                    "labels": ["Laboratorio"],
+                    "labels": ["Cuatrimestre Cinco"],
                     "properties": {
                     }
                 }, {
                     "id": "6",
-                    "labels": ["Laboratorio"],
+                    "labels": ["Cuatrimestre Seis"],
                     "properties": {
                     }
                 }, {
@@ -46,32 +46,32 @@
                     }
                 }, {
                     "id": "9",
-                    "labels": ["Tecnologías sonoras y visuales"],
+                    "labels": ["Cuatrimestre Tres"],
                     "properties": {
                     }
                 }, {
                     "id": "10",
-                    "labels": ["Taller de técnicas y procesos de materiales"],
+                    "labels": ["Cuatrimestre Cuatro"],
                     "properties": {
                     }
                 }, {
                     "id": "11",
-                    "labels": ["Estructuras sonoras y visuales"],
+                    "labels": ["Cuatrimestre Cinco"],
                     "properties": {
                     }
                 }, {
                     "id": "12",
-                    "labels": ["Taller de producción y postproducción de imagen y sonido I"],
+                    "labels": ["Cuatrimestre Cinco"],
                     "properties": {
                     }
                 }, {
                     "id": "13",
-                    "labels": ["Taller de producción y postproducción de imagen y sonido II"],
+                    "labels": ["Cuatrimestre Seis"],
                     "properties": {
                     }
                 }, {
                     "id": "14",
-                    "labels": ["Seminario de Artes Electrónicas"],
+                    "labels": ["Cuastrimestre Seis"],
                     "properties": {
                     }
                 }, {
@@ -95,21 +95,21 @@
                     }
                 }, {
                     "id": "19",
-                    "labels": ["Cuestiones de sociología, economía y política"],
+                    "labels": ["Cuatrimestre Tres"],
                     "properties": {
                     }
                 }, {
                     "id": "20",
-                    "labels": ["Inglés I/ Francés I"],
+                    "labels": ["Cuatrimestre Tres"],
                     "properties": {}                        
                 }, {
                     "id": "21",
-                    "labels": ["Cultura Contemporánea"],
+                    "labels": ["Cuatrimestre Cuatro"],
                     "properties": {
                     }
                 }, {
                     "id": "22",
-                    "labels": ["Inglés II/ Francés II"],
+                    "labels": ["Cuatrimestre Cuatro"],
                     "properties": {
                     }
                 }, {
