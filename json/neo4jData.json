@@ -113,7 +113,21 @@
                     "properties": {
                     }
                 }, 
-                         ],
+                          {
+                    "id": "23",
+                    "labels": [" "],
+                    "properties": {
+                    }
+                }, {
+                    "id": "24",
+                    "labels": [" "],
+                    "properties": {}
+                }, {
+                    "id": "25",
+                    "labels": [" "],
+                    "properties": {
+                    }
+                }],
                 "relationships": [{
                     "id": "1",
                     "type": "Introducir al campo de las AE",
