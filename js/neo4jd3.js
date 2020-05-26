@@ -321,7 +321,7 @@
                    })
                    .html(function(d) {
                        var _icon = icon(d);
-                       return _icon ? '&#x' + _icon : d.properties.name;
+                       return _icon ? '&#x' + _icon : d.labels;
                    });
     }
 
