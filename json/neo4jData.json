@@ -5,7 +5,7 @@
             "graph": {
                 "nodes": [{
                     "id": "1",
-                    "labels": ["Laboratorio I"],
+                    "labels": ["Cuatrimestre Uno"],
                     "properties": {
                     }
                 }, {
