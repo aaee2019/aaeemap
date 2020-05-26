@@ -5,38 +5,38 @@
             "graph": {
                 "nodes": [{
                     "id": "1",
-                    "labels": ["Laboratorio"],
+                    "labels": ["CuatrimestreUno"],
                     "properties": { 
                         "title": "Titulo de prueba",
                     }
                 }, {
                     "id": "2",
-                    "labels": ["Laboratorio"],
+                    "labels": ["Laboratorio II"],
                      "properties": {
                     }
                 }, {
                     "id": "3",
-                    "labels": ["Laboratorio"],
+                    "labels": ["Laboratorio III"],
                     "properties": {
                     }
                 }, {
                     "id": "4",
-                    "labels": ["Laboratorio"],
+                    "labels": ["Laboratorio IV"],
                     "properties": {
                     }
                 }, {
                     "id": "5",
-                    "labels": ["Laboratorio"],
+                    "labels": ["Laboratorio V"],
                     "properties": {
                     }
                 }, {
                     "id": "6",
-                    "labels": ["Laboratorio"],
+                    "labels": ["Laboratorio VI"],
                     "properties": {
                     }
                 }, {
                     "id": "7",
-                    "labels": ["Seminario de prácticas artísticas"],
+                    "labels": ["CuatrimestreUno"],
                     "properties": {
                     }
                 }, {
@@ -76,7 +76,7 @@
                     }
                 }, {
                     "id": "15",
-                    "labels": ["Introducción a las problemáticas del mundo contemporáneo"],
+                    "labels": ["CuatrimestreUno"],
                     "properties": {
                     }
                 }, {
