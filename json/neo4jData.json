@@ -5,7 +5,7 @@
             "graph": {
                 "nodes": [{
                     "id": "1",
-                    "labels": ["Cuatrimestre_uno"],
+                    "labels": ["Cuatrimestreuno"],
                     "properties": { 
                         "title": "Titulo de prueba",
                     }
@@ -36,7 +36,7 @@
                     }
                 }, {
                     "id": "7",
-                    "labels": ["Cuatrimestre_uno"],
+                    "labels": ["Cuatrimestreuno"],
                     "properties": {
                     }
                 }, {
@@ -76,7 +76,7 @@
                     }
                 }, {
                     "id": "15",
-                    "labels": ["Cuatrimestre_uno"],
+                    "labels": ["Cuatrimestreuno"],
                     "properties": {
                     }
                 }, {
