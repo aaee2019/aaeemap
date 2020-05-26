@@ -48,7 +48,7 @@
                 }, {
                     "id": "8",
                     "labels": ["CuatrimestreDos],
-                    "properties":
+                    "properties":{
                         "title": "Seminario de pensamiento tecnocientífico",
                     }
                 }, {
