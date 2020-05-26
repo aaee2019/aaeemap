@@ -5,135 +5,112 @@
             "graph": {
                 "nodes": [{
                     "id": "1",
-                    "labels": ["CuatrimestreUno"],
+                    "labels": ["Laboratorio"],
+                    "title": "Titulo de prueba",
                     "properties": {
-                        "title": "Laboratorio I",
                     }
                 }, {
                     "id": "2",
-                    "labels": ["CuatrmistreDos"],
+                    "labels": ["Laboratorio"],
                      "properties": {
-                         "title": "Laboratorio II",
                     }
                 }, {
                     "id": "3",
-                    "labels": ["CuatrimestreTres"],
+                    "labels": ["Laboratorio"],
                     "properties": {
-                        "title": "Laboratorio III",
                     }
                 }, {
                     "id": "4",
-                    "labels": ["CuatrimestreCuatro"],
+                    "labels": ["Laboratorio"],
                     "properties": {
-                        "title": "Laboratorio IV",
                     }
                 }, {
                     "id": "5",
-                    "labels": ["CuatrimestreCinco"],
+                    "labels": ["Laboratorio"],
                     "properties": {
-                        "title": "Laboratorio V",
                     }
                 }, {
                     "id": "6",
-                    "labels": ["CuatrimestreSeis"],
+                    "labels": ["Laboratorio"],
                     "properties": {
-                        "title": "Laboratorio VI",
                     }
                 }, {
                     "id": "7",
-                    "labels": ["CuatrimestreUno"],
+                    "labels": ["Seminario de prácticas artísticas"],
                     "properties": {
-                        "title": "Seminario de prácticas artísticas",
                     }
                 }, {
                     "id": "8",
-                    "labels": ["CuatrimestreDos"],
-                    "properties":{
-                        "title": "Seminario de pensamiento tecnocientífico",
+                    "labels": ["Seminario de pensamiento tecnocientífico"],
+                    "properties": {
                     }
                 }, {
                     "id": "9",
-                    "labels": ["CuatrimestreTres"],
+                    "labels": ["Tecnologías sonoras y visuales"],
                     "properties": {
-                         "title": "Tecnologías sonoras y visuales",
                     }
                 }, {
                     "id": "10",
-                    "labels": ["CuatrimestreCuatro"],
+                    "labels": ["Taller de técnicas y procesos de materiales"],
                     "properties": {
-                        "title":"Taller de técnicas y procesos de materiales",
                     }
                 }, {
                     "id": "11",
-                    "labels": ["CuatrimestreCinco"],
+                    "labels": ["Estructuras sonoras y visuales"],
                     "properties": {
-                      "title": "Estructuras sonoras y visuales",
                     }
                 }, {
                     "id": "12",
-                    "labels": ["CuatrimestreCinco"],
+                    "labels": ["Taller de producción y postproducción de imagen y sonido I"],
                     "properties": {
-                      "title": "Taller de producción y postproducción I",
                     }
                 }, {
                     "id": "13",
-                    "labels": ["CuatrimestreSeis"],
+                    "labels": ["Taller de producción y postproducción de imagen y sonido II"],
                     "properties": {
-                      "title":"Taller de producción y postproducción de imagen y sonido II",
                     }
                 }, {
                     "id": "14",
-                    "labels": ["CuatrimestreSeis"],
+                    "labels": ["Seminario de Artes Electrónicas"],
                     "properties": {
-                      "title": "Seminario de Artes Electrónicas",
                     }
                 }, {
                     "id": "15",
-                    "labels": ["CuatrimestreUno"],
+                    "labels": ["Introducción a las problemáticas del mundo contemporáneo"],
                     "properties": {
-                        "title": "Introducción a las problemáticas del mundo contemporáneo",
                     }
                 }, {
                     "id": "16",
-                    "labels": ["CuatrimestreUno"],
-                    "properties": {
-                        "title": "Computación Estructura de Algoritmos y Datos",
-                    }
+                    "labels": ["Computación Estructura de Algoritmos y Datos"],
+                    "properties": {}
                 }, {
                     "id": "17",
-                    "labels": ["CuatrimestreDos"],
+                    "labels": ["Problemas de historia del siglo XX"],
                     "properties": {
-                       "title": "Problemas de historia del siglo XX",
                     }
                 }, {
                     "id": "18",
-                    "labels": ["CuatrimestreDos"],
+                    "labels": ["Informática Imagen"],
                     "properties": {
-                        "title": "Informática Imagen",
                     }
                 }, {
                     "id": "19",
-                    "labels": ["CuatrimestreTres"],
+                    "labels": ["Cuestiones de sociología, economía y política"],
                     "properties": {
-                        "title": "Cuestiones de sociología, economía y política",
                     }
                 }, {
                     "id": "20",
-                    "labels": ["CuatrimestreTres"],
-                    "properties": {
-                        "title":"Inglés I/ Francés I",
-                    }                        
+                    "labels": ["Inglés I/ Francés I"],
+                    "properties": {}                        
                 }, {
                     "id": "21",
-                    "labels": ["CuatrimestreCuatro"],
+                    "labels": ["Cultura Contemporánea"],
                     "properties": {
-                        "title":"Cultura Contemporánea",
                     }
                 }, {
                     "id": "22",
-                    "labels": ["CuatrimestreCuatro"],
+                    "labels": ["Inglés II/ Francés II"],
                     "properties": {
-                        "title":"Inglés II/ Francés II",
                     }
                 }, {
                     "id": "23",
