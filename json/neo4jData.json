@@ -7,109 +7,137 @@
                     "id": "1",
                     "labels": ["Cuatrimestre Uno"],
                     "properties": {
+                        "name":"Laboratorio I",
+                        "objetivo1":"Explorar procesos de posiblidades expresivas",
+                        "objetivo2":"Familiarizarse con temas matemáticos para programación y física ondulator"
+                        
                     }
                 }, {
                     "id": "2",
                     "labels": ["Cuatrimestre Dos"],
                      "properties": {
+                         "name":"Laboratorio II",
+                         "objetivos":"hola"
                     }
                 }, {
                     "id": "3",
                     "labels": ["Cuatrimestre Tres"],
                     "properties": {
+                        "name":"Laboratorio III"
                     }
                 }, {
                     "id": "4",
                     "labels": ["Cuatrimestre Cuatro"],
                     "properties": {
+                        "name":"Laboratorio IV"
                     }
                 }, {
                     "id": "5",
                     "labels": ["Cuatrimestre Cinco"],
                     "properties": {
+                        "name":"Laboratorio V"
                     }
                 }, {
                     "id": "6",
                     "labels": ["Cuatrimestre Seis"],
                     "properties": {
+                        "name":"Laboratorio VI"
                     }
                 }, {
                     "id": "7",
                     "labels": ["Cuatrimestre Uno"],
                     "properties": {
+                        "name": "Seminario de prácticas artísticas"
                     }
                 }, {
                     "id": "8",
                     "labels": ["Cuatrimestre Dos"],
                     "properties": {
+                         "name": "Seminario de pensamiento tecnocientífico"
                     }
                 }, {
                     "id": "9",
                     "labels": ["Cuatrimestre Tres"],
                     "properties": {
+                        "name": "Tecnologías sonoras y visuales"
                     }
                 }, {
                     "id": "10",
                     "labels": ["Cuatrimestre Cuatro"],
                     "properties": {
+                        "name": "Taller de técnicas y procesos de materiales"
                     }
                 }, {
                     "id": "11",
                     "labels": ["Cuatrimestre Cinco"],
                     "properties": {
+                        "name": "Estructuras sonoras y visuales"
                     }
                 }, {
                     "id": "12",
                     "labels": ["Cuatrimestre Cinco"],
                     "properties": {
+                        "name": "Taller de producción y postproducción I"
                     }
                 }, {
                     "id": "13",
                     "labels": ["Cuatrimestre Seis"],
                     "properties": {
+                         "name": "Taller de producción y postproducción II"
                     }
                 }, {
                     "id": "14",
-                    "labels": ["Cuastrimestre Seis"],
+                    "labels": ["Cuatrimestre Seis"],
                     "properties": {
+                         "name": "Seminario de Artes Electrónicas"
                     }
                 }, {
                     "id": "15",
                     "labels": ["Cuatrimestre Uno"],
                     "properties": {
+                         "name": "Introducción a las problemáticas del mundo contemporáneo"
                     }
                 }, {
                     "id": "16",
                     "labels": ["Cuatrimestre Uno"],
-                    "properties": {}
+                    "properties": {
+                         "name": "Computación estructura de algoritmos y datos"
+                    }
                 }, {
                     "id": "17",
                     "labels": ["Cuatrimestre Dos"],
                     "properties": {
+                         "name": "Problemas de historia del siglo XX"
                     }
                 }, {
                     "id": "18",
                     "labels": ["Cuatrimestre Dos"],
                     "properties": {
+                         "name": "Informática Imagen"
                     }
                 }, {
                     "id": "19",
                     "labels": ["Cuatrimestre Tres"],
                     "properties": {
+                         "name": "Cuestiones de economía, sociología y política"
                     }
                 }, {
                     "id": "20",
                     "labels": ["Cuatrimestre Tres"],
-                    "properties": {}                        
+                    "properties": {
+                         "name": "Inglés I/ Francés I"
+                    }                        
                 }, {
                     "id": "21",
                     "labels": ["Cuatrimestre Cuatro"],
                     "properties": {
+                         "name": "Cultura contemporánea"
                     }
                 }, {
                     "id": "22",
                     "labels": ["Cuatrimestre Cuatro"],
                     "properties": {
+                         "name": "Inglés II/ Francés II"
                     }
                 }],
                 "relationships": [{
@@ -119,134 +147,142 @@
                     "endNode": "7",
                     "properties": {}
                 }, {
-                    "id": "2",
-                    "type": "Introducir al campo de las AE",
+                    "id": "1",
+                    "type": "",
+                    "startNode": "1",
+                    "endNode": "10",
+                    "properties": {}
+                }, {
+                    "id": "1",
+                    "type": "",
+                    "startNode": "1",
+                    "endNode": "14",
+                    "properties": {}
+                }, {
+                    "id": "1",
+                    "type": "",
                     "startNode": "1",
                     "endNode": "15",
                     "properties": {}
                 }, {
-                    "id": "3",
-                    "type": "HAS_BIRTH_DATE",
+                    "id": "1",
+                    "type": "",
                     "startNode": "1",
                     "endNode": "16",
-                    "properties": {
-                        "from": 1473581532586
-                    }
+                    "properties": {}
                 }, {
-                    "id": "4",
-                    "type": "HAS_PASSWORD",
+                    "id": "2",
+                    "type": "Abordar el marco epistemológico de la tecnociencia",
                     "startNode": "2",
                     "endNode": "8",
-                    "properties": {
-                        "from": 1473581532586
-                    }
+                    "properties": {}
                 }, {
-                    "id": "5",
-                    "type": "USED_DEVICE",
+                    "id": "2",
+                    "type": "",
+                    "startNode": "2",
+                    "endNode": "14",
+                    "properties": {}
+                }, {
+                    "id": "2",
+                    "type": "",
                     "startNode": "2",
                     "endNode": "17",
-                    "properties": {
-                        "from": 1473581532586
-                    }
+                    "properties": {}
                 }, {
-                    "id": "6",
-                    "type": "HAS_SECURITY_ANSWER",
+                    "id": "2",
+                    "type": "",
                     "startNode": "2",
                     "endNode": "18",
-                    "properties": {
-                        "from": 1473581532586
-                    }
+                    "properties": {}
                 }, {
-                    "id": "7",
-                    "type": "DEVELOPES",
+                    "id": "3",
+                    "type": "Comprender las tecnologías sonoras y visuales de control y codificación de información",
                     "startNode": "3",
-                    "endNode": "10",
-                    "properties": {
-                        "from": 1470002400000
-                    }
+                    "endNode": "9",
+                    "properties": {}
                 }, {
-                    "id": "8",
-                    "type": "REPOSITORY",
+                    "id": "3",
+                    "type": "",
                     "startNode": "3",
                     "endNode": "19",
                     "properties": {}
                 }, {
-                    "id": "9",
-                    "type": "ISSUES",
+                    "id": "3",
+                    "type": "",
                     "startNode": "3",
-                    "endNode": "21",
-                    "properties": {}
-                }, {
-                    "id": "10",
-                    "type": "HOSTED_ON",
-                    "startNode": "4",
-                    "endNode": "10",
-                    "properties": {}
-                }, {
-                    "id": "11",
-                    "type": "HOSTED_ON",
-                    "startNode": "4",
                     "endNode": "20",
                     "properties": {}
                 }, {
-                    "id": "12",
-                    "type": "HOSTED_ON",
+                    "id": "9",
+                    "type": "",
+                    "startNode": "9",
+                    "endNode": "11",
+                    "properties": {}
+                }, {
+                    "id": "4",
+                    "type": "",
+                    "startNode": "4",
+                    "endNode": "14",
+                    "properties": {}
+                }, {
+                    "id": "4",
+                    "type": "",
+                    "startNode": "4",
+                    "endNode": "9",
+                    "properties": {}
+                }, {
+                    "id": "4",
+                    "type": "",
                     "startNode": "4",
                     "endNode": "22",
                     "properties": {}
                 }, {
-                    "id": "13",
-                    "type": "HAS_EMAIL",
+                    "id": "4",
+                    "type": "",
+                    "startNode": "4",
+                    "endNode": "10",
+                    "properties": {}
+                }, {
+                    "id": "4",
+                    "type": "",
+                    "startNode": "4",
+                    "endNode": "21",
+                    "properties": {}
+                }, {
+                    "id": "5",
+                    "type": "",
                     "startNode": "5",
                     "endNode": "11",
                     "properties": {}
                 }, {
-                    "id": "14",
-                    "type": "USED_CREDIT_CARD",
-                    "startNode": "5",
+                    "id": "11",
+                    "type": "Incorporar estructuras de la imagen sonido en desarrollo de narrativas",
+                    "startNode": "11",
                     "endNode": "12",
                     "properties": {}
                 }, {
-                    "id": "15",
-                    "type": "DEPENDS_ON",
-                    "startNode": "6",
+                    "id": "5",
+                    "type": "",
+                    "startNode": "5",
+                    "endNode": "6",
+                    "properties": {}
+                }, {
+                    "id": "14",
+                    "type": "Marco teórico y analítico de producciones de imagen y sonido en AE",
+                    "startNode": "14",
                     "endNode": "13",
                     "properties": {}
                 }, {
-                    "id": "16",
-                    "type": "DEPENDS_ON",
+                    "id": "6",
+                    "type": "Elaborar un marco referencial sobre el desarrollo de interfaces en AE",
                     "startNode": "6",
                     "endNode": "14",
                     "properties": {}
                 }, {
-                    "id": "17",
-                    "type": "OPTIONS",
-                    "startNode": "8",
-                    "endNode": "16",
-                    "properties": {}
-                }, {
-                    "id": "18",
-                    "type": "HAS_LANGUAGE",
+                    "id": "6",
+                    "type": "",
                     "startNode": "6",
-                    "endNode": "17",
-                    "properties": {}
-                }, {
-                    "id": "19",
-                    "type": "HAS_COOKIE",
-                    "startNode": "6",
-                    "endNode": "18",
-                    "properties": {}
-                }, {
-                    "id": "20",
-                    "type": "HAS_IP",
-                    "startNode": "6",
-                    "endNode": "19",
-                    "properties": {}
-                }, {
-                    "id": "21",
-                    "type": "ICONS",
-                    "startNode": "16",
-                    "endNode": "20",
+                    "endNode": "10",
                     "properties": {}
                 }]
             }
