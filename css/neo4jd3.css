@@ -58,7 +58,7 @@ body {
   fill: #a5abb6;
   pointer-events: all;
   stroke: #9aa1ac;
-  stroke-width: 2px;
+  stroke-width: 1.5px;
 }
 .node .ring {
   fill: none;
@@ -123,12 +123,13 @@ svg {
 li{
   font-size:0.8em;
   font-family:Roboto;
-  padding-top:1%;
+  padding-top:0.6%;
 }
 
 li img{
   margin-left: 0.3%; 
   margin-right: 0.3%;
+  width:5%;
 }
 
 ul{
@@ -136,4 +137,17 @@ ul{
     padding-left: 3%;
     position:absolute;
     list-style: none;
+    z-index: -1;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-flex;
+  vertical-align:middle;
+  margin-bottom:0.1%;
+  margin-left: 0.4%; 
+  margin-right: 0.4%;
+  
 }
