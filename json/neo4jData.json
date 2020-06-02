@@ -93,52 +93,150 @@
                     }
                 }, {
                     "id": "15",
-                    "labels": ["Cuatrimestre Uno"],
+                    "labels": ["Comunes"],
                     "properties": {
                          "name": "Introducción a las problemáticas del mundo contemporáneo"
                     }
                 }, {
                     "id": "16",
-                    "labels": ["Cuatrimestre Uno"],
+                    "labels": ["Comunes"],
                     "properties": {
                          "name": "Computación estructura de algoritmos y datos"
                     }
                 }, {
                     "id": "17",
-                    "labels": ["Cuatrimestre Dos"],
+                    "labels": ["Comunes"],
                     "properties": {
                          "name": "Problemas de historia del siglo XX"
                     }
                 }, {
                     "id": "18",
-                    "labels": ["Cuatrimestre Dos"],
+                    "labels": ["Comunes"],
                     "properties": {
                          "name": "Informática Imagen"
                     }
                 }, {
                     "id": "19",
-                    "labels": ["Cuatrimestre Tres"],
+                    "labels": ["Comunes"],
                     "properties": {
                          "name": "Cuestiones de economía, sociología y política"
                     }
                 }, {
                     "id": "20",
-                    "labels": ["Cuatrimestre Tres"],
+                    "labels": ["Comunes"],
                     "properties": {
                          "name": "Inglés I/ Francés I"
                     }                        
                 }, {
                     "id": "21",
-                    "labels": ["Cuatrimestre Cuatro"],
+                    "labels": ["Comunes"],
                     "properties": {
                          "name": "Cultura contemporánea"
                     }
                 }, {
                     "id": "22",
-                    "labels": ["Cuatrimestre Cuatro"],
+                    "labels": ["Comunes"],
                     "properties": {
                          "name": "Inglés II/ Francés II"
                     }
+                    }, {
+                    "id": "23",
+                    "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
+                    "properties": {
+                         "name": "LABORATORIO DE TECNOLOGIAS INMERSIVAS BÁSICO"
+                    }
+                        }, {
+                    "id": "24",
+                    "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
+                    "properties": {
+                         "name": "LABORATORIO DE TECNOLOGIAS INMERSIVAS AVANZADO"
+                    }
+                            }, {
+                    "id": "25",
+                    "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
+                    "properties": {
+                         "name": "VIDEOJUEGOS BÁSICO"
+                    }
+                                }, {
+                    "id": "26",
+                    "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
+                    "properties": {
+                         "name": "VIDEOJUEGOS AVANZADO"
+                    }
+                                    }, {
+                    "id": "27",
+                    "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
+                    "properties": {
+                         "name": "ANIMACIÓN BÁSICA"
+                    }
+                                        }, {
+                    "id": "28",
+                    "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
+                    "properties": {
+                         "name": "ANIMACIÓN AVANZADA"
+                    }
+                                            }, {
+                    "id": "29",
+                    "labels": ["DISPOSITIVOS E INTERFACES"],
+                    "properties": {
+                         "name": "LABORATORIO DE INTERFACES BÁSICO"
+                    }
+                                                 }, {
+                    "id": "30",
+                    "labels": ["DISPOSITIVOS E INTERFACES"],
+                    "properties": {
+                         "name": "LABORATORIO DE INTERFACES AVANZADO"
+                    }
+                                                      }, {
+                    "id": "31",
+                    "labels": ["DISPOSITIVOS E INTERFACES"],
+                    "properties": {
+                         "name": "SEMINARIOS DE ROBÓTICA"
+                    }
+                                                           }, {
+                    "id": "32",
+                    "labels": ["DISPOSITIVOS E INTERFACES"],
+                    "properties": {
+                         "name": "LABORATORIO DE COMPUTACION FISICA"
+                    }
+                                                                }, {
+                    "id": "33",
+                    "labels": ["DISPOSITIVOS E INTERFACES"],
+                    "properties": {
+                         "name": "LABORATORIO DE ELECTRÓNICA"
+                    }
+                                                                      }, {
+                    "id": "34",
+                    "labels": ["PRODUCCIÓN AUDIOVISUAL"],
+                    "properties": {
+                         "name": "LABORATORIO DE PERFORMANCE SONORA Y VISUAL"
+                    }
+                                                 }, {
+                    "id": "35",
+                    "labels": ["PRODUCCIÓN AUDIOVISUAL"],
+                    "properties": {
+                         "name": "PRODUCCION Y POSTPRODUCCIÓN SONORA"
+                    }
+                                                      }, {
+                    "id": "36",
+                    "labels": ["PRODUCCIÓN AUDIOVISUAL"],
+                    "properties": {
+                         "name": "PRODUCCION DE IMAGEN"
+                    }
+                                                           }, {
+                    "id": "37",
+                    "labels": ["PRODUCCIÓN AUDIOVISUAL"],
+                    "properties": {
+                         "name": "COMPOSICIÓN CON MEDIOS ELECTRÓNICOS Y ELECTROACÚSTICOS"
+                    }
+                                                                }, {
+                    "id": "38",
+                    "labels": ["PRODUCCIÓN AUDIOVISUAL"],
+                    "properties": {
+                         "name": "REFUERZO SONORO, REGISTRO Y GRABACIÓN "
+                    }
+                                                                    
+                                                                    
                 }],
                 "relationships": [{
                     "id": "1",
@@ -284,6 +382,85 @@
                     "startNode": "6",
                     "endNode": "10",
                     "properties": {}
+                }, {
+                    "id": "15",
+                    "type": "",
+                    "startNode": "23",
+                    "endNode": "24",
+                    "properties": {}
+                    }, {
+                    "id": "16",
+                    "type": "",
+                    "startNode": "23",
+                    "endNode": "25",
+                    "properties": {}
+                        }, {
+                    "id": "17",
+                    "type": "",
+                    "startNode": "25",
+                    "endNode": "26",
+                    "properties": {}
+                            }, {
+                    "id": "18",
+                    "type": "",
+                    "startNode": "26",
+                    "endNode": "27",
+                    "properties": {}
+                                }, {
+                    "id": "19",
+                    "type": "",
+                    "startNode": "27",
+                    "endNode": "28",
+                    "properties": {}
+                                    }, {
+                    "id": "20",
+                    "type": "",
+                    "startNode": "29",
+                    "endNode": "30",
+                    "properties": {}
+                        }, {
+                    "id": "21",
+                    "type": "",
+                    "startNode": "29",
+                    "endNode": "31",
+                    "properties": {}
+                            }, {
+                    "id": "22",
+                    "type": "",
+                    "startNode": "29",
+                    "endNode": "32",
+                    "properties": {}
+                                }, {
+                    "id": "23",
+                    "type": "",
+                    "startNode": "29",
+                    "endNode": "33",
+                    "properties": {}
+                                     }, {
+                    "id": "24",
+                    "type": "",
+                    "startNode": "34",
+                    "endNode": "35",
+                    "properties": {}
+                        }, {
+                    "id": "25",
+                    "type": "",
+                    "startNode": "34",
+                    "endNode": "36",
+                    "properties": {}
+                            }, {
+                    "id": "26",
+                    "type": "",
+                    "startNode": "34",
+                    "endNode": "37",
+                    "properties": {}
+                                }, {
+                    "id": "27",
+                    "type": "",
+                    "startNode": "34",
+                    "endNode": "38",
+                    "properties": {}
+                                    
                 }]
             }
         }]
