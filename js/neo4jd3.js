@@ -126,7 +126,7 @@
             .attr("d", "M 0 0 4 2 0 4 1 2")
             .style("fill", "#a5abb6");
         }
-                function appendImageToNode(node) {
+                /*function appendImageToNode(node) {
           return node.append('image')
             .attr('height', function (d) {
               return icon(d) ? '24px' : '30px';
@@ -143,7 +143,7 @@
             .attr('width', function (d) {
               return icon(d) ? '24px' : '30px';
             });
-        }
+        }*/
     function appendInfoPanel(container) {
         return container.append('div')
                         .attr('class', 'neo4jd3-info');
@@ -189,13 +189,13 @@
                            classes = 'node',
                            label = d.labels[0];
 
-                       if (icon(d)) {
+                       /*if (icon(d)) {
                            classes += ' node-icon';
                        }
 
                        if (image(d)) {
                            classes += ' node-image';
-                       }
+                       }*/
 
                        if (options.highlight) {
                            for (i = 0; i < options.highlight.length; i++) {
@@ -254,13 +254,13 @@
         appendRingToNode(n);
         appendOutlineToNode(n);
 
-        if (options.icons) {
+        //if (options.icons) {
             appendTextToNode(n);
-        }
+       // }
 
-        if (options.images) {
+        /*if (options.images) {
             appendImageToNode(n);
-        }
+        }*/
                 if (options.titled) {
             appendTitleToNode(n);
         }
@@ -271,19 +271,28 @@
         return node.append('circle')
                    .attr('class', 'outline')
                    .attr('r', options.nodeRadius)
-                   .style('fill', function(d) {
+                   /*.style('fill', function(d) {
              if (options.eachNodeHasItsOwnColor)
                             return d.color;
                        return options.nodeOutlineFillColor ? options.nodeOutlineFillColor : class2color(d.labels[0]);
-                   })
+                   })*/
                    .style("stroke-dasharray", ("5,3"))
                    .style('stroke', function(d) {
             if (options.eachNodeHasItsOwnColor)
                             return d.color;
+                       return options.nodeOutlineFillColor ? options.nodeOutlineFillColor : class2color(d.labels[0]);
+                   })
+         /* .style('fill', function(d) {
+             if (options.eachNodeHasItsOwnColor)
+                            return d.color;
+                       return options.nodeOutlineFillColor ? options.nodeOutlineFillColor : class2color(d.labels[0]);
+                   })*/
+        
+            /*if (options.eachNodeHasItsOwnColor)
+                            return d.color;
                        return options.nodeOutlineFillColor ? class2darkenColor(options.nodeOutlineFillColor) : class2darkenColor(d.labels[0]);
-                   } 
+                   } );*/
                           
-                         );
         
           /*.append('title').text(function(d) {
                  return toString(d);
@@ -297,7 +306,7 @@
                        return toString(d);
                    });
     }
-    function appendTitleToNode(node) {
+    /*function appendTitleToNode(node) {
         return node.append('text')
                     .attr('y', '50')
                     .attr('x', '-50')
@@ -306,12 +315,12 @@
                     .html(function(d){
                       return d.properties.name;
                     });
-    }
+    }*/
 
     function appendTextToNode(node) {
         return node.append('text')
                    .attr('class', function(d) {
-                    return 'text' + (icon(d) ? ' icon' : '');
+                    return 'text';
             
                    })
                    .attr('fill', '#282828')
@@ -324,8 +333,7 @@
                        return icon(d) ? (parseInt(Math.round(options.nodeRadius * 0.32)) + 'px') : '4px';
                    })
                    .html(function(d) {
-                       var _icon = icon(d);
-                       return _icon ? '&#x' + _icon : d.properties.name;
+                       return d.properties.name;
                    });
     }
 
@@ -362,17 +370,6 @@
                 .attr('class', 'overlay');
     }
 
-   // function appendTextToRelationship(r) {
-      //  return r.append('text')
-             //   .attr('class', 'text')
-              //  .attr('fill', '#000000')
-               // .attr('font-size', '5px')
-               // .attr('pointer-events', 'none')
-              //  .attr('text-anchor', 'middle')
-              //  .text(function(d) {
-                 //   return d.type;
-              //  });
-   // }
           function appendTextToRelationship(r) {
           return r.append('text')
 //              .attr("width", "500")
@@ -436,28 +433,22 @@
         // d3.schemeCategory10,
         // d3.schemeCategory20,
         return [
-            '#a7d6eb', // light blue
-            '#9dcdba', // green #1
-            '#e3e77f', // amarillo verdoso
-            '#f2c830', // amarillo anaranjado
-            '#ff928c', // light red
-            '#fcea7e', // light yellow
-            '#ffc766', // light orange
-            '#ced2d9', // light gray
-            '#405f9e', // navy blue
-            '#a5abb6', // dark gray
-            '#78cecb', // green #2,
-            '#b88cbb', // dark purple
-            '#ced2d9', // light gray
-            '#e84646', // dark red
-            '#fa5f86', // dark pink
-            '#ffab1a', // dark orange
-            '#fcda19', // dark yellow
-            '#797b80', // black
-            '#c9d96f', // pistacchio
-            '#47991f', // green #3
-            '#70edee', // turquoise
-            '#ff75ea'  // pink
+            '#a7d6eb', // celeste 1/Cuatrimestre 1
+            '#9dcdba', // verde 1/ Cuatrimestre 2
+            '#e3e77f', // amarillo verdoso/ Cuatrimestre 3
+            '#edc531', // naranja claro/ Cuatrimestre 4
+            '#ff928c', // light red/ Cuatrimestre 5
+            '#e6aa6e', // light orange /Cuatrimestre 6
+            '#ced2d9', // light gray /Comunes
+            '#4353a0', // azul /Narrativas Interactivas
+            '#bc7eb2', // púrpura /Dispositivos e interfaces
+            '#8fc27c', // verde menta / Producción Audiovisual
+            '#a3835e', // marron / Algoritmos y datos
+            '#9287bd', // lavanda / Arte y Tecnociencia
+            '#cb7e81', // rojizo /Materialidad Expandida
+            '#894d99', // violeta /Arte Contemporáneo
+            '#8fc6d4', // turquesa /Trabajo final
+            '#ced2d9' // light gray /Trayectos Formativos
         ];
     }
 
