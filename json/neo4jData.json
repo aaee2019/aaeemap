@@ -8,22 +8,25 @@
                     "labels": ["Cuatrimestre Uno"],
                     "properties": {
                         "name":"Laboratorio I",
-                        "objetivo1":"Explorar procesos de posiblidades expresivas",
-                        "objetivo2":"Familiarizarse con temas matemáticos para programación y física ondulator"
-                        
+                        "url": "http://arteselectronicas.untref.edu.ar/plan-de-estudios",
+                        "objetivo1": "Explorar procesos de posiblidades expresivas",
+                        "objetivo2":"Familiarizarse con temas matemáticos para programación y física ondulator",
+                        "tipo":"comunes"
                     }
                 }, {
                     "id": "2",
                     "labels": ["Cuatrimestre Dos"],
                      "properties": {
                          "name":"Laboratorio II",
-                         "objetivos":"hola"
+                         "objetivo1":"hola",
+                          "url": "http://arteselectronicas.untref.edu.ar/plan-de-estudios"
                     }
                 }, {
                     "id": "3",
                     "labels": ["Cuatrimestre Tres"],
                     "properties": {
-                        "name":"Laboratorio III"
+                        "name":"Laboratorio III",
+                         "url": "http://arteselectronicas.untref.edu.ar/plan-de-estudios"
                     }
                 }, {
                     "id": "4",
@@ -235,6 +238,59 @@
                     "properties": {
                          "name": "REFUERZO SONORO, REGISTRO Y GRABACIÓN "
                     }
+                                                                    }, {
+                    "id": "39",
+                    "labels": ["ALGORITMOS Y DATOS"],
+                    "properties": {
+                         "name": "LABORATORIO DE CREACION ALGORITMICA"
+                    }
+                                                                        }, {
+                    "id": "40",
+                    "labels": ["ALGORITMOS Y DATOS"],
+                    "properties": {
+                         "name": "MINERIA DE DATOS"
+                    }
+                                                                            }, {
+                    "id": "41",
+                    "labels": ["ALGORITMOS Y DATOS"],
+                    "properties": {
+                         "name": "TECNOLOGÍAS HIPERMEDIALES"
+                    }
+                                                                                }, {
+                    "id": "42",
+                    "labels": ["ALGORITMOS Y DATOS"],
+                    "properties": {
+                         "name": "LABORATORIO DE INTELIGENCIA ARTIFICIAL Y ARTE"
+                    }
+                                                                                    }, {
+                    "id": "43",
+                    "labels": ["ALGORITMOS Y DATOS"],
+                    "properties": {
+                         "name": "SEMINARIOS COMPLEMENTARIOS DE PROGRAMACION"
+                    }
+                                                                                         }, {
+                    "id": "44",
+                    "labels": ["ARTE Y TECNOCIENCIA"],
+                    "properties": {
+                         "name": "ARTES ELECTRÓNICAS"
+                    }
+                                                                                             }, {
+                    "id": "45",
+                    "labels": ["ARTE Y TECNOCIENCIA"],
+                    "properties": {
+                         "name": "PRACTICAS ARTISTICAS"
+                    }}, {
+                    "id": "46",
+                    "labels": ["ARTE Y TECNOCIENCIA"],
+                    "properties": {
+                         "name": "PENSAMIENTO TECNO-CIENTIFICO"
+                    }}, {
+                    "id": "47",
+                    "labels": ["ARTE Y TECNOCIENCIA"],
+                    "properties": {
+                         "name": "LABORATORIOS DE CIENCIA Y ARTE"
+                    }
+                                                                                                                           
                                                                     
                                                                     
                 }],
@@ -460,7 +516,49 @@
                     "startNode": "34",
                     "endNode": "38",
                     "properties": {}
-                                    
+                                }, {
+                    "id": "28",
+                    "type": "",
+                    "startNode": "39",
+                    "endNode": "40",
+                    "properties": {}
+                                }, {
+                    "id": "29",
+                    "type": "",
+                    "startNode": "39",
+                    "endNode": "41",
+                    "properties": {}
+                                }, {
+                    "id": "30",
+                    "type": "",
+                    "startNode": "39",
+                    "endNode": "42",
+                    "properties": {}
+                                }, {
+                    "id": "31",
+                    "type": "",
+                    "startNode": "39",
+                    "endNode": "43",
+                    "properties": {}
+                                     }, {
+                    "id": "32",
+                    "type": "",
+                    "startNode": "44",
+                    "endNode": "45",
+                    "properties": {}
+                                     }, {
+                    "id": "33",
+                    "type": "",
+                    "startNode": "44",
+                    "endNode": "46",
+                    "properties": {} 
+                                     }, {
+                    "id": "34",
+                    "type": "",
+                    "startNode": "44",
+                    "endNode": "47",
+                    "properties": {}
+                                                      
                 }]
             }
         }]
