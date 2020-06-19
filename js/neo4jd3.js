@@ -124,7 +124,7 @@
                         .attr("markerUnits", "userSpaceOnUse")
                         .attr("orient", "auto")
                         .append("path")
-                        .attr("d", "M 0 0 4 2 0 4 1 2")
+                        .attr("d", "M 0 0 10 20 0 10 1 20")
                         .style("fill", "#a5abb6");
                 }
 
@@ -195,7 +195,8 @@
                    })*/
 
                         .on("click", function(d) { // Toma Url del nodo
-                        window.open(d.properties.url); 
+                        //                        window.open(d.properties.url); 
+                        ('#exampleModal').trigger('click')
                     })  
                         .on('dblclick', function(d) {
                         stickNode(d);
@@ -207,11 +208,17 @@
                         .on('mouseenter', function(d) {
                         if (info) {
                             updateInfo(d);
+
+                        }
+                        function appendOutlineToNode(node) {
+                            return node
+                                .attr('r', "30")
                         }
 
                         if (typeof options.onNodeMouseEnter === 'function') {
                             options.onNodeMouseEnter(d);
                         }
+
                     })
                         .on('mouseleave', function(d) {
                         if (info) {
@@ -241,8 +248,9 @@
 
                     appendRingToNode(n);
                     appendOutlineToNode(n);
-
+                    appendTextToNode2(n);
                     appendTextToNode(n);
+
                     appendTitleToNode(n);
 
                     return n;
@@ -253,11 +261,30 @@
                         .attr('class', 'outline')
                         .attr('r', options.nodeRadius)
                     //Rellenar el nodo por color según tipo (label)
-                    /*.style('fill', function(d) {
-             if (options.eachNodeHasItsOwnColor)
-                            return d.color;
-                       return options.nodeOutlineFillColor ? options.nodeOutlineFillColor : class2color(d.labels[0]);
+                        .style('fill', function(d) {
+                        if(d.properties.value === "1"){
+                            return options.colors[0]
+                        } else if(d.properties.value === "2"){
+                            return options.colors[1]
+                        } else if(d.properties.value === "3"){
+                            return options.colors[2]
+                        } else if(d.properties.value === "4"){
+                            return options.colors[3]
+                        } else if(d.properties.value === "5"){
+                            return options.colors[4]
+                        } else if(d.properties.value === "6"){
+                            return options.colors[5]
+                        }
+                        
+                    })
+                    
+                        .attr('fill-opacity', "0.2")
+                    /*   .style('fill', function(d) {
+             if (d.labels=="Cuatrimestre Uno")
+                            return d.color [1];
+
                    })*/
+
 
                         .style("stroke-dasharray", ("8,2"))
                         .style('stroke', function(d) {
@@ -266,17 +293,43 @@
                         if (options.eachNodeHasItsOwnColor)
                             return d.color;
                         return options.nodeOutlineFillColor ? options.nodeOutlineFillColor : class2color(d.labels[0]);
-                    })
 
+                        //                    if(d.labels==="Cuatrimestre Uno"){
+                        //                        return color[1];
+                        //                        }
+                        //                    if(d.labels==="Cuatrimestre Dos"){
+                        //                        return color[2];
+                        //                        }
+                    })
                     //            //Línea de nodo según propoedades
-                    //            return d.strokeColor ? d.strokeColor : (options.nodeStrokeColor ? options.nodeStrokeColor : class2darkenColor(d.labels[0]));
-                    //             });
+                    //                                return d.strokeColor ? d.strokeColor : (options.nodeStrokeColor ? options.nodeStrokeColor : class2darkenColor(d.labels[0]));
+                    //                                 });
 
                 }
+//                function nodeClick(d,i) {
+//
+//                    var newContent = "<p>" + d.label + "</p>";
+//                    newContent += "<p>Attributes: </p><p><ul>";
+//
+//                    newContent += "</ul></p><p>Connections:</p><ul>";
+//
+//
+//
+//                    newContent += "</ul></p>";
+//
+//                    d3.select("#modal").style("display", "block").select("#content").html(newContent);
+//                }
+
+
                 function appendRingToNode(node) {
                     return node.append('circle')
                         .attr('class', 'ring')
                         .attr('r', options.nodeRadius * 1.16)
+                        .style("stroke", function(d) {
+                        if (options.eachNodeHasItsOwnColor)
+                            return d.color;
+                        return options.nodeOutlineFillColor ? options.nodeOutlineFillColor : class2color(d.labels[0]);
+                    })
 
                 }
                 function appendTitleToNode(node) {
@@ -314,18 +367,33 @@
                         return icon(d) ? (options.nodeRadius + 'px') : '6px';
                     })
                         .attr('pointer-events', 'none')
-                        .attr('text-anchor', 'middle')
+                        .attr('text-anchor', 'left')
                         .attr("font-family","Roboto")
-                        .attr('y', '10px')
-                    /* .attr('y', function(d) {
-                       return icon(d) ? (parseInt(Math.round(options.nodeRadius * 0.32)) + 'px') : '4px';
-                   })*/
+                        .attr('y', '-7px')
+
                         .html(function(d) {
-                        return d.properties.objetivo1;
-                        return d.properties.objetivo2;
+                        return d.properties.objetivo1
                     });
                 }
+                function appendTextToNode2(node) {
+                    return node.append('text')
+                        .attr('class', function(d) {
+                        return 'text';
+                    })
+                        .attr('fill', '#282828')
+                        .style ('font-size', function (d){
+                        return icon(d) ? (options.nodeRadius + 'px') : '6px';
+                    })
+                        .attr('pointer-events', 'none')
+                        .attr('text-anchor', 'left')
+                        .attr("font-family","Roboto")
+                        .attr('y', '-14px')
 
+                        .html(function(d) {
+                        return d.properties.objetivo2
+
+                    });
+                }
                 //    function appendRandomDataToNode(d, maxNodesToGenerate) {
                 //        var data = randomD3Data(d, maxNodesToGenerate);
                 //        updateWithNeo4jData(data);
@@ -335,36 +403,28 @@
                     return relationship.enter()
                         .append('g')
                         .attr('class', 'relationship')
-                        .on('dblclick', function(d) {
-                        if (typeof options.onRelationshipDoubleClick === 'function') {
-                            options.onRelationshipDoubleClick(d);
-                        }
-                    })
-                        .on('mouseenter', function(d) {
-                        if (info) {
-                            updateInfo(d);
-                        }
-                    });
+                    ;
                 }
+
+
 
                 function appendOutlineToRelationship(r) {
                     return r.append('path')
                         .attr('class', 'outline link')
                         .attr('fill', '#a5abb6')
-                    //.attr("marker-end", "url(#triangle)")
-                    ;
+
                 }
+
+
                 function appendOverlayToRelationship(r) {
                     return r.append('path')
-                        .attr('class', 'overlay');
-                }
+                        .attr('class', 'overlay')
+
+                    ;}
 
                 function appendTextToRelationship(r) {
                     return r.append('text')
-                    //              .attr("width", "500")
                         .attr('class', 'text')
-                    //            .append('textPath')
-                    //            .attr("xlink:href","outline link")
                         .style("background-color", "steelblue") 
                         .attr('fill', '#000000')
                         .attr('font-size', '4px')
@@ -571,7 +631,7 @@
                     }
 
                     if (!options.minCollision) {
-                        options.minCollision = options.nodeRadius * 2;
+                        options.minCollision = options.nodeRadius * 2.6;
                     }
 
                     initImageMap();
