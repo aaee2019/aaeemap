@@ -8,6 +8,7 @@
                     "labels": ["Cuatrimestre Uno"],
                     "properties": {
                         "name":"Laboratorio I",
+                        "value":"1",
                         "url": "http://arteselectronicas.untref.edu.ar/plan-de-estudios",
                         "objetivo1": "Explorar procesos de posiblidades expresivas",
                         "objetivo2":"Familiarizarse con temas matemáticos para programación y física ondulator",
@@ -16,284 +17,306 @@
                 }, {
                     "id": "2",
                     "labels": ["Cuatrimestre Dos"],
-                     "properties": {
-                         "name":"Laboratorio II",
-                         "objetivo1":"hola",
-                          "url": "http://arteselectronicas.untref.edu.ar/plan-de-estudios"
+                    "properties": {
+                        "name":"Laboratorio II",
+                        "value":"2",
+                        "objetivo1":"hola",
+                        "url": "http://arteselectronicas.untref.edu.ar/plan-de-estudios"
                     }
                 }, {
                     "id": "3",
                     "labels": ["Cuatrimestre Tres"],
                     "properties": {
                         "name":"Laboratorio III",
-                         "url": "http://arteselectronicas.untref.edu.ar/plan-de-estudios"
+                        "value":"3",
+                        "url": "http://arteselectronicas.untref.edu.ar/plan-de-estudios"
                     }
                 }, {
                     "id": "4",
                     "labels": ["Cuatrimestre Cuatro"],
                     "properties": {
-                        "name":"Laboratorio IV"
+                        "name":"Laboratorio IV",
+                        "value":"4"
                     }
                 }, {
                     "id": "5",
                     "labels": ["Cuatrimestre Cinco"],
                     "properties": {
-                        "name":"Laboratorio V"
+                        "name":"Laboratorio V",
+                        "value":"5"
                     }
                 }, {
                     "id": "6",
                     "labels": ["Cuatrimestre Seis"],
                     "properties": {
-                        "name":"Laboratorio VI"
+                        "name":"Laboratorio VI",
+                        "value":"6"
                     }
                 }, {
                     "id": "7",
                     "labels": ["Cuatrimestre Uno"],
                     "properties": {
-                        "name": "Seminario de prácticas artísticas"
+                        "name": "Seminario de prácticas artísticas",
+                        "value":"1"
                     }
                 }, {
                     "id": "8",
                     "labels": ["Cuatrimestre Dos"],
                     "properties": {
-                         "name": "Seminario de pensamiento tecnocientífico"
+                        "name": "Seminario de pensamiento tecnocientífico",
+                        "value":"2"
                     }
                 }, {
                     "id": "9",
                     "labels": ["Cuatrimestre Tres"],
                     "properties": {
-                        "name": "Tecnologías sonoras y visuales"
+                        "name": "Tecnologías sonoras y visuales",
+                        "value":"3"
                     }
                 }, {
                     "id": "10",
                     "labels": ["Cuatrimestre Cuatro"],
                     "properties": {
-                        "name": "Taller de técnicas y procesos de materiales"
+                        "name": "Taller de técnicas y procesos de materiales",
+                        "value":"4"
                     }
                 }, {
                     "id": "11",
                     "labels": ["Cuatrimestre Cinco"],
                     "properties": {
-                        "name": "Estructuras sonoras y visuales"
+                        "name": "Estructuras sonoras y visuales",
+                        "value":"5"
                     }
                 }, {
                     "id": "12",
                     "labels": ["Cuatrimestre Cinco"],
                     "properties": {
-                        "name": "Taller de producción y postproducción I"
+                        "name": "Taller de producción y postproducción I",
+                        "value":"5"
                     }
                 }, {
                     "id": "13",
                     "labels": ["Cuatrimestre Seis"],
                     "properties": {
-                         "name": "Taller de producción y postproducción II"
+                        "name": "Taller de producción y postproducción II",
+                        "value":"6"
                     }
                 }, {
                     "id": "14",
                     "labels": ["Cuatrimestre Seis"],
                     "properties": {
-                         "name": "Seminario de Artes Electrónicas"
+                        "name": "Seminario de Artes Electrónicas",
+                        "value":"6"
                     }
                 }, {
                     "id": "15",
                     "labels": ["Comunes"],
                     "properties": {
-                         "name": "Introducción a las problemáticas del mundo contemporáneo"
+                        "name": "Introducción a las problemáticas del mundo contemporáneo",
+                        "value":"1"
                     }
                 }, {
                     "id": "16",
                     "labels": ["Comunes"],
                     "properties": {
-                         "name": "Computación estructura de algoritmos y datos"
+                        "name": "Computación estructura de algoritmos y datos",
+                        "value":"1"
+
                     }
                 }, {
                     "id": "17",
                     "labels": ["Comunes"],
                     "properties": {
-                         "name": "Problemas de historia del siglo XX"
+                        "name": "Problemas de historia del siglo XX",
+                        "value":"2"
                     }
                 }, {
                     "id": "18",
                     "labels": ["Comunes"],
                     "properties": {
-                         "name": "Informática Imagen"
+                        "name": "Informática Imagen",
+                        "value":"2"
                     }
                 }, {
                     "id": "19",
                     "labels": ["Comunes"],
                     "properties": {
-                         "name": "Cuestiones de economía, sociología y política"
+                        "name": "Cuestiones de economía, sociología y política",
+                        "value":"3"
                     }
                 }, {
                     "id": "20",
                     "labels": ["Comunes"],
                     "properties": {
-                         "name": "Inglés I/ Francés I"
+                        "name": "Inglés I/ Francés I",
+                        "value":"3"
                     }                        
                 }, {
                     "id": "21",
                     "labels": ["Comunes"],
                     "properties": {
-                         "name": "Cultura contemporánea"
+                        "name": "Cultura contemporánea",
+                        "value":"4"
                     }
                 }, {
                     "id": "22",
                     "labels": ["Comunes"],
                     "properties": {
-                         "name": "Inglés II/ Francés II"
+                        "name": "Inglés II/ Francés II",
+                        "value":"4"
                     }
-                    }, {
+                }, {
                     "id": "23",
                     "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
                     "properties": {
-                         "name": "LABORATORIO DE TECNOLOGIAS INMERSIVAS BÁSICO"
+                        "name": "LABORATORIO DE TECNOLOGIAS INMERSIVAS BÁSICO"
                     }
-                        }, {
+                }, {
                     "id": "24",
                     "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
                     "properties": {
-                         "name": "LABORATORIO DE TECNOLOGIAS INMERSIVAS AVANZADO"
+                        "name": "LABORATORIO DE TECNOLOGIAS INMERSIVAS AVANZADO"
                     }
-                            }, {
+                }, {
                     "id": "25",
                     "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
                     "properties": {
-                         "name": "VIDEOJUEGOS BÁSICO"
+                        "name": "VIDEOJUEGOS BÁSICO"
                     }
-                                }, {
+                }, {
                     "id": "26",
                     "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
                     "properties": {
-                         "name": "VIDEOJUEGOS AVANZADO"
+                        "name": "VIDEOJUEGOS AVANZADO"
                     }
-                                    }, {
+                }, {
                     "id": "27",
                     "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
                     "properties": {
-                         "name": "ANIMACIÓN BÁSICA"
+                        "name": "ANIMACIÓN BÁSICA"
                     }
-                                        }, {
+                }, {
                     "id": "28",
                     "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
                     "properties": {
-                         "name": "ANIMACIÓN AVANZADA"
+                        "name": "ANIMACIÓN AVANZADA"
                     }
-                                            }, {
+                }, {
                     "id": "29",
                     "labels": ["DISPOSITIVOS E INTERFACES"],
                     "properties": {
-                         "name": "LABORATORIO DE INTERFACES BÁSICO"
+                        "name": "LABORATORIO DE INTERFACES BÁSICO"
                     }
-                                                 }, {
+                }, {
                     "id": "30",
                     "labels": ["DISPOSITIVOS E INTERFACES"],
                     "properties": {
-                         "name": "LABORATORIO DE INTERFACES AVANZADO"
+                        "name": "LABORATORIO DE INTERFACES AVANZADO"
                     }
-                                                      }, {
+                }, {
                     "id": "31",
                     "labels": ["DISPOSITIVOS E INTERFACES"],
                     "properties": {
-                         "name": "SEMINARIOS DE ROBÓTICA"
+                        "name": "SEMINARIOS DE ROBÓTICA"
                     }
-                                                           }, {
+                }, {
                     "id": "32",
                     "labels": ["DISPOSITIVOS E INTERFACES"],
                     "properties": {
-                         "name": "LABORATORIO DE COMPUTACION FISICA"
+                        "name": "LABORATORIO DE COMPUTACION FISICA"
                     }
-                                                                }, {
+                }, {
                     "id": "33",
                     "labels": ["DISPOSITIVOS E INTERFACES"],
                     "properties": {
-                         "name": "LABORATORIO DE ELECTRÓNICA"
+                        "name": "LABORATORIO DE ELECTRÓNICA"
                     }
-                                                                      }, {
+                }, {
                     "id": "34",
                     "labels": ["PRODUCCIÓN AUDIOVISUAL"],
                     "properties": {
-                         "name": "LABORATORIO DE PERFORMANCE SONORA Y VISUAL"
+                        "name": "LABORATORIO DE PERFORMANCE SONORA Y VISUAL"
                     }
-                                                 }, {
+                }, {
                     "id": "35",
                     "labels": ["PRODUCCIÓN AUDIOVISUAL"],
                     "properties": {
-                         "name": "PRODUCCION Y POSTPRODUCCIÓN SONORA"
+                        "name": "PRODUCCION Y POSTPRODUCCIÓN SONORA"
                     }
-                                                      }, {
+                }, {
                     "id": "36",
                     "labels": ["PRODUCCIÓN AUDIOVISUAL"],
                     "properties": {
-                         "name": "PRODUCCION DE IMAGEN"
+                        "name": "PRODUCCION DE IMAGEN"
                     }
-                                                           }, {
+                }, {
                     "id": "37",
                     "labels": ["PRODUCCIÓN AUDIOVISUAL"],
                     "properties": {
-                         "name": "COMPOSICIÓN CON MEDIOS ELECTRÓNICOS Y ELECTROACÚSTICOS"
+                        "name": "COMPOSICIÓN CON MEDIOS ELECTRÓNICOS Y ELECTROACÚSTICOS"
                     }
-                                                                }, {
+                }, {
                     "id": "38",
                     "labels": ["PRODUCCIÓN AUDIOVISUAL"],
                     "properties": {
-                         "name": "REFUERZO SONORO, REGISTRO Y GRABACIÓN "
+                        "name": "REFUERZO SONORO, REGISTRO Y GRABACIÓN "
                     }
-                                                                    }, {
+                }, {
                     "id": "39",
                     "labels": ["ALGORITMOS Y DATOS"],
                     "properties": {
-                         "name": "LABORATORIO DE CREACION ALGORITMICA"
+                        "name": "LABORATORIO DE CREACION ALGORITMICA"
                     }
-                                                                        }, {
+                }, {
                     "id": "40",
                     "labels": ["ALGORITMOS Y DATOS"],
                     "properties": {
-                         "name": "MINERIA DE DATOS"
+                        "name": "MINERIA DE DATOS"
                     }
-                                                                            }, {
+                }, {
                     "id": "41",
                     "labels": ["ALGORITMOS Y DATOS"],
                     "properties": {
-                         "name": "TECNOLOGÍAS HIPERMEDIALES"
+                        "name": "TECNOLOGÍAS HIPERMEDIALES"
                     }
-                                                                                }, {
+                }, {
                     "id": "42",
                     "labels": ["ALGORITMOS Y DATOS"],
                     "properties": {
-                         "name": "LABORATORIO DE INTELIGENCIA ARTIFICIAL Y ARTE"
+                        "name": "LABORATORIO DE INTELIGENCIA ARTIFICIAL Y ARTE"
                     }
-                                                                                    }, {
+                }, {
                     "id": "43",
                     "labels": ["ALGORITMOS Y DATOS"],
                     "properties": {
-                         "name": "SEMINARIOS COMPLEMENTARIOS DE PROGRAMACION"
+                        "name": "SEMINARIOS COMPLEMENTARIOS DE PROGRAMACION"
                     }
-                                                                                         }, {
+                }, {
                     "id": "44",
                     "labels": ["ARTE Y TECNOCIENCIA"],
                     "properties": {
-                         "name": "ARTES ELECTRÓNICAS"
+                        "name": "ARTES ELECTRÓNICAS"
                     }
-                                                                                             }, {
+                }, {
                     "id": "45",
                     "labels": ["ARTE Y TECNOCIENCIA"],
                     "properties": {
-                         "name": "PRACTICAS ARTISTICAS"
+                        "name": "PRACTICAS ARTISTICAS"
                     }}, {
-                    "id": "46",
-                    "labels": ["ARTE Y TECNOCIENCIA"],
-                    "properties": {
-                         "name": "PENSAMIENTO TECNO-CIENTIFICO"
-                    }}, {
-                    "id": "47",
-                    "labels": ["ARTE Y TECNOCIENCIA"],
-                    "properties": {
-                         "name": "LABORATORIOS DE CIENCIA Y ARTE"
-                    }
-                                                                                                                           
-                                                                    
-                                                                    
-                }],
+                        "id": "46",
+                        "labels": ["ARTE Y TECNOCIENCIA"],
+                        "properties": {
+                            "name": "PENSAMIENTO TECNO-CIENTIFICO"
+                        }}, {
+                            "id": "47",
+                            "labels": ["ARTE Y TECNOCIENCIA"],
+                            "properties": {
+                                "name": "LABORATORIOS DE CIENCIA Y ARTE"
+                            }
+
+
+
+                        }],
                 "relationships": [{
                     "id": "1",
                     "type": "Introducir al campo de las AE",
@@ -444,121 +467,121 @@
                     "startNode": "23",
                     "endNode": "24",
                     "properties": {}
-                    }, {
+                }, {
                     "id": "16",
                     "type": "",
                     "startNode": "23",
                     "endNode": "25",
                     "properties": {}
-                        }, {
+                }, {
                     "id": "17",
                     "type": "",
                     "startNode": "25",
                     "endNode": "26",
                     "properties": {}
-                            }, {
+                }, {
                     "id": "18",
                     "type": "",
                     "startNode": "26",
                     "endNode": "27",
                     "properties": {}
-                                }, {
+                }, {
                     "id": "19",
                     "type": "",
                     "startNode": "27",
                     "endNode": "28",
                     "properties": {}
-                                    }, {
+                }, {
                     "id": "20",
                     "type": "",
                     "startNode": "29",
                     "endNode": "30",
                     "properties": {}
-                        }, {
+                }, {
                     "id": "21",
                     "type": "",
                     "startNode": "29",
                     "endNode": "31",
                     "properties": {}
-                            }, {
+                }, {
                     "id": "22",
                     "type": "",
                     "startNode": "29",
                     "endNode": "32",
                     "properties": {}
-                                }, {
+                }, {
                     "id": "23",
                     "type": "",
                     "startNode": "29",
                     "endNode": "33",
                     "properties": {}
-                                     }, {
+                }, {
                     "id": "24",
                     "type": "",
                     "startNode": "34",
                     "endNode": "35",
                     "properties": {}
-                        }, {
+                }, {
                     "id": "25",
                     "type": "",
                     "startNode": "34",
                     "endNode": "36",
                     "properties": {}
-                            }, {
+                }, {
                     "id": "26",
                     "type": "",
                     "startNode": "34",
                     "endNode": "37",
                     "properties": {}
-                                }, {
+                }, {
                     "id": "27",
                     "type": "",
                     "startNode": "34",
                     "endNode": "38",
                     "properties": {}
-                                }, {
+                }, {
                     "id": "28",
                     "type": "",
                     "startNode": "39",
                     "endNode": "40",
                     "properties": {}
-                                }, {
+                }, {
                     "id": "29",
                     "type": "",
                     "startNode": "39",
                     "endNode": "41",
                     "properties": {}
-                                }, {
+                }, {
                     "id": "30",
                     "type": "",
                     "startNode": "39",
                     "endNode": "42",
                     "properties": {}
-                                }, {
+                }, {
                     "id": "31",
                     "type": "",
                     "startNode": "39",
                     "endNode": "43",
                     "properties": {}
-                                     }, {
+                }, {
                     "id": "32",
                     "type": "",
                     "startNode": "44",
                     "endNode": "45",
                     "properties": {}
-                                     }, {
+                }, {
                     "id": "33",
                     "type": "",
                     "startNode": "44",
                     "endNode": "46",
                     "properties": {} 
-                                     }, {
+                }, {
                     "id": "34",
                     "type": "",
                     "startNode": "44",
                     "endNode": "47",
                     "properties": {}
-                                                      
+
                 }]
             }
         }]
