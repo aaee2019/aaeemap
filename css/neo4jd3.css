@@ -154,9 +154,7 @@ svg {
 }
 
 
-/****************
-BUTTON
-****************/
+/* barra de navegación - agregar estilos para dispositivos móviles */
 .nav-mobile-button {
     overflow:hidden;
     margin: auto;
@@ -263,8 +261,12 @@ li img{
     border-radius: 50%;
     display: inline-flex;
     vertical-align:middle;
-    margin-bottom:0.1%;
+    margin-bottom:1.3%;
     margin-left: 0.4%;
-    margin-right: 3.4%;
+    margin-right: 2.5%;
+}
 
+.checkbox{
+    display: inline;
+    padding-right:2%;
 }
