@@ -280,9 +280,25 @@
                         .attr('fill', '#282828')
                         .style ('font-size', '6px')
                         .attr('pointer-events', 'none')
-                        .attr('text-anchor', 'left')
+                        .attr('text-anchor', function(d){
+                        if (d.properties.tipo=="intersección"){
+                            return "middle"
+                        }else{
+                            return'left'
+                        }       
+                    })
                         .attr("font-family","Roboto")
-                        .attr('y', '-7px')
+                        .attr('y', function(d){
+                        if (d.properties.tipo=="intersección" && d.properties.objetivo2 !=""){
+                            return "3px"
+                        }
+                        if (d.properties.objetivo2=="" && d.properties.tipo=="intersección"){
+                            return "0px"
+                        }
+                        if (d.properties.tramo=="comun" || d.properties.tramo=="electivo"){
+                            return "-7px"
+                        }
+                    })
 
                         .html(function(d) {
                         return d.properties.objetivo1
@@ -297,23 +313,30 @@
                         .attr('fill', '#282828')
                         .style ('font-size', '6px')
                         .attr('pointer-events', 'none')
-                        .attr('text-anchor', 'left')
+                        .attr('text-anchor', function(d){
+                        if (d.properties.tipo=="intersección"){
+                            return "middle"
+                        }else{
+                            return'left'
+                        }       
+                    })
                         .attr("font-family","Roboto")
-                        .attr('y', '-14px')
-
+                        .attr('y', function(d){
+                        if (d.properties.tipo=="intersección"){
+                            return "-3px"
+                        }else{
+                            return '-14px'
+                        }       
+                    })
                         .html(function(d) {
                         return d.properties.objetivo2
                     });
                 }
                 /* function update(node){
                     d3.selectAll(".checkbox").on("change", function(d) {
-
-
                         var value = this.value;
-
                         node.style("opacity", 1);
                         relatioship.style("opacity", 1);
-
                         if (value !== "all") {
                             node.filter(function(d) {
                                 return d.type != value;
@@ -350,13 +373,6 @@
                              }
                     })
                     }*/
-
-
-                // When a button change, I run the update function
-
-
-
-
 
                 function appendRelationship() {
                     return relationship.enter()
