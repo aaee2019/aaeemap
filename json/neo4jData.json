@@ -479,6 +479,7 @@
                         "name": "Laboratorios de Ciencia y Arte",
                         "objetivo1": "Estudiar temas y contextos de ciencia y tecnología vinculados al arte de forma integrada",
                         "objetivo2": "Desarrollar proyectos de investigación teórica interdisciplinar",
+                        "tramo": "electivo",
                         "territorio": "ARTE Y TECNOCIENCIA",
                         "estilo": "punteado"
                     }
@@ -634,6 +635,7 @@
                     "properties": {
                         "tipo": "intersección",
                         "objetivo1": "Introducir prácticas artísticas relacionadas a las AE",
+                        "objetivo2":"",
                         "estilo": "solido"
                     }     
                 }, {
@@ -642,6 +644,7 @@
                     "properties": {
                         "tipo": "intersección",
                         "objetivo1": "Abordar el marco epistemológico de la ciencia y tecnologia en referencia a AE",
+                        "objetivo2":"",
                         "estilo": "solido"
                     }     
                 }, {
@@ -650,6 +653,7 @@
                     "properties": {
                         "tipo": "intersección",
                         "objetivo1": "Comprender las tecnologías sonoras y visuales de control y codificación de información",
+                        "objetivo2":"",
                         "estilo": "solido"
                     }     
                 }, {
@@ -658,6 +662,7 @@
                     "properties": {
                         "tipo": "intersección",
                         "objetivo1": "Incorporar estructuras de la imagen sonido en desarrollo de narrativas",
+                        "objetivo2":"",
                         "estilo": "solido"
                     }   
                 }, {
@@ -666,6 +671,7 @@
                     "properties": {
                         "tipo": "intersección",
                         "objetivo1": "Elaborar un marco referencial sobre el desarrollo de interfaces en AE",
+                        "objetivo2":"",
                         "estilo": "solido"
                     }     
                 }, {
@@ -674,6 +680,7 @@
                     "properties": {
                         "tipo": "intersección",
                         "objetivo1": "Marco teórico y analítico de producciones de imagen y sonido en AE",
+                        "objetivo2":"",
                         "estilo": "solido"
                     }     
                 }, {
@@ -682,6 +689,7 @@
                     "properties": {
                         "tipo": "intersección",
                         "objetivo1": "Desarrollar aspectos estéticos de interacción y diseño",
+                        "objetivo2":"",
                         "estilo": "solido"
                     }   
                 }, {
@@ -699,6 +707,7 @@
                     "properties": {
                         "tipo": "intersección",
                         "objetivo1": "Diseño y puesta en escena integral",
+                        "objetivo2":"",
                         "estilo": "solido"
                     }     
 
@@ -717,6 +726,7 @@
                     "properties": {
                         "tipo": "intersección",
                         "objetivo1": "Procesar datos para el desarrollo de aplicaciones",
+                        "objetivo2":"",
                         "estilo": "solido"
                     }   
                 }, {
@@ -725,6 +735,7 @@
                     "properties": {
                         "tipo": "intersección",
                         "objetivo1": "Integrar al análisis de obra en AE el contexto estético",
+                        "objetivo2":"",
                         "estilo": "solido"
                     }    
                 }, {
@@ -733,6 +744,7 @@
                     "properties": {
                         "tipo": "intersección",
                         "objetivo1": "Integrar al análisis de obra en AE el contexto tecno-científico",
+                        "objetivo2":"",
                         "estilo": "solido"
                     }   
 
@@ -743,6 +755,7 @@
                         "tipo": "intersección",
                         "objetivo1": "Desarrollar criterios sobre cuestiones éticas relación Arte - Ciencia -Tecnología",
                         "objetivo2": "Cuerpo, género, diversidad, perspectivas culturales",
+                        "objetivo2":"",
                         "estilo": "solido"
                     }   
                 }, {
