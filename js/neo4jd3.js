@@ -199,7 +199,13 @@
                 function appendOutlineToNode(node) {
                     return node.append('circle')
                         .attr('class', 'outline contenido')
-                        .attr('r', options.nodeRadius)
+                        .attr('r', function (d){
+                        if (d.properties.estilo == 'solido'){
+                            return options.nodeRadius * 1.16 
+                        }else{
+                            return options.nodeRadius
+                        }
+                    })
                     //Rellenar el nodo por color según estilo
                         .style ("fill", function(d){
                         if (d.properties.estilo == 'solido'){
@@ -218,17 +224,10 @@
                             return "0"
                         }
                     })
-                        .attr("fill-opacity", function(d) {
-                        if (d.properties.territorio =="OTRAS CARRERAS"){
-                            return "0.5"
-                        }
-                        if (d.properties.territorio =="TRAYECTOS FORMATIVOS ALTERNATIVOS"){
-                            return "0.5"
-                        }
-                        if (d.properties.tramo =="comun"){
-                            return "0.5"
-                        }
-                    })
+                        .attr("fill-opacity", "0.4")
+
+
+
 
 
                 }
@@ -241,7 +240,13 @@
                 function appendRingToNode(node) {
                     return node.append('circle')
                         .attr('class', 'ring')
-                        .attr('r', options.nodeRadius * 1.16)
+                        .attr('r', function (d){
+                        if (d.properties.estilo == 'solido'){
+                            return options.nodeRadius * 1.32 
+                        }else{
+                            return options.nodeRadius * 1.16
+                        }
+                    })
                         .style("stroke", function(d) {
                         if (options.eachNodeHasItsOwnColor)
                             return d.color;
@@ -462,23 +467,23 @@
                     // d3.schemeCategory10,
                     // d3.schemeCategory20,
                     return [
-                        '#a7d6eb', // celeste 1/Cuatrimestre 1
-                        '#9dcdba', // verde 1/ Cuatrimestre 2
-                        '#e3e77f', // amarillo verdoso/ Cuatrimestre 3
-                        '#edc531', // naranja claro/ Cuatrimestre 4
-                        '#ff928c', // rojo claro/ Cuatrimestre 5
-                        '#e6aa6e', // naranja oscuro /Cuatrimestre 6
-                        '#ced2d9', // gris claro /Comunes
+                        '#00acec', // turquesa /Cuatrimestre 1
+                        '#8ec4a0', // verde olivo / Cuatrimestre 2
+                        '#d7de3f', // amarillo verdoso / Cuatrimestre 3
+                        '#f2c830', // amarillo anaranjado / Cuatrimestre 4
+                        '#FC7A1E', // naranja oscuro / Cuatrimestre 5
+                        '#e2465e', // rojo oscuro /Cuatrimestre 6
+                        '#b8bec4', // gris claro /Comunes
                         '#4353a0', // azul /Narrativas Interactivas
-                        '#bc7eb2', // púrpura /Dispositivos e interfaces
-                        '#8fc27c', // verde menta / Producción Audiovisual
-                        '#a3835e', // marron / Algoritmos y datos
-                        '#9287bd', // lavanda / Arte y Tecnociencia
-                        '#cb7e81', // rojizo /Materialidad Expandida
-                        '#894d99', // violeta /Arte Contemporáneo
-                        '#8fc6d4', // turquesa /Trabajo final
-                        '#dc9ec3', // rosa / Trayectos Formativos
-                        '#ced2d9' // gris claro / Electivas
+                        '#E980FC', // lila /Dispositivos e interfaces
+                        '#06D6A0', // verde menta / Producción Audiovisual
+                        '#7067CF', // violeta azulado / Algoritmos y datos
+                        '#62ab95', // verde para no poner ese marrón feo / Arte y Tecnociencia
+                        '#9A48D0', // violeta /Arte Contemporáneo
+                        '#b7214f', // rojo-rosa /Materialidad Expandida
+                        '#8fc6d4', // celeste /Trabajo final
+                        '#ce599c', // rosa viejo / Trayectos Formativos
+                        '#98A6D4' // lila medio gris / Electivas
                     ];
                 }
 
