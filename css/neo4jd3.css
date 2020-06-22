@@ -78,7 +78,7 @@ body {
 .node:hover .ring {
     -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=30)';
     filter: alpha(opacity=30);
-    opacity: .3;
+    opacity: .2;
 
 }
 
