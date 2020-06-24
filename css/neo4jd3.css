@@ -105,7 +105,7 @@ body {
 
 .relationship.selected .overlay,
 .relationship:hover .overlay {
-    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';*/
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
     filter: alpha(opacity=0);
     opacity: 0;
 }
@@ -169,7 +169,7 @@ svg {
 
 #nav-mobile-bar-top {
     top: 35px;
-    background-color:#a7d6eb;
+    background-color:#f2c830;
     border-radius: 25px;
 }
 
@@ -181,7 +181,7 @@ svg {
 
 #nav-mobile-bar-bottom {
     top: 55px;
-    background-color:#ff928c;
+    background-color:#e2465e;
     border-radius: 100px;
 }
 
