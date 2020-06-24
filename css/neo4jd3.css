@@ -169,26 +169,27 @@ svg {
 
 #nav-mobile-bar-top {
     top: 35px;
-    background-color:#f2c830;
+    background-color:#8ec4a0;
     border-radius: 25px;
 }
 
 #nav-mobile-bar-middle {
     top: 45px;
-    background-color:#9dcdba;
+    background-color:#98A6D4;
     border-radius: 25px;
 }
 
 #nav-mobile-bar-bottom {
     top: 55px;
-    background-color:#e2465e;
-    border-radius: 100px;
+    background-color:#E980FC;
+    
 }
 
 .nav-mobile-bar {
     left: 35px;
     width: 35px;
-    height: 3px;
+    height: 4px;
+    border-radius: 100px;
     background: black;
     position: absolute;
     -webkit-transition: all 0.4s;
