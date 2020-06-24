@@ -779,7 +779,8 @@
                         "startNode": "1",
                         "endNode": "63",
                         "properties": {
-                            "estilo": "invisible"
+                            "estilo": "invisible",
+                            "value":1
                         }
                     }, {
                         "id": "2",
@@ -994,17 +995,9 @@
                         "endNode": "75",
                         "properties": {
                             "estilo": "invisible"
-                        } 
+                        }  
                     }, {
                         "id": "29",
-                        "type": "interseccion",
-                        "startNode": "44",
-                        "endNode": "74",
-                        "properties": {
-                            "estilo": "invisible"
-                        } 
-                    }, {
-                        "id": "30",
                         "type": "interseccion",
                         "startNode": "47",
                         "endNode": "75",
@@ -1012,7 +1005,7 @@
                             "estilo": "invisible"
                         } 
                     }, {
-                        "id": "31",
+                        "id": "30",
                         "type": "interseccion",
                         "startNode": "51",
                         "endNode": "76",
@@ -1020,7 +1013,7 @@
                             "estilo": "invisible"
                         } 
                     }, {
-                        "id": "32",
+                        "id": "31",
                         "type": "interseccion",
                         "startNode": "53",
                         "endNode": "76",
@@ -1028,7 +1021,7 @@
                             "estilo": "invisible"
                         } 
                     }, {
-                        "id": "33",
+                        "id": "32",
                         "type": "interseccion",
                         "startNode": "52",
                         "endNode": "77",
@@ -1036,7 +1029,7 @@
                             "estilo": "invisible"
                         } 
                     }, {
-                        "id": "34",
+                        "id": "33",
                         "type": "interseccion",
                         "startNode": "53",
                         "endNode": "77",
@@ -1046,7 +1039,7 @@
 
 
                     }, {
-                        "id": "35",
+                        "id": "34",
                         "type": "grupo",
                         "startNode": "1",
                         "endNode": "2",
@@ -1054,7 +1047,7 @@
                             "estilo": "invisible"
                         }
                     }, {
-                        "id": "36",
+                        "id": "35",
                         "type": "grupo",
                         "startNode": "1",
                         "endNode": "15",
@@ -1062,7 +1055,7 @@
                             "estilo": "invisible"
                         } 
                     }, {
-                        "id": "37",
+                        "id": "36",
                         "type": "grupo",
                         "startNode": "1",
                         "endNode": "19",
@@ -1070,7 +1063,7 @@
                             "estilo": "invisible"
                         } 
                     }, {
-                        "id": "38",
+                        "id": "37",
                         "type": "grupo",
                         "startNode": "3",
                         "endNode": "4",
@@ -1078,7 +1071,7 @@
                             "estilo": "invisible"
                         }
                     }, {
-                        "id": "39",
+                        "id": "38",
                         "type": "grupo",
                         "startNode": "3",
                         "endNode": "16",
@@ -1086,7 +1079,7 @@
                             "estilo": "invisible"
                         } 
                     }, {
-                        "id": "40",
+                        "id": "39",
                         "type": "grupo",
                         "startNode": "3",
                         "endNode": "20",
@@ -1094,7 +1087,7 @@
                             "estilo": "invisible"
                         } 
                     }, {
-                        "id": "41",
+                        "id": "40",
                         "type": "grupo",
                         "startNode": "5",
                         "endNode": "6",
@@ -1102,7 +1095,7 @@
                             "estilo": "invisible"
                         }
                     }, {
-                        "id": "42",
+                        "id": "41",
                         "type": "grupo",
                         "startNode": "5",
                         "endNode": "17",
@@ -1110,7 +1103,7 @@
                             "estilo": "invisible"
                         } 
                     }, {
-                        "id": "43",
+                        "id": "42",
                         "type": "grupo",
                         "startNode": "5",
                         "endNode": "21",
@@ -1118,7 +1111,7 @@
                             "estilo": "invisible"
                         } 
                     }, {
-                        "id": "44",
+                        "id": "43",
                         "type": "grupo",
                         "startNode": "7",
                         "endNode": "8",
