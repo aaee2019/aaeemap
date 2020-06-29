@@ -380,8 +380,8 @@
 
                 function appendOutlineToRelationship(r) {
                     return r.append('path')
-                        .attr('class', function (d){
-                        if (d.type=="vinculo"){
+                        .attr('class', function (r){
+                        if (r.type=="vinculo"){
                             return "outline link"
                         }
                     })
