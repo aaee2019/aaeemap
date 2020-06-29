@@ -380,7 +380,11 @@
 
                 function appendOutlineToRelationship(r) {
                     return r.append('path')
-                        .attr('class', 'outline link')
+                        .attr('class', function (d){
+                        if (d.type=="vinculo"){
+                            return "outline link"
+                        }
+                    })
                         .style('stroke', function(d){
                         if(d.startNode=="1" || d.startNode=="2"){
                             return options.colors[0]
@@ -620,7 +624,15 @@
                     .force('link', d3.forceLink().id(function(d) {
                         return d.id;
 
-                    }))
+                    })
+                           .distance(function(d){
+                        if(d.type=="grupo"){
+                            return 150
+                        }else{
+                            return -10
+                        }
+                    })
+                           .strength(1))
                     .force('center', d3.forceCenter(svg.node().parentElement.parentElement.clientWidth / 2, svg.node().parentElement.parentElement.clientHeight / 2))
                     .on('tick', function() {
                         tick();
