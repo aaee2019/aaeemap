@@ -577,7 +577,7 @@
                     }
 
                     if (!options.minCollision) {
-                        options.minCollision = options.nodeRadius*3;
+                        options.minCollision = options.nodeRadius;
                     }
 
 
