@@ -627,9 +627,13 @@
                     })
                            .distance(function(d){
                         if(d.type=="grupo"){
-                            return 150
-                        }else{
-                            return -10
+                            return options.nodeRadius
+                        }
+                        if(d.type=="interseccion"){
+                            return options.nodeRadius*0.5
+                        }
+                        else{
+                            return 500
                         }
                     })
                            .strength(1))
