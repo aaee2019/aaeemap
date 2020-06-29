@@ -1350,8 +1350,535 @@
                         "properties": {
                             "estilo": "invisible"
                         } 
-
-
+                         }, {
+                        "id": "73",
+                        "type": "vinculo",
+                        "startNode": "1",
+                        "endNode": "13",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "74",
+                        "type": "vinculo",
+                        "startNode": "1",
+                        "endNode": "48",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "75",
+                        "type": "vinculo",
+                        "startNode": "2",
+                        "endNode": "45",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                        }, {
+                        "id": "76",
+                        "type": "vinculo",
+                        "startNode": "2",
+                        "endNode": "48",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "77",
+                        "type": "vinculo",
+                        "startNode": "63",
+                        "endNode": "13",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "78",
+                        "type": "vinculo",
+                        "startNode": "3",
+                        "endNode": "6",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                                 }, {
+                        "id": "79",
+                        "type": "vinculo",
+                        "startNode": "4",
+                        "endNode": "46",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "80",
+                        "type": "vinculo",
+                        "startNode": "64",
+                        "endNode": "13",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "81",
+                        "type": "vinculo",
+                        "startNode": "6",
+                        "endNode": "10",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                        }, {
+                        "id": "82",
+                        "type": "vinculo",
+                        "startNode": "6",
+                        "endNode": "48",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "83",
+                        "type": "vinculo",
+                        "startNode": "65",
+                        "endNode": "7",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "84",
+                        "type": "vinculo",
+                        "startNode": "65",
+                        "endNode": "13",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                                 }, {
+                        "id": "85",
+                        "type": "vinculo",
+                        "startNode": "7",
+                        "endNode": "13",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "86",
+                        "type": "vinculo",
+                        "startNode": "7",
+                        "endNode": "10",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "87",
+                        "type": "vinculo",
+                        "startNode": "8",
+                        "endNode": "52",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                        }, {
+                        "id": "88",
+                        "type": "vinculo",
+                        "startNode": "8",
+                        "endNode": "12",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "89",
+                        "type": "vinculo",
+                        "startNode": "8",
+                        "endNode": "30",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "90",
+                        "type": "vinculo",
+                        "startNode": "8",
+                        "endNode": "33",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                            }, {
+                        "id": "91",
+                        "type": "vinculo",
+                        "startNode": "8",
+                        "endNode": "48",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "92",
+                        "type": "vinculo",
+                        "startNode": "9",
+                        "endNode": "12",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "93",
+                        "type": "vinculo",
+                        "startNode": "9",
+                        "endNode": "29",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                        }, {
+                        "id": "94",
+                        "type": "vinculo",
+                        "startNode": "9",
+                        "endNode": "31",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "95",
+                        "type": "vinculo",
+                        "startNode": "9",
+                        "endNode": "32",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "96",
+                        "type": "vinculo",
+                        "startNode": "11",
+                        "endNode": "14",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                                 }, {
+                        "id": "97",
+                        "type": "vinculo",
+                        "startNode": "11",
+                        "endNode": "35",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "98",
+                        "type": "vinculo",
+                        "startNode": "11",
+                        "endNode": "38",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "99",
+                        "type": "vinculo",
+                        "startNode": "12",
+                        "endNode": "29",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                        }, {
+                        "id": "100",
+                        "type": "vinculo",
+                        "startNode": "12",
+                        "endNode": "33",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "101",
+                        "type": "vinculo",
+                        "startNode": "13",
+                        "endNode": "69",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "102",
+                        "type": "vinculo",
+                        "startNode": "13",
+                        "endNode": "44",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                            }, {
+                        "id": "103",
+                        "type": "vinculo",
+                        "startNode": "13",
+                        "endNode": "23",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                                 }, {
+                        "id": "104",
+                        "type": "vinculo",
+                        "startNode": "13",
+                        "endNode": "27",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                        }, {
+                        "id": "105",
+                        "type": "vinculo",
+                        "startNode": "13",
+                        "endNode": "41",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "106",
+                        "type": "vinculo",
+                        "startNode": "13",
+                        "endNode": "51",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "107",
+                        "type": "vinculo",
+                        "startNode": "14",
+                        "endNode": "35",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                            }, {
+                        "id": "108",
+                        "type": "vinculo",
+                        "startNode": "14",
+                        "endNode": "38",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "109",
+                        "type": "vinculo",
+                        "startNode": "23",
+                        "endNode": "44",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "110",
+                        "type": "vinculo",
+                        "startNode": "28",
+                        "endNode": "44",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "111",
+                        "type": "vinculo",
+                        "startNode": "30",
+                        "endNode": "47",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                            }, {
+                        "id": "112",
+                        "type": "vinculo",
+                        "startNode": "69",
+                        "endNode": "44",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                                 }, {
+                        "id": "113",
+                        "type": "vinculo",
+                        "startNode": "37",
+                        "endNode": "44",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                        }, {
+                        "id": "114",
+                        "type": "vinculo",
+                        "startNode": "41",
+                        "endNode": "44",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "115",
+                        "type": "vinculo",
+                        "startNode": "42",
+                        "endNode": "47",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "116",
+                        "type": "vinculo",
+                        "startNode": "73",
+                        "endNode": "24",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                            }, {
+                        "id": "117",
+                        "type": "vinculo",
+                        "startNode": "44",
+                        "endNode": "34",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                        }, {
+                        "id": "118",
+                        "type": "vinculo",
+                        "startNode": "45",
+                        "endNode": "49",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "119",
+                        "type": "vinculo",
+                        "startNode": "30",
+                        "endNode": "47",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                            }, {
+                        "id": "120",
+                        "type": "vinculo",
+                        "startNode": "46",
+                        "endNode": "33",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                                 }, {
+                        "id": "121",
+                        "type": "vinculo",
+                        "startNode": "74",
+                        "endNode": "49",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                        }, {
+                        "id": "122",
+                        "type": "vinculo",
+                        "startNode": "48",
+                        "endNode": "45",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "123",
+                        "type": "vinculo",
+                        "startNode": "53",
+                        "endNode": "47",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "124",
+                        "type": "vinculo",
+                        "startNode": "76",
+                        "endNode": "47",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                            }, {
+                        "id": "125",
+                        "type": "vinculo",
+                        "startNode": "56",
+                        "endNode": "41",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "126",
+                        "type": "vinculo",
+                        "startNode": "56",
+                        "endNode": "42",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                                 }, {
+                        "id": "127",
+                        "type": "vinculo",
+                        "startNode": "57",
+                        "endNode": "51",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                        }, {
+                        "id": "128",
+                        "type": "vinculo",
+                        "startNode": "58",
+                        "endNode": "24",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "129",
+                        "type": "vinculo",
+                        "startNode": "58",
+                        "endNode": "26",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "130",
+                        "type": "vinculo",
+                        "startNode": "58",
+                        "endNode": "28",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                            }, {
+                        "id": "131",
+                        "type": "vinculo",
+                        "startNode": "59",
+                        "endNode": "36",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "132",
+                        "type": "vinculo",
+                        "startNode": "60",
+                        "endNode": "37",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                             }, {
+                        "id": "133",
+                        "type": "vinculo",
+                        "startNode": "61",
+                        "endNode": "37",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                            }, {
+                        "id": "134",
+                        "type": "vinculo",
+                        "startNode": "62",
+                        "endNode": "53",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "135",
+                        "type": "vinculo",
+                        "startNode": "62",
+                        "endNode": "51",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                              }, {
+                        "id": "136",
+                        "type": "vinculo",
+                        "startNode": "62",
+                        "endNode": "41",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                         }, {
+                        "id": "137",
+                        "type": "vinculo",
+                        "startNode": "62",
+                        "endNode": "72",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                        }, {
+                        "id": "138",
+                        "type": "vinculo",
+                        "startNode": "62",
+                        "endNode": "47",
+                        "properties": {
+                            "estilo": "linea"
+                        } 
+                            
                     }]
             }
         }]
