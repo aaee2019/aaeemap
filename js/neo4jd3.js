@@ -196,7 +196,7 @@
                     return n;
                 }
 
-                function appendOutlineToNode(node) {
+               function appendOutlineToNode(node) {
                     return node.append('circle')
                         .attr('class', 'outline contenido')
                         .attr('r', function (d){
@@ -208,7 +208,7 @@
                     })
                     //Rellenar el nodo por color según estilo
                         .style ("fill", function(d){
-                        if (d.properties.estilo == 'solido'){
+                        if (d.properties.estilo == 'solido' || d.properties.estilo == 'comunes'){
                             return options.nodeOutlineFillColor ? options.nodeOutlineFillColor : class2color(d.labels[0]);
                         }
                     })
@@ -220,7 +220,7 @@
                         return options.nodeOutlineFillColor ? options.nodeOutlineFillColor : class2color(d.labels[0]);
                     })
                         .style("stroke-width", function(d) {
-                        if (d.properties.estilo =='solido'){
+                        if (d.properties.estilo =='solido' || d.properties.estilo =="comunes"){
                             return "0"
                         }
                     })
