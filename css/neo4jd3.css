@@ -4,11 +4,22 @@
 }
 
 body {
-    font: 13px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-size: 20px;
 }
 
+ul{
+    margin-left: 15px;
+}
 
+p, li{
+    font-size: 16px;
+}
+
+h3, h4 {
+    line-height: 1.8em;
+    text-transform: uppercase;
+}
 .neo4jd3-graph {
     border-radius: 5px;
 }
