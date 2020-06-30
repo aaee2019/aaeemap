@@ -10,6 +10,7 @@
                         "name":"Laboratorio I",
                         "objetivo1": "Explorar procesos de posiblidades expresivas",
                         "objetivo2":"Familiarizarse con temas matemáticos para programación y física ondulator",
+                        "url": "/objetivos.html#1",
                         "cuatrimestre": "1",
                         "tramo": "comun",
                         "estilo": "punteado"
@@ -21,6 +22,7 @@
                         "name":"Seminario de Prácticas Artísticas",
                         "objetivo1": "Introducir de producciones del campo de las AE",
                         "tramo": "comun",
+                        "url": "/objetivos.html#2",
                         "cuatrimestre": "1",
                         "estilo": "punteado"
                     }
@@ -31,6 +33,7 @@
                         "name":"Laboratorio II",
                         "objetivo1": "Introducir la física de las tecnologías de las AE",
                         "objetivo2":"Conocer el funcionamiento de tecnologías, conceptos y diseño",
+                        "url": "/objetivos.html#3",
                         "tramo": "comun",
                         "cuatrimestre": "2",
                         "estilo": "punteado"
@@ -42,6 +45,7 @@
                         "name":"Seminario de Pensamiento Tecno-científico",
                         "objetivo1": "Familiarizarse con la historia de la tecno-ciencia",
                         "objetivo2":"Introducción a la epistemología y el pensamiento científico",
+                        "url": "/objetivos.html#4",
                         "tramo": "comun",
                         "cuatrimestre": "2",
                         "estilo": "punteado"
@@ -54,6 +58,7 @@
                         "objetivo1": "Programar datos y sonificar información",
                         "objetivo2":"Familiarizarse con las estructuras sonoras",
                         "tramo": "comun",
+                        "url": "/objetivos.html#5",
                         "cuatrimestre": "3",
                         "estilo": "punteado"
                     }
@@ -64,6 +69,7 @@
                         "name":"Tecnologías Sonoras y Visuales",
                         "objetivo1": "Introducir al hardware de los procesos analógicos y digitales",
                         "tramo": "comun",
+                        "url": "/objetivos.html#6",
                         "cuatrimestre": "3",
                         "estilo": "punteado"
                     }
@@ -75,6 +81,7 @@
                         "objetivo1": "Manipular datos y programar visualización de información",
                         "objetivo2":"Familiarizarse con la estructura visual",
                         "tramo": "comun",
+                        "url": "/objetivos.html#7",
                         "cuatrimestre": "4",
                         "estilo": "punteado"
                     }
@@ -86,6 +93,7 @@
                         "objetivo1": "Diseñar y adquirir pericia en el procesamiento de materiales",
                         "objetivo2":"Manejo de herramientas y máquinas",
                         "tramo": "comun",
+                        "url": "/objetivos.html#8",
                         "cuatrimestre": "4",
                         "estilo": "punteado"
                     }
@@ -97,6 +105,7 @@
                         "objetivo1": "Programar estructura de datos",
                         "objetivo2":"Ciencias físicas vinculadas a taller de electrónica",
                         "tramo": "comun",
+                        "url": "/objetivos.html#9",
                         "cuatrimestre": "4",
                         "estilo": "punteado"
                     }
@@ -108,6 +117,7 @@
                         "objetivo1": "Familiarización con las estéticas de la imagen y sonido",
                         "objetivo2":"Manejo de las estructuras, composición y morfología de la imagen y sonido",
                         "tramo": "comun",
+                        "url": "/objetivos.html#10",
                         "cuatrimestre": "5",
                         "estilo": "punteado"
                     }
@@ -119,6 +129,7 @@
                         "objetivo1": "Manejo de tecnologías de producción de imagen y sonido",
                         "objetivo2":"Explorar expresividad en narrativas con tecnologías de sonido e imagen",
                         "tramo": "comun",
+                        "url": "/objetivos.html#11",
                         "cuatrimestre": "5",
                         "estilo": "punteado"
                     }
@@ -129,6 +140,7 @@
                         "name":"Laboratorio VI",
                         "objetivo1": "Construir interfaces mecatrónicas controladas",
                         "tramo": "comun",
+                        "url": "/objetivos.html#12",
                         "cuatrimestre": "6",
                         "estilo": "punteado"
                     }
@@ -140,6 +152,7 @@
                         "objetivo1": "Familiarización con producciones de AE globales y regionales",
                         "objetivo2":"Analizar obras de AE desde perspectivas integradas de Arte-Ciencia-Tecnología",
                         "tramo": "comun",
+                        "url": "/objetivos.html#13",
                         "cuatrimestre": "6",
                         "estilo": "punteado"
                     }
@@ -161,7 +174,7 @@
                         "name":"Informática Imagen",
                         "tramo": "comun",
                         "cuatrimestre": "1",
-                        "estilo": "solido"
+                        "estilo": "comunes"
                     }
                 }, {
                     "id": "16",
@@ -170,7 +183,7 @@
                         "name":"Computación Algoritmos y Datos",
                         "tramo": "comun",
                         "cuatrimestre": "2",
-                        "estilo": "solido"
+                        "estilo": "comunes"
                     }
                 }, {
                     "id": "17",
@@ -179,7 +192,7 @@
                         "name": "Inglés I/ Francés I",
                         "tramo": "comun",
                         "cuatrimestre": "3",
-                        "estilo": "solido"
+                        "estilo": "comunes"
                     }
                 }, {
                     "id": "18",
@@ -188,7 +201,7 @@
                         "name": "Inglés II/ Francés II",
                         "tramo": "comun",
                         "cuatrimestre": "4",
-                        "estilo": "solido"
+                        "estilo": "comunes"
                     }
                 }, {
                     "id": "19",
@@ -197,7 +210,7 @@
                         "name": "Introducción a la Problemática del Mundo Contemporáneo",
                         "tramo": "comun",
                         "cuatrimestre": "1",
-                        "estilo": "solido"
+                        "estilo": "comunes"
                     }
                 }, {
                     "id": "20",
@@ -206,7 +219,7 @@
                         "name": "Problemas de Historia del Siglo XX",
                         "tramo": "comun",
                         "cuatrimestre": "2",
-                        "estilo": "solido"
+                        "estilo": "comunes"
                     }
                 }, {
                     "id": "21",
@@ -215,7 +228,7 @@
                         "name": "Cuestiones de Sociología Economía y Política",
                         "tramo": "comun",
                         "cuatrimestre": "3",
-                        "estilo": "solido"
+                        "estilo": "comunes"
                     }                        
                 }, {
                     "id": "22",
@@ -224,7 +237,7 @@
                         "name": "Cultura Contemporánea",
                         "tramo": "comun",
                         "cuatrimestre": "4",
-                        "estilo": "solido"
+                        "estilo": "comunes"
                     }
                 }, {
                     "id": "23",
@@ -1036,8 +1049,6 @@
                         "properties": {
                             "estilo": "invisible"
                         } 
-
-
                     }, {
                         "id": "34",
                         "type": "grupo",
