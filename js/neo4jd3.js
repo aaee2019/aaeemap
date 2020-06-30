@@ -148,8 +148,8 @@
                     })
 
                         .on("click", function(d) { // Toma Url del nodo
-                        //                        window.open(d.properties.url); 
-                        click(d)
+                                                window.open(d.properties.url); 
+                        //click(d)
                     })  
                     /*   .on('dblclick', function(d) {
                         stickNode(d);
@@ -227,21 +227,21 @@
                         .attr("fill-opacity", "0.4")
                 }
 
-                function click(d) { 
+                /*function click(d) { 
                     //node.attr("xlink:href",function(d){return d.url;})
                     node.attr("data-toggle", "modal")
                     node.attr("xlink:href","#myModal")
                     datum(d)
 
-                    /*$('#myModal').on('show.bs.modal', function(d) {
+                    $('#myModal').on('show.bs.modal', function(d) {
 
                         let modalTitle = d3.selectAll("h4.modal-title");
                         modalTitle.text(d.properties.name);
                         let modalBody = d3.selectAll(".modal-body");
                         modalBody.html("Propósitos: " + d.properties.objetivo1 + "<br>" + d.properties.objetivo2);
-                    })*/
+                    })
 
-                }
+                }*/
 
 
 
