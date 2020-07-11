@@ -161,7 +161,10 @@
                         .on('mouseenter', function(d) {
                         if (info) {
                             updateInfo(d);
+                            
                         }
+                        
+                        
 
                         if (typeof options.onNodeMouseEnter === 'function') {
                             options.onNodeMouseEnter(d);
@@ -344,13 +347,13 @@
                         .attr("font-family","Roboto")
                         .attr('y', function(d){
                         if (d.properties.tipo=="intersección" && d.properties.objetivo2 !=""){
-                            return "2px"
+                            return "2.5px"
                         }
                         if (d.properties.objetivo2=="" && d.properties.tipo=="intersección"){
                             return "0px"
                         }
                         if (d.properties.tramo=="comun" || d.properties.tramo=="electivo"){
-                            return "-12px"
+                            return "-11px"
                         }
                     })
                         .html(function(d) {
@@ -376,7 +379,7 @@
                         .attr("font-family","Roboto")
                         .attr('y', function(d){
                         if (d.properties.tipo=="intersección"){
-                            return "-2px"
+                            return "-2.5px"
                         }else{
                             return '-16px'
                         }       
