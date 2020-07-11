@@ -13,7 +13,8 @@
                         "url": "/objetivos.html#1",
                         "cuatrimestre": "1",
                         "tramo": "comun",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"1"
                     }
                 }, {
                     "id": "2",
@@ -24,7 +25,8 @@
                         "tramo": "comun",
                         "url": "/objetivos.html#2",
                         "cuatrimestre": "1",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "3",
@@ -36,7 +38,8 @@
                         "url": "/objetivos.html#3",
                         "tramo": "comun",
                         "cuatrimestre": "2",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"1"
                     }
                 }, {
                     "id": "4",
@@ -48,7 +51,8 @@
                         "url": "/objetivos.html#4",
                         "tramo": "comun",
                         "cuatrimestre": "2",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "5",
@@ -60,7 +64,8 @@
                         "tramo": "comun",
                         "url": "/objetivos.html#5",
                         "cuatrimestre": "3",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"1"
                     }
                 }, {
                     "id": "6",
@@ -71,7 +76,8 @@
                         "tramo": "comun",
                         "url": "/objetivos.html#6",
                         "cuatrimestre": "3",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "7",
@@ -83,7 +89,8 @@
                         "tramo": "comun",
                         "url": "/objetivos.html#7",
                         "cuatrimestre": "4",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"1"
                     }
                 }, {
                     "id": "8",
@@ -95,7 +102,8 @@
                         "tramo": "comun",
                         "url": "/objetivos.html#8",
                         "cuatrimestre": "4",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"4"
                     }
                 }, {
                     "id": "9",
@@ -107,7 +115,8 @@
                         "tramo": "comun",
                         "url": "/objetivos.html#9",
                         "cuatrimestre": "4",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"1"
                     }
                 }, {
                     "id": "10",
@@ -119,19 +128,21 @@
                         "tramo": "comun",
                         "url": "/objetivos.html#10",
                         "cuatrimestre": "5",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "11",
                     "labels": ["Cuatrimestre 5"],
                     "properties": {
-                        "name":"Taller de Producción y Postproducción Sonora y Visual",
+                        "name":"Taller de Producción y Postproducción Sonora y Visual I",
                         "objetivo1": "Manejo de tecnologías de producción de imagen y sonido",
                         "objetivo2":"Explorar expresividad en narrativas con tecnologías de sonido e imagen",
                         "tramo": "comun",
                         "url": "/objetivos.html#11",
                         "cuatrimestre": "5",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"4"
                     }
                 }, {
                     "id": "12",
@@ -142,7 +153,8 @@
                         "tramo": "comun",
                         "url": "/objetivos.html#12",
                         "cuatrimestre": "6",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"1"
                     }
                 }, {
                     "id": "13",
@@ -154,7 +166,8 @@
                         "tramo": "comun",
                         "url": "/objetivos.html#13",
                         "cuatrimestre": "6",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "14",
@@ -165,7 +178,8 @@
                         "objetivo2":"Conocer técnicas avanzadas de registros sonoros y visuales",
                         "tramo": "comun",
                         "cuatrimestre": "6",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"4"
                     }
                 }, {
                     "id": "15",
@@ -174,7 +188,8 @@
                         "name":"Informática Imagen",
                         "tramo": "comun",
                         "cuatrimestre": "1",
-                        "estilo": "comunes"
+                        "estilo": "comunes",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "16",
@@ -183,25 +198,28 @@
                         "name":"Computación Algoritmos y Datos",
                         "tramo": "comun",
                         "cuatrimestre": "2",
-                        "estilo": "comunes"
+                        "estilo": "comunes",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "17",
                     "labels": ["Comunes"],
                     "properties": {
-                        "name": "Inglés I/ Francés I",
+                        "name": "Inglés I/Francés I",
                         "tramo": "comun",
                         "cuatrimestre": "3",
-                        "estilo": "comunes"
+                        "estilo": "comunes",
+                        "lineas":"1"
                     }
                 }, {
                     "id": "18",
                     "labels": ["Comunes"],
                     "properties": {
-                        "name": "Inglés II/ Francés II",
+                        "name": "Inglés II/Francés II",
                         "tramo": "comun",
                         "cuatrimestre": "4",
-                        "estilo": "comunes"
+                        "estilo": "comunes",
+                        "lineas":"1"
                     }
                 }, {
                     "id": "19",
@@ -210,7 +228,8 @@
                         "name": "Introducción a la Problemática del Mundo Contemporáneo",
                         "tramo": "comun",
                         "cuatrimestre": "1",
-                        "estilo": "comunes"
+                        "estilo": "comunes",
+                        "lineas":"4"
                     }
                 }, {
                     "id": "20",
@@ -219,7 +238,8 @@
                         "name": "Problemas de Historia del Siglo XX",
                         "tramo": "comun",
                         "cuatrimestre": "2",
-                        "estilo": "comunes"
+                        "estilo": "comunes",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "21",
@@ -228,7 +248,8 @@
                         "name": "Cuestiones de Sociología Economía y Política",
                         "tramo": "comun",
                         "cuatrimestre": "3",
-                        "estilo": "comunes"
+                        "estilo": "comunes",
+                        "lineas":"4"
                     }                        
                 }, {
                     "id": "22",
@@ -237,7 +258,8 @@
                         "name": "Cultura Contemporánea",
                         "tramo": "comun",
                         "cuatrimestre": "4",
-                        "estilo": "comunes"
+                        "estilo": "comunes",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "23",
@@ -247,7 +269,8 @@
                         "objetivo1": "Diseñar narrativas generativas",
                         "tramo": "electivo",
                         "territorio": "NARRATIVAS DIGITALES INTERACTIVAS",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "24",
@@ -257,7 +280,8 @@
                         "objetivo1": "Desarrollar narrativas aumentadas en multiplataformas",
                         "tramo": "electivo",
                         "territorio": "NARRATIVAS DIGITALES INTERACTIVAS",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"4"
                     }
                 }, {
                     "id": "25",
@@ -267,7 +291,8 @@
                         "objetivo1": "Plantear, diseñar, programar y desarrollar un videojuego",
                         "tramo": "electivo",
                         "territorio": "NARRATIVAS DIGITALES INTERACTIVAS",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "26",
@@ -277,7 +302,8 @@
                         "objetivo1": "Desarrollar la interacción con el usuario y programar en diferentes soportes",
                         "tramo": "electivo",
                         "territorio": "NARRATIVAS DIGITALES INTERACTIVAS",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "27",
@@ -288,7 +314,8 @@
                         "objetivo2":"Familiarización con diferentes materiales y procesos",
                         "tramo": "electivo",
                         "territorio": "NARRATIVAS DIGITALES INTERACTIVAS",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"1"
                     }
                 }, {
                     "id": "28",
@@ -298,7 +325,8 @@
                         "objetivo1": "Manejar técnicas de animación digital y programación",
                         "tramo": "electivo",
                         "territorio": "NARRATIVAS DIGITALES INTERACTIVAS",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "29",
@@ -308,7 +336,8 @@
                         "objetivo1": "Desarrollar proyectos de interfaces en diversos soportes y formas",
                         "tramo": "electivo",
                         "territorio": "DISPOSITIVOS E INTERFACES",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "30",
@@ -318,7 +347,8 @@
                         "objetivo1": "Desarrollar interfaces considerando su dimensión estética",
                         "tramo": "electivo",
                         "territorio": "DISPOSITIVOS E INTERFACES",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "31",
@@ -328,7 +358,8 @@
                         "objetivo1": "Diseñar y desarrollar dispositivos interactivos digitales",
                         "tramo": "electivo",
                         "territorio": "DISPOSITIVOS E INTERFACES",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "32",
@@ -339,7 +370,8 @@
                         "objetivo2": "Familiarizarse con métodos manuales e industriales de armado de circuito",
                         "tramo": "electivo",
                         "territorio": "DISPOSITIVOS E INTERFACES",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "33",
@@ -350,7 +382,8 @@
                         "objetivo2": "Incorporar elementos formales de diseño al dispositivo",
                         "tramo": "electivo",
                         "territorio": "DISPOSITIVOS E INTERFACES",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "34",
@@ -361,7 +394,8 @@
                         "objetivo2": "Manejo de tecnologías de audio y sonido para la performance",
                         "tramo": "electivo",
                         "territorio": "PRODUCCION AUDIOVISUAL",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "35",
@@ -371,7 +405,8 @@
                         "objetivo1": "Familiarizarse con tecnologías de registro y postproducción de imagen",
                         "tramo": "electivo",
                         "territorio": "PRODUCCION AUDIOVISUAL",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "36",
@@ -381,7 +416,8 @@
                         "objetivo1": "Diseñar y desarrollar proyectos de sonorización",
                         "tramo": "electivo",
                         "territorio": "PRODUCCION AUDIOVISUAL",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "37",
@@ -391,7 +427,8 @@
                         "objetivo1": "Trabajar sobre proyectos de composición",
                         "tramo": "electivo",
                         "territorio": "PRODUCCION AUDIOVISUAL",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"4"
                     }
                 }, {
                     "id": "38",
@@ -401,7 +438,8 @@
                         "objetivo1": "Familiarizarse con tecnologías de registro y postproducción de sonido",
                         "tramo": "electivo",
                         "territorio": "PRODUCCION AUDIOVISUAL",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "39",
@@ -411,7 +449,8 @@
                         "objetivo1": "Manejar algoritmos aplicados a la música",
                         "tramo": "electivo",
                         "territorio": "ALGORITMOS Y DATOS",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "40",
@@ -421,7 +460,8 @@
                         "objetivo1": "Desarrollar aplicaciones orientadas a navegadores",
                         "tramo": "electivo",
                         "territorio": "ALGORITMOS Y DATOS",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "41",
@@ -431,7 +471,8 @@
                         "objetivo1": "Familiarizarse con la programación de inteligencia artificial",
                         "tramo": "electivo",
                         "territorio": "ALGORITMOS Y DATOS",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "42",
@@ -441,7 +482,8 @@
                         "objetivo1": "Programar algoritmos, obtener y procesar datos",
                         "tramo": "electivo",
                         "territorio": "ALGORITMOS Y DATOS",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"1"
                     }
                 }, {
                     "id": "43",
@@ -451,7 +493,8 @@
                         "objetivo1": "Familiarizarse con programas necesarios para AE",
                         "tramo": "electivo",
                         "territorio": "ALGORITMOS Y DATOS",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "44",
@@ -461,7 +504,8 @@
                         "objetivo1": "Estudio de referencias historicas de las AE global y regional",
                         "tramo": "electivo",
                         "territorio": "ARTE Y TECNOCIENCIA",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "45",
@@ -472,7 +516,8 @@
                         "objetivo2": "Articulación creativa de conceptos y teorías para su aplicación al análisis de obras en AE",
                         "tramo": "electivo",
                         "territorio": "ARTE Y TECNOCIENCIA",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "46",
@@ -483,7 +528,8 @@
                         "objetivo2": "Articulación creativa de conceptos y teorías de la tecno-ciencia",
                         "tramo": "electivo",
                         "territorio": "ARTE Y TECNOCIENCIA",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "47",
@@ -494,7 +540,8 @@
                         "objetivo2": "Desarrollar proyectos de investigación teórica interdisciplinar",
                         "tramo": "electivo",
                         "territorio": "ARTE Y TECNOCIENCIA",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "48",
@@ -505,7 +552,8 @@
                         "objetivo2": "Estudio de movimientos y artistas de referencia",
                         "tramo": "electivo",
                         "territorio": "ARTE CONTEMPORANEO",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"4"
                     }    
                 }, {
                     "id": "49",
@@ -516,7 +564,8 @@
                         "objetivo2": "Estudio y análisis de contextos de validación artísticos",
                         "tramo": "electivo",
                         "territorio": "ARTE CONTEMPORANEO",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"4"
                     }
 
                 }, {
@@ -526,7 +575,8 @@
                         "name": "Seminario de Pensamiento sobre la Imagen",
                         "tramo": "electivo",
                         "territorio": "ARTE CONTEMPORANEO",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
 
                 }, {
@@ -538,7 +588,8 @@
                         "objetivo2": "Elaborar diferentes aproximaciones a la noción de cuerpo",
                         "tramo": "electivo",
                         "territorio": "MATERIALIDAD EXPANDIDA",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }    
                 }, {
                     "id": "52",
@@ -549,7 +600,8 @@
                         "objetivo2": "Conocer diferentes tecnologías de trabajo sobre materiales",
                         "tramo": "electivo",
                         "territorio": "MATERIALIDAD EXPANDIDA",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
 
                 }, {
@@ -561,7 +613,8 @@
                         "objetivo2": "Dar referencias en el campo de las AE",
                         "tramo": "electivo",
                         "territorio": "MATERIALIDAD EXPANDIDA",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "54",
@@ -569,7 +622,8 @@
                     "properties": {
                         "name": "Trabajo Integrador de Artes Electrónicas",
                         "tramo": "electivo",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"4"
                     }
                 }, {
                     "id": "55",
@@ -577,7 +631,8 @@
                     "properties": {
                         "name": "Trayectos Formativos Alternativos",
                         "tramo": "electivo",
-                        "estilo": "punteado"
+                        "estilo": "punteado",
+                        "lineas":"3"
                     }
                 }, {
                     "id": "56",
@@ -586,7 +641,8 @@
                         "name": "Ingeniería en Computación",
                         "tramo": "electivo",
                         "territorio": "OTRAS CARRERAS",
-                        "estilo": "solido"
+                        "estilo": "solido",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "57",
@@ -595,7 +651,8 @@
                         "name": "Licenciatura en Psicomotricidad",
                         "tramo": "electivo",
                         "territorio": "OTRAS CARRERAS",
-                        "estilo": "solido"
+                        "estilo": "solido",
+                        "lineas":"2"
                     }
                 }, {
                     "id": "58",
@@ -604,7 +661,8 @@
                         "name": "Licenciatura en Producción Audiovisual",
                         "tramo": "electivo",
                         "territorio": "OTRAS CARRERAS",
-                        "estilo": "solido"
+                        "estilo": "solido",
+                        "lineas":"3"
                     }               
                 }, {
                     "id": "59",
@@ -613,7 +671,8 @@
                         "name": "Ingeniería de Sonido",
                         "tramo": "electivo",
                         "territorio": "OTRAS CARRERAS",
-                        "estilo": "solido"
+                        "estilo": "solido",
+                        "lineas":"2"
                     }  
                 }, {
                     "id": "60",
@@ -622,7 +681,8 @@
                         "name": "Especialización Sonido",
                         "tramo": "electivo",
                         "territorio": "OTRAS CARRERAS",
-                        "estilo": "solido"
+                        "estilo": "solido",
+                        "lineas":"2"
                     }    
                 }, {
                     "id": "61",
@@ -631,7 +691,8 @@
                         "name": "Licenciatura en Música",
                         "tramo": "electivo",
                         "territorio": "OTRAS CARRERAS",
-                        "estilo": "solido"
+                        "estilo": "solido",
+                        "lineas":"2"
                     }   
                 }, {
                     "id": "62",
@@ -640,7 +701,8 @@
                         "name": "MUNTREF CENTRO DE ARTE y CIENCIA",
                         "tramo": "electivo",
                         "territorio": "TRAYECTOS FORMATIVOS ALTERNATIVOS",
-                        "estilo": "solido"
+                        "estilo": "solido",
+                        "lineas":"2"
                     }   
                 }, {
                     "id": "63",
@@ -1361,7 +1423,7 @@
                         "properties": {
                             "estilo": "invisible"
                         } 
-                         }, {
+                    }, {
                         "id": "73",
                         "type": "vinculo",
                         "startNode": "1",
@@ -1369,7 +1431,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "74",
                         "type": "vinculo",
                         "startNode": "1",
@@ -1377,7 +1439,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "75",
                         "type": "vinculo",
                         "startNode": "2",
@@ -1385,7 +1447,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                        }, {
+                    }, {
                         "id": "76",
                         "type": "vinculo",
                         "startNode": "2",
@@ -1393,7 +1455,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "77",
                         "type": "vinculo",
                         "startNode": "63",
@@ -1401,7 +1463,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "78",
                         "type": "vinculo",
                         "startNode": "3",
@@ -1409,7 +1471,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                                 }, {
+                    }, {
                         "id": "79",
                         "type": "vinculo",
                         "startNode": "4",
@@ -1417,7 +1479,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "80",
                         "type": "vinculo",
                         "startNode": "64",
@@ -1425,7 +1487,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "81",
                         "type": "vinculo",
                         "startNode": "6",
@@ -1433,7 +1495,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                        }, {
+                    }, {
                         "id": "82",
                         "type": "vinculo",
                         "startNode": "6",
@@ -1441,7 +1503,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "83",
                         "type": "vinculo",
                         "startNode": "65",
@@ -1449,7 +1511,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "84",
                         "type": "vinculo",
                         "startNode": "65",
@@ -1457,7 +1519,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                                 }, {
+                    }, {
                         "id": "85",
                         "type": "vinculo",
                         "startNode": "7",
@@ -1465,7 +1527,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "86",
                         "type": "vinculo",
                         "startNode": "7",
@@ -1473,7 +1535,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "87",
                         "type": "vinculo",
                         "startNode": "8",
@@ -1481,7 +1543,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                        }, {
+                    }, {
                         "id": "88",
                         "type": "vinculo",
                         "startNode": "8",
@@ -1489,7 +1551,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "89",
                         "type": "vinculo",
                         "startNode": "8",
@@ -1497,7 +1559,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "90",
                         "type": "vinculo",
                         "startNode": "8",
@@ -1505,7 +1567,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                            }, {
+                    }, {
                         "id": "91",
                         "type": "vinculo",
                         "startNode": "8",
@@ -1513,7 +1575,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "92",
                         "type": "vinculo",
                         "startNode": "9",
@@ -1521,7 +1583,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "93",
                         "type": "vinculo",
                         "startNode": "9",
@@ -1529,7 +1591,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                        }, {
+                    }, {
                         "id": "94",
                         "type": "vinculo",
                         "startNode": "9",
@@ -1537,7 +1599,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "95",
                         "type": "vinculo",
                         "startNode": "9",
@@ -1545,7 +1607,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "96",
                         "type": "vinculo",
                         "startNode": "11",
@@ -1553,7 +1615,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                                 }, {
+                    }, {
                         "id": "97",
                         "type": "vinculo",
                         "startNode": "11",
@@ -1561,7 +1623,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "98",
                         "type": "vinculo",
                         "startNode": "11",
@@ -1569,7 +1631,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "99",
                         "type": "vinculo",
                         "startNode": "12",
@@ -1577,7 +1639,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                        }, {
+                    }, {
                         "id": "100",
                         "type": "vinculo",
                         "startNode": "12",
@@ -1585,7 +1647,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "101",
                         "type": "vinculo",
                         "startNode": "13",
@@ -1593,7 +1655,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "102",
                         "type": "vinculo",
                         "startNode": "13",
@@ -1601,7 +1663,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                            }, {
+                    }, {
                         "id": "103",
                         "type": "vinculo",
                         "startNode": "13",
@@ -1609,7 +1671,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                                 }, {
+                    }, {
                         "id": "104",
                         "type": "vinculo",
                         "startNode": "13",
@@ -1617,7 +1679,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                        }, {
+                    }, {
                         "id": "105",
                         "type": "vinculo",
                         "startNode": "13",
@@ -1625,7 +1687,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "106",
                         "type": "vinculo",
                         "startNode": "13",
@@ -1633,7 +1695,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "107",
                         "type": "vinculo",
                         "startNode": "14",
@@ -1641,7 +1703,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                            }, {
+                    }, {
                         "id": "108",
                         "type": "vinculo",
                         "startNode": "14",
@@ -1649,7 +1711,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "109",
                         "type": "vinculo",
                         "startNode": "23",
@@ -1657,7 +1719,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "110",
                         "type": "vinculo",
                         "startNode": "28",
@@ -1665,7 +1727,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "111",
                         "type": "vinculo",
                         "startNode": "30",
@@ -1673,7 +1735,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                            }, {
+                    }, {
                         "id": "112",
                         "type": "vinculo",
                         "startNode": "69",
@@ -1681,7 +1743,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                                 }, {
+                    }, {
                         "id": "113",
                         "type": "vinculo",
                         "startNode": "37",
@@ -1689,7 +1751,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                        }, {
+                    }, {
                         "id": "114",
                         "type": "vinculo",
                         "startNode": "41",
@@ -1697,7 +1759,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "115",
                         "type": "vinculo",
                         "startNode": "42",
@@ -1705,7 +1767,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "116",
                         "type": "vinculo",
                         "startNode": "73",
@@ -1713,7 +1775,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                            }, {
+                    }, {
                         "id": "117",
                         "type": "vinculo",
                         "startNode": "44",
@@ -1721,7 +1783,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                        }, {
+                    }, {
                         "id": "118",
                         "type": "vinculo",
                         "startNode": "45",
@@ -1729,7 +1791,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "119",
                         "type": "vinculo",
                         "startNode": "30",
@@ -1737,7 +1799,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                            }, {
+                    }, {
                         "id": "120",
                         "type": "vinculo",
                         "startNode": "46",
@@ -1745,7 +1807,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                                 }, {
+                    }, {
                         "id": "121",
                         "type": "vinculo",
                         "startNode": "74",
@@ -1753,7 +1815,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                        }, {
+                    }, {
                         "id": "122",
                         "type": "vinculo",
                         "startNode": "48",
@@ -1761,7 +1823,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "123",
                         "type": "vinculo",
                         "startNode": "53",
@@ -1769,7 +1831,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "124",
                         "type": "vinculo",
                         "startNode": "76",
@@ -1777,7 +1839,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                            }, {
+                    }, {
                         "id": "125",
                         "type": "vinculo",
                         "startNode": "56",
@@ -1785,7 +1847,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "126",
                         "type": "vinculo",
                         "startNode": "56",
@@ -1793,7 +1855,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                                 }, {
+                    }, {
                         "id": "127",
                         "type": "vinculo",
                         "startNode": "57",
@@ -1801,7 +1863,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                        }, {
+                    }, {
                         "id": "128",
                         "type": "vinculo",
                         "startNode": "58",
@@ -1809,7 +1871,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "129",
                         "type": "vinculo",
                         "startNode": "58",
@@ -1817,7 +1879,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "130",
                         "type": "vinculo",
                         "startNode": "58",
@@ -1825,7 +1887,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                            }, {
+                    }, {
                         "id": "131",
                         "type": "vinculo",
                         "startNode": "59",
@@ -1833,7 +1895,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "132",
                         "type": "vinculo",
                         "startNode": "60",
@@ -1841,7 +1903,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                             }, {
+                    }, {
                         "id": "133",
                         "type": "vinculo",
                         "startNode": "61",
@@ -1849,7 +1911,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                            }, {
+                    }, {
                         "id": "134",
                         "type": "vinculo",
                         "startNode": "62",
@@ -1857,7 +1919,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "135",
                         "type": "vinculo",
                         "startNode": "62",
@@ -1865,7 +1927,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                              }, {
+                    }, {
                         "id": "136",
                         "type": "vinculo",
                         "startNode": "62",
@@ -1873,7 +1935,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                         }, {
+                    }, {
                         "id": "137",
                         "type": "vinculo",
                         "startNode": "62",
@@ -1881,7 +1943,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                        }, {
+                    }, {
                         "id": "138",
                         "type": "vinculo",
                         "startNode": "62",
@@ -1889,7 +1951,7 @@
                         "properties": {
                             "estilo": "linea"
                         } 
-                            
+
                     }]
             }
         }]
