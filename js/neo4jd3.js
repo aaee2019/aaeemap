@@ -148,7 +148,7 @@
                     })
 
                         .on("click", function(d) { // Toma Url del nodo
-                                                window.open(d.properties.url); 
+                        window.open(d.properties.url); 
                         //click(d)
                     })  
                     /*   .on('dblclick', function(d) {
@@ -196,7 +196,7 @@
                     return n;
                 }
 
-               function appendOutlineToNode(node) {
+                function appendOutlineToNode(node) {
                     return node.append('circle')
                         .attr('class', 'outline contenido')
                         .attr('r', function (d){
@@ -272,16 +272,57 @@
                             return d.color;
                         return options.nodeOutlineFillColor ? options.nodeOutlineFillColor : class2color(d.labels[0]);
                     })
-                        .style ('font-size', '8px')
+                        .style ('font-size', '4.5px')
                         .style ('font-weight', '800')
                         .attr("font-family","Roboto")
 
                         .style ('text-transform', 'uppercase')
                         .attr('text-anchor', 'middle') //alineación horizontal
-                        .attr('y', '4px') // posición en Y
+                        .attr('y', function(d){
+                        if(d.properties.lineas=="1"){
+                            return "1"
+                        }
+                        if(d.properties.lineas=="2"){
+                            return "-1px"
+                        }
+                        if(d.properties.lineas=="3"){
+                            return "-3px"
+                        }
+                        if(d.properties.lineas=="4"){
+                            return "-5px"
+                        }
+                    }) // posición en Y
 
-                        .html(function(d){
-                        return d.properties.name;
+                        .text(function(d){
+                        return d.properties.name
+                    })
+                        .call(wrapText, 45)
+
+                } 
+
+                function wrapText(text, width) {
+                    text.each(function () {
+                        var textEl = d3.select(this),
+                            words = textEl.text().split(/\s+/).reverse(),
+                            word,
+                            line = [],
+                            linenumber = 0,
+                            lineHeight = 1, // ems
+                            y = textEl.attr('y'),
+                            dx = parseFloat(textEl.attr('dx') || 0), 
+                            dy = parseFloat(textEl.attr('dy') || 0),
+                            tspan = textEl.text(null).append('tspan').attr('x', 0).attr('y', y).attr('dy', dy + 'em');
+
+                        while (word = words.pop()) {
+                            line.push(word);
+                            tspan.text(line.join(' '));
+                            if (tspan.node().getComputedTextLength() > width) {
+                                line.pop();
+                                tspan.text(line.join(' '));
+                                line = [word];
+                                tspan = textEl.append('tspan').attr('x', 0).attr('y', y).attr('dx', dx).attr('dy', ++linenumber * lineHeight + dy + 'em').text(word);
+                            }
+                        }
                     });
                 }
 
@@ -291,7 +332,7 @@
                         return 'text';
                     })
                         .attr('fill', '#282828')
-                        .style ('font-size', '6px')
+                        .style ('font-size', '4px')
                         .attr('pointer-events', 'none')
                         .attr('text-anchor', function(d){
                         if (d.properties.tipo=="intersección"){
@@ -303,13 +344,13 @@
                         .attr("font-family","Roboto")
                         .attr('y', function(d){
                         if (d.properties.tipo=="intersección" && d.properties.objetivo2 !=""){
-                            return "3px"
+                            return "2px"
                         }
                         if (d.properties.objetivo2=="" && d.properties.tipo=="intersección"){
                             return "0px"
                         }
                         if (d.properties.tramo=="comun" || d.properties.tramo=="electivo"){
-                            return "-7px"
+                            return "-12px"
                         }
                     })
                         .html(function(d) {
@@ -323,7 +364,7 @@
                         return 'text';
                     })
                         .attr('fill', '#282828')
-                        .style ('font-size', '6px')
+                        .style ('font-size', '4px')
                         .attr('pointer-events', 'none')
                         .attr('text-anchor', function(d){
                         if (d.properties.tipo=="intersección"){
@@ -335,9 +376,9 @@
                         .attr("font-family","Roboto")
                         .attr('y', function(d){
                         if (d.properties.tipo=="intersección"){
-                            return "-3px"
+                            return "-2px"
                         }else{
-                            return '-14px'
+                            return '-16px'
                         }       
                     })
                         .html(function(d) {
