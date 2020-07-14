@@ -114,7 +114,7 @@
                         "objetivo2":"Ciencias físicas vinculadas a taller de electrónica",
                         "tramo": "comun",
                         "url": "/objetivos.html#9",
-                        "cuatrimestre": "4",
+                        "cuatrimestre": "5",
                         "estilo": "punteado",
                         "lineas":"1"
                     }
@@ -184,6 +184,7 @@
                 }, {
                     "id": "15",
                     "labels": ["Comunes"],
+                    "group":2,
                     "properties": {
                         "name":"Informática Imagen",
                         "tramo": "comun",
@@ -194,6 +195,7 @@
                 }, {
                     "id": "16",
                     "labels": ["Comunes"],
+                    "group":1,
                     "properties": {
                         "name":"Computación Algoritmos y Datos",
                         "tramo": "comun",
@@ -622,6 +624,7 @@
                     "properties": {
                         "name": "Trabajo Integrador de Artes Electrónicas",
                         "tramo": "electivo",
+                        "territorio":"FINAL",
                         "estilo": "punteado",
                         "lineas":"4"
                     }
@@ -631,6 +634,7 @@
                     "properties": {
                         "name": "Trayectos Formativos Alternativos",
                         "tramo": "electivo",
+                        "territorio":"TRAYECTOS FORMATIVOS ALTERNATIVOS",
                         "estilo": "punteado",
                         "lineas":"3"
                     }
@@ -678,7 +682,7 @@
                     "id": "60",
                     "labels": ["ELECTIVAS"],
                     "properties": {
-                        "name": "Especialización Sonido",
+                        "name": "Especialización en sonido",
                         "tramo": "electivo",
                         "territorio": "OTRAS CARRERAS",
                         "estilo": "solido",
@@ -711,6 +715,7 @@
                         "tipo": "intersección",
                         "objetivo1": "Introducir prácticas artísticas relacionadas a las AE",
                         "objetivo2":"",
+                        "cuatrimestre":"1",
                         "estilo": "solido"
                     }     
                 }, {
@@ -720,6 +725,7 @@
                         "tipo": "intersección",
                         "objetivo1": "Abordar el marco epistemológico de la ciencia y tecnologia en referencia a AE",
                         "objetivo2":"",
+                        "cuatrimestre":"2",
                         "estilo": "solido"
                     }     
                 }, {
@@ -729,6 +735,7 @@
                         "tipo": "intersección",
                         "objetivo1": "Comprender las tecnologías sonoras y visuales de control y codificación de información",
                         "objetivo2":"",
+                        "cuatrimestre":"3",
                         "estilo": "solido"
                     }     
                 }, {
@@ -738,6 +745,7 @@
                         "tipo": "intersección",
                         "objetivo1": "Incorporar estructuras de la imagen sonido en desarrollo de narrativas",
                         "objetivo2":"",
+                        "cuatrimestre":"5",
                         "estilo": "solido"
                     }   
                 }, {
@@ -747,6 +755,7 @@
                         "tipo": "intersección",
                         "objetivo1": "Elaborar un marco referencial sobre el desarrollo de interfaces en AE",
                         "objetivo2":"",
+                        "cuatrimestre":"6",
                         "estilo": "solido"
                     }     
                 }, {
@@ -756,6 +765,7 @@
                         "tipo": "intersección",
                         "objetivo1": "Marco teórico y analítico de producciones de imagen y sonido en AE",
                         "objetivo2":"",
+                        "cuatrimestre":"6",
                         "estilo": "solido"
                     }     
                 }, {
@@ -765,6 +775,7 @@
                         "tipo": "intersección",
                         "objetivo1": "Desarrollar aspectos estéticos de interacción y diseño",
                         "objetivo2":"",
+                        "territorio":"DISPOSITIVOS E INTERFACES",
                         "estilo": "solido"
                     }   
                 }, {
@@ -774,6 +785,7 @@
                         "tipo": "intersección",
                         "objetivo1": "Desarrollar aspectos estéticos del vínculo objeto - espectador",
                         "objetivo2": "Incorporar referencias artísticas con robótica",
+                        "territorio":"DISPOSITIVOS E INTERFACES",
                         "estilo": "solido"
                     }   
                 }, {
@@ -783,6 +795,7 @@
                         "tipo": "intersección",
                         "objetivo1": "Diseño y puesta en escena integral",
                         "objetivo2":"",
+                        "territorio":"PRODUCCION AUDIOVISUAL",
                         "estilo": "solido"
                     }     
 
@@ -793,6 +806,7 @@
                         "tipo": "intersección",
                         "objetivo1": "Desarrollar proyectos artísticos de visualización de datos",
                         "objetivo2": "Manejo de data sets, semántica",
+                        "territorio":"ALGORITMOS Y DATOS",
                         "estilo": "solido"
                     }    
                 }, {
@@ -802,6 +816,7 @@
                         "tipo": "intersección",
                         "objetivo1": "Procesar datos para el desarrollo de aplicaciones",
                         "objetivo2":"",
+                        "territorio":"ALGORITMOS Y DATOS",
                         "estilo": "solido"
                     }   
                 }, {
@@ -811,6 +826,7 @@
                         "tipo": "intersección",
                         "objetivo1": "Integrar al análisis de obra en AE el contexto estético",
                         "objetivo2":"",
+                        "territorio":"ARTE Y TECNOCIENCIA",
                         "estilo": "solido"
                     }    
                 }, {
@@ -820,6 +836,7 @@
                         "tipo": "intersección",
                         "objetivo1": "Integrar al análisis de obra en AE el contexto tecno-científico",
                         "objetivo2":"",
+                        "territorio":"ARTE Y TECNOCIENCIA",
                         "estilo": "solido"
                     }   
 
@@ -831,6 +848,7 @@
                         "objetivo1": "Desarrollar criterios sobre cuestiones éticas relación Arte - Ciencia -Tecnología",
                         "objetivo2": "Cuerpo, género, diversidad, perspectivas culturales",
                         "objetivo2":"",
+                        "territorio":"MATERIALIDAD EXPANDIDA",
                         "estilo": "solido"
                     }   
                 }, {
@@ -841,6 +859,7 @@
                         "objetivo1": "Trabajar en la relación Soft - Wet",
                         "objetivo2": "Conocer tecnologías híbridas de procesos de materiales",
                         "objetivo3": "Estudiar casos en el arte, industria e investigació",
+                        "territorio":"MATERIALIDAD EXPANDIDA",
                         "estilo": "solido"
                     }             
 
@@ -1112,14 +1131,7 @@
                             "estilo": "invisible"
                         } 
                     }, {
-                        "id": "34",
-                        "type": "grupo",
-                        "startNode": "1",
-                        "endNode": "2",
-                        "properties": {
-                            "estilo": "invisible"
-                        }
-                    }, {
+                        
                         "id": "35",
                         "type": "grupo",
                         "startNode": "1",
@@ -1136,14 +1148,7 @@
                             "estilo": "invisible"
                         } 
                     }, {
-                        "id": "37",
-                        "type": "grupo",
-                        "startNode": "3",
-                        "endNode": "4",
-                        "properties": {
-                            "estilo": "invisible"
-                        }
-                    }, {
+                        
                         "id": "38",
                         "type": "grupo",
                         "startNode": "3",
@@ -1160,14 +1165,7 @@
                             "estilo": "invisible"
                         } 
                     }, {
-                        "id": "40",
-                        "type": "grupo",
-                        "startNode": "5",
-                        "endNode": "6",
-                        "properties": {
-                            "estilo": "invisible"
-                        }
-                    }, {
+                        
                         "id": "41",
                         "type": "grupo",
                         "startNode": "5",
