@@ -149,6 +149,8 @@
 
                         .on("click", function(d) { // Toma Url del nodo
                         window.open(d.properties.url); 
+
+
                         //click(d)
                     })  
                     /*   .on('dblclick', function(d) {
@@ -161,10 +163,10 @@
                         .on('mouseenter', function(d) {
                         if (info) {
                             updateInfo(d);
-                            
+
                         }
-                        
-                        
+
+
 
                         if (typeof options.onNodeMouseEnter === 'function') {
                             options.onNodeMouseEnter(d);
@@ -429,6 +431,7 @@
                             return "outline link"
                         }
                     })
+                    //.attr('class', "outline link")
                         .style('stroke', function(d){
                         if(d.startNode=="1" || d.startNode=="2"){
                             return options.colors[0]
@@ -655,6 +658,37 @@
                     //                           .velocityDecay(0.8)
                     //                           .force('x', d3.force().strength(0.002))
                     //                           .force('y', d3.force().strength(0.002))
+                    //                    .force("x", d3.forceX(function(d){
+                    //                        if(d.group === "2"){
+                    //                            return "300px"
+                    //                        } 
+                    //                        if (d.group === "1"){
+                    //                            return "500px"
+                    //                        } 
+                    //                    }))
+
+
+                    //                    .force("y", d3.forceY(function(d){
+                    //                        if(d.cuatrimestre=="1"){
+                    //                            return 400
+                    //                        }
+                    //                        if(d.cuatrimestre=="2"){
+                    //                            return 20
+                    //                        }
+                    //                        if(d.cuatrimestre=="3"){
+                    //                            return 100
+                    //                        }
+                    //                        if(d.cuatrimestre=="4"){
+                    //                            return 600
+                    //                        }
+                    //                        if(d.cuatrimestre=="5"){
+                    //                            return 200
+                    //                        }
+                    //                        if(d.cuatrimestre=="6"){
+                    //                            return 800
+                    //                        }
+                    //                    } ))
+
                     .force('collide', d3.forceCollide().radius(function(d) {
                         return options.minCollision
                         /*if(d.type=="interseccion"){
@@ -664,12 +698,24 @@
                          options.nodeRadius * 3;
                         }*/
                     }).iterations(2))
-                    .force('charge', d3.forceManyBody())
+                    //.force('charge', d3.forceManyBody().strength(10))
+                    .force('charge', d3.forceManyBody()
+                           /*  .strength(function(d){
+                        if(d.type=="interseccion"){
+                            return 500
+                        }
+                        if(d.type=="grupo"){
+                            return 300
+                        }
+                        else{
+                            return -50
+                        }
+                    })*/
+                          )//forceManyBody hace que los nodos de atraigan, si el valor es positivo, o se repelen, si el valor es negativo. 
+
                     .force('link', d3.forceLink().id(function(d) {
                         return d.id;
-
-                    })
-                           .distance(function(d){
+                    }).distance(function(d){
                         if(d.type=="grupo"){
                             return options.nodeRadius
                         }
@@ -679,9 +725,72 @@
                         else{
                             return 500
                         }
-                    })
-                           .strength(1))
+                    }).strength(0,5))
+
                     .force('center', d3.forceCenter(svg.node().parentElement.parentElement.clientWidth / 2, svg.node().parentElement.parentElement.clientHeight / 2))
+
+                    .force('y', d3.forceY().y(function(d) {
+                        if(d.properties.cuatrimestre=="1" || d.id=="60" || d.id=="59"){
+                            return 1000
+                        }
+                        if(d.properties.cuatrimestre=="2" || d.properties.territorio=="PRODUCCION AUDIOVISUAL" || d.id=="61"){
+                            return 900
+                        }
+                        if(d.properties.cuatrimestre=="3" || d.properties.cuatrimestre=="6"){
+                            return 500
+                        }
+                        if(d.properties.cuatrimestre=="4" || d.properties.territorio=="DISPOSITIVOS E INTERFACES" || d.id=="55"){
+                            return 200
+                        }
+                        if(d.properties.cuatrimestre=="5" || d.id=="58"){
+                            return 0
+                        }
+                        if(d.properties.territorio=="NARRATIVAS DIGITALES INTERACTIVAS" || d.id=="54"){
+                            return 100
+                        }
+                        if(d.properties.territorio=="ALGORITMOS Y DATOS" || d.id=="56"){
+                            return 700
+                        }
+                        if(d.properties.territorio=="ARTE Y TECNOCIENCIA"){
+                            return 300
+                        }
+                        if(d.properties.territorio=="ARTE CONTEMPORANEO" || d.id=="62"){
+                            return 400
+                        }
+                        if(d.properties.territorio=="MATERIALIDAD EXPANDIDA" ){
+                            return 550
+                        }
+                        if(d.id=="57"){
+                            return 600
+                        }else{
+                            return 0
+                        }
+                    }))
+                    .force('x', d3.forceX().x(function(d) {
+                        if(d.properties.cuatrimestre=="1" || d.properties.cuatrimestre=="5" || d.properties.cuatrimestre=="6"){
+                            return 500
+                        }
+                        if(d.properties.cuatrimestre=="2" || d.properties.cuatrimestre=="4"){
+                            return 100
+                        }
+                        if(d.properties.cuatrimestre=="3"){
+                            return 0
+                        }
+                        if(d.id=="58" || d.id=="59"){
+                            return 700
+                        }
+                        if(d.properties.territorio=="NARRATIVAS DIGITALES INTERACTIVAS" || d.properties.territorio=="PRODUCCION AUDIOVISUAL" || d.properties.territorio=="ARTE Y TECNOCIENCIA" || d.id=="59" || d.id=="60"){
+                            return 800
+                        }
+                        if(d.properties.territorio=="DISPOSITIVOS E INTERFACES" || d.properties.territorio=="ALGORITMOS Y DATOS" || d.properties.territorio=="ARTE CONTEMPORANEO" || d.properties.territorio=="MATERIALIDAD EXPANDIDA" ){
+                            return 900
+                        }
+                        if(d.id=="57" || d.id=="62" || d.id=="55"){
+                            return 1100
+                        }else{
+                            return 1000
+                        }
+                    }))
                     .on('tick', function() {
                         tick();
                     })
