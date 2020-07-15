@@ -10,7 +10,7 @@
                         "name":"Laboratorio I",
                         "objetivo1": "Explorar procesos de posiblidades expresivas",
                         "objetivo2":"Familiarizarse con temas matemáticos para programación y física ondulator",
-                        "url": "/objetivos.html#1",
+                        "url": "#laboratorio1",
                         "cuatrimestre": "1",
                         "tramo": "comun",
                         "estilo": "punteado",
@@ -23,7 +23,7 @@
                         "name":"Seminario de Prácticas Artísticas",
                         "objetivo1": "Introducir de producciones del campo de las AE",
                         "tramo": "comun",
-                        "url": "/objetivos.html#2",
+                        "url": "#seminario1",
                         "cuatrimestre": "1",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -35,7 +35,7 @@
                         "name":"Laboratorio II",
                         "objetivo1": "Introducir la física de las tecnologías de las AE",
                         "objetivo2":"Conocer el funcionamiento de tecnologías, conceptos y diseño",
-                        "url": "/objetivos.html#3",
+                        "url": "#laboratorio2",
                         "tramo": "comun",
                         "cuatrimestre": "2",
                         "estilo": "punteado",
@@ -48,7 +48,7 @@
                         "name":"Seminario de Pensamiento Tecno-científico",
                         "objetivo1": "Familiarizarse con la historia de la tecno-ciencia",
                         "objetivo2":"Introducción a la epistemología y el pensamiento científico",
-                        "url": "/objetivos.html#4",
+                        "url": "#seminario2",
                         "tramo": "comun",
                         "cuatrimestre": "2",
                         "estilo": "punteado",
@@ -62,7 +62,7 @@
                         "objetivo1": "Programar datos y sonificar información",
                         "objetivo2":"Familiarizarse con las estructuras sonoras",
                         "tramo": "comun",
-                        "url": "/objetivos.html#5",
+                        "url": "#laboratorio3",
                         "cuatrimestre": "3",
                         "estilo": "punteado",
                         "lineas":"1"
@@ -74,7 +74,7 @@
                         "name":"Tecnologías Sonoras y Visuales",
                         "objetivo1": "Introducir al hardware de los procesos analógicos y digitales",
                         "tramo": "comun",
-                        "url": "/objetivos.html#6",
+                        "url": "#tecnologias",
                         "cuatrimestre": "3",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -87,7 +87,7 @@
                         "objetivo1": "Manipular datos y programar visualización de información",
                         "objetivo2":"Familiarizarse con la estructura visual",
                         "tramo": "comun",
-                        "url": "/objetivos.html#7",
+                        "url": "#laboratorio4",
                         "cuatrimestre": "4",
                         "estilo": "punteado",
                         "lineas":"1"
@@ -100,7 +100,7 @@
                         "objetivo1": "Diseñar y adquirir pericia en el procesamiento de materiales",
                         "objetivo2":"Manejo de herramientas y máquinas",
                         "tramo": "comun",
-                        "url": "/objetivos.html#8",
+                        "url": "#materiales",
                         "cuatrimestre": "4",
                         "estilo": "punteado",
                         "lineas":"4"
@@ -113,7 +113,7 @@
                         "objetivo1": "Programar estructura de datos",
                         "objetivo2":"Ciencias físicas vinculadas a taller de electrónica",
                         "tramo": "comun",
-                        "url": "/objetivos.html#9",
+                        "url": "#laboratorio5",
                         "cuatrimestre": "5",
                         "estilo": "punteado",
                         "lineas":"1"
@@ -126,7 +126,7 @@
                         "objetivo1": "Familiarización con las estéticas de la imagen y sonido",
                         "objetivo2":"Manejo de las estructuras, composición y morfología de la imagen y sonido",
                         "tramo": "comun",
-                        "url": "/objetivos.html#10",
+                        "url": "#estructuras",
                         "cuatrimestre": "5",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -139,7 +139,7 @@
                         "objetivo1": "Manejo de tecnologías de producción de imagen y sonido",
                         "objetivo2":"Explorar expresividad en narrativas con tecnologías de sonido e imagen",
                         "tramo": "comun",
-                        "url": "/objetivos.html#11",
+                        "url": "#produccion",
                         "cuatrimestre": "5",
                         "estilo": "punteado",
                         "lineas":"4"
@@ -151,7 +151,7 @@
                         "name":"Laboratorio VI",
                         "objetivo1": "Construir interfaces mecatrónicas controladas",
                         "tramo": "comun",
-                        "url": "/objetivos.html#12",
+                        "url": "",
                         "cuatrimestre": "6",
                         "estilo": "punteado",
                         "lineas":"1"
@@ -164,7 +164,7 @@
                         "objetivo1": "Familiarización con producciones de AE globales y regionales",
                         "objetivo2":"Analizar obras de AE desde perspectivas integradas de Arte-Ciencia-Tecnología",
                         "tramo": "comun",
-                        "url": "/objetivos.html#13",
+                        "url": "",
                         "cuatrimestre": "6",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -188,7 +188,6 @@
                     "properties": {
                         "name":"Informática Imagen",
                         "tramo": "comun",
-                        "cuatrimestre": "1",
                         "estilo": "comunes",
                         "lineas":"2"
                     }
@@ -199,7 +198,6 @@
                     "properties": {
                         "name":"Computación Algoritmos y Datos",
                         "tramo": "comun",
-                        "cuatrimestre": "2",
                         "estilo": "comunes",
                         "lineas":"3"
                     }
@@ -209,7 +207,6 @@
                     "properties": {
                         "name": "Inglés I/Francés I",
                         "tramo": "comun",
-                        "cuatrimestre": "3",
                         "estilo": "comunes",
                         "lineas":"1"
                     }
@@ -219,7 +216,6 @@
                     "properties": {
                         "name": "Inglés II/Francés II",
                         "tramo": "comun",
-                        "cuatrimestre": "4",
                         "estilo": "comunes",
                         "lineas":"1"
                     }
@@ -229,7 +225,6 @@
                     "properties": {
                         "name": "Introducción a la Problemática del Mundo Contemporáneo",
                         "tramo": "comun",
-                        "cuatrimestre": "1",
                         "estilo": "comunes",
                         "lineas":"4"
                     }
@@ -239,7 +234,6 @@
                     "properties": {
                         "name": "Problemas de Historia del Siglo XX",
                         "tramo": "comun",
-                        "cuatrimestre": "2",
                         "estilo": "comunes",
                         "lineas":"3"
                     }
@@ -249,7 +243,6 @@
                     "properties": {
                         "name": "Cuestiones de Sociología Economía y Política",
                         "tramo": "comun",
-                        "cuatrimestre": "3",
                         "estilo": "comunes",
                         "lineas":"4"
                     }                        
@@ -259,7 +252,6 @@
                     "properties": {
                         "name": "Cultura Contemporánea",
                         "tramo": "comun",
-                        "cuatrimestre": "4",
                         "estilo": "comunes",
                         "lineas":"2"
                     }
@@ -1131,9 +1123,9 @@
                             "estilo": "invisible"
                         } 
                     }, {
-                        
+
                         "id": "35",
-                        "type": "grupo",
+                        "type": "comunes",
                         "startNode": "1",
                         "endNode": "15",
                         "properties": {
@@ -1141,16 +1133,16 @@
                         } 
                     }, {
                         "id": "36",
-                        "type": "grupo",
+                        "type": "comunes",
                         "startNode": "1",
                         "endNode": "19",
                         "properties": {
                             "estilo": "invisible"
                         } 
                     }, {
-                        
+
                         "id": "38",
-                        "type": "grupo",
+                        "type": "comunes",
                         "startNode": "3",
                         "endNode": "16",
                         "properties": {
@@ -1158,16 +1150,16 @@
                         } 
                     }, {
                         "id": "39",
-                        "type": "grupo",
+                        "type": "comunes",
                         "startNode": "3",
                         "endNode": "20",
                         "properties": {
                             "estilo": "invisible"
                         } 
                     }, {
-                        
+
                         "id": "41",
-                        "type": "grupo",
+                        "type": "comunes",
                         "startNode": "5",
                         "endNode": "17",
                         "properties": {
@@ -1175,7 +1167,7 @@
                         } 
                     }, {
                         "id": "42",
-                        "type": "grupo",
+                        "type": "comunes",
                         "startNode": "5",
                         "endNode": "21",
                         "properties": {
@@ -1191,7 +1183,7 @@
                         }
                     }, {
                         "id": "44",
-                        "type": "grupo",
+                        "type": "comunes",
                         "startNode": "7",
                         "endNode": "18",
                         "properties": {
@@ -1199,7 +1191,7 @@
                         }
                     }, {
                         "id": "45",
-                        "type": "grupo",
+                        "type": "comunes",
                         "startNode": "7",
                         "endNode": "22",
                         "properties": {
