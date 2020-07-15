@@ -148,10 +148,13 @@
                     })
 
                         .on("click", function(d) { // Toma Url del nodo
-                        window.open(d.properties.url); 
+                        //window.open(d.properties.url); 
+                        /*var modals = d.properties.url;
+                        if (window.location.hash && ~modals.indexOf(window.location.hash)) {
+                            $(window.location.hash).modal();
+                        }*/
 
-
-                        //click(d)
+                        click(d)
                     })  
                     /*   .on('dblclick', function(d) {
                         stickNode(d);
@@ -232,21 +235,23 @@
                         .attr("fill-opacity", "0.4")
                 }
 
-                /*function click(d) { 
+                function click(d) { 
                     //node.attr("xlink:href",function(d){return d.url;})
                     node.attr("data-toggle", "modal")
-                    node.attr("xlink:href","#myModal")
-                    datum(d)
+                    node.attr("xlink:href", function(d){
+                        return d.properties.url
+                    })
+                    //datum(d)
 
-                    $('#myModal').on('show.bs.modal', function(d) {
+                    /*$('#myModal').on('shown', function(d) {
 
                         let modalTitle = d3.selectAll("h4.modal-title");
                         modalTitle.text(d.properties.name);
                         let modalBody = d3.selectAll(".modal-body");
                         modalBody.html("Propósitos: " + d.properties.objetivo1 + "<br>" + d.properties.objetivo2);
-                    })
+                    })*/
 
-                }*/
+                }
 
 
 
@@ -698,8 +703,15 @@
                          options.nodeRadius * 3;
                         }*/
                     }).iterations(2))
+                    
                     //.force('charge', d3.forceManyBody().strength(10))
-                    .force('charge', d3.forceManyBody()
+                    .force('charge', d3.forceManyBody().strength(function(d){
+                        if(d.type=="comunes"){
+                            return -20
+                        }else{
+                            return 1
+                        }
+                    })
                            /*  .strength(function(d){
                         if(d.type=="interseccion"){
                             return 500
@@ -716,12 +728,13 @@
                     .force('link', d3.forceLink().id(function(d) {
                         return d.id;
                     }).distance(function(d){
-                        if(d.type=="grupo"){
+                        if(d.type==="grupo"){
                             return options.nodeRadius
                         }
-                        if(d.type=="interseccion"){
+                        if(d.type==="interseccion"){
                             return options.nodeRadius*0.5
                         }
+                        
                         else{
                             return 500
                         }
@@ -733,14 +746,38 @@
                         if(d.properties.cuatrimestre=="1" || d.id=="60" || d.id=="59"){
                             return 1000
                         }
+                        if(d.id=="19"){
+                            return 1070
+                        }
+                        if(d.id=="15"){
+                            return 1050
+                        }
                         if(d.properties.cuatrimestre=="2" || d.properties.territorio=="PRODUCCION AUDIOVISUAL" || d.id=="61"){
                             return 900
+                        }
+                        if(d.id=="20"){
+                            return 970
+                        }
+                        if(d.id=="16"){
+                            return 980
                         }
                         if(d.properties.cuatrimestre=="3" || d.properties.cuatrimestre=="6"){
                             return 500
                         }
+                        if(d.id=="21"){
+                            return 450
+                        }
+                        if(d.id=="17" ){
+                            return 570
+                        }
                         if(d.properties.cuatrimestre=="4" || d.properties.territorio=="DISPOSITIVOS E INTERFACES" || d.id=="55"){
                             return 200
+                        }
+                        if(d.id=="22"){
+                            return 280
+                        }
+                        if(d.id=="18" ){
+                            return 120
                         }
                         if(d.properties.cuatrimestre=="5" || d.id=="58"){
                             return 0
@@ -767,14 +804,35 @@
                         }
                     }))
                     .force('x', d3.forceX().x(function(d) {
-                        if(d.properties.cuatrimestre=="1" || d.properties.cuatrimestre=="5" || d.properties.cuatrimestre=="6"){
+                        if(d.properties.cuatrimestre=="1" || d.properties.cuatrimestre=="5" || d.properties.cuatrimestre=="6" || d.id=="19"){
                             return 500
+                        }
+                        if(d.id=="15"){
+                            return 560
                         }
                         if(d.properties.cuatrimestre=="2" || d.properties.cuatrimestre=="4"){
                             return 100
                         }
+                        if(d.id=="22"){
+                            return 80
+                        }
+                        if(d.id=="18" ){
+                            return 110
+                        }
+                        if(d.id=="20"){
+                            return 170
+                        }
+                        if(d.id=="16" ){
+                            return 180
+                        }
                         if(d.properties.cuatrimestre=="3"){
                             return 0
+                        }
+                        if(d.id=="21"){
+                            return 80
+                        }
+                        if(d.id=="17" ){
+                            return 50
                         }
                         if(d.id=="58" || d.id=="59"){
                             return 700
@@ -791,6 +849,7 @@
                             return 1000
                         }
                     }))
+                    
                     .on('tick', function() {
                         tick();
                     })
