@@ -8,8 +8,8 @@
                     "labels": ["Cuatrimestre 1"],
                     "properties": {
                         "name":"Laboratorio I",
-                        "objetivo1": "Explorar procesos de posiblidades expresivas",
-                        "objetivo2":"Familiarizarse con temas matemáticos para programación y física ondulator",
+                        "objetivo1": "Explorar posibilidades expresivas",
+                        "objetivo2":"Propiciar pensamiento matemático orientado a algoritmos y física ondulatoria",
                         "url": "#laboratorio1",
                         "cuatrimestre": "1",
                         "tramo": "comun",
@@ -21,7 +21,8 @@
                     "labels": ["Cuatrimestre 1"],
                     "properties": {
                         "name":"Seminario de Prácticas Artísticas",
-                        "objetivo1": "Introducir de producciones del campo de las AE",
+                        "objetivo1": "Introducir prácticas artísticas relacionadas al las AE",
+                        "objetivo2": "Introducir el pensamiento estético",
                         "tramo": "comun",
                         "url": "#seminario1",
                         "cuatrimestre": "1",
@@ -33,8 +34,8 @@
                     "labels": ["Cuatrimestre 2"],
                     "properties": {
                         "name":"Laboratorio II",
-                        "objetivo1": "Introducir la física de las tecnologías de las AE",
-                        "objetivo2":"Conocer el funcionamiento de tecnologías, conceptos y diseño",
+                        "objetivo1": "Introducir principios físicos fundamentales de las tecnologías de las AE",
+                        "objetivo2": "Investigar procesos involucrados en el funcionamiento de tecnologías de imagen y sonido",
                         "url": "#laboratorio2",
                         "tramo": "comun",
                         "cuatrimestre": "2",
@@ -46,8 +47,8 @@
                     "labels": ["Cuatrimestre 2"],
                     "properties": {
                         "name":"Seminario de Pensamiento Tecno-científico",
-                        "objetivo1": "Familiarizarse con la historia de la tecno-ciencia",
-                        "objetivo2":"Introducción a la epistemología y el pensamiento científico",
+                        "objetivo1": "Aproximar conocimientos históricos de la tecno-ciencia",
+                        "objetivo2":"Ofrecer una introducción a la epistemología y el pensamiento científico",
                         "url": "#seminario2",
                         "tramo": "comun",
                         "cuatrimestre": "2",
@@ -59,8 +60,9 @@
                     "labels": ["Cuatrimestre 3"],
                     "properties": {
                         "name":"Laboratorio III",
-                        "objetivo1": "Programar datos y sonificar información",
-                        "objetivo2":"Familiarizarse con las estructuras sonoras",
+                        "objetivo1": "Brindar técnicas para la obtención, procesamiento y sonificación de datos",
+                        "objetivo2":"Incentivar la experimentación con las herramientas propuestas en diálogo con lo sonoro/musical",
+
                         "tramo": "comun",
                         "url": "#laboratorio3",
                         "cuatrimestre": "3",
@@ -72,7 +74,7 @@
                     "labels": ["Cuatrimestre 3"],
                     "properties": {
                         "name":"Tecnologías Sonoras y Visuales",
-                        "objetivo1": "Introducir al hardware de los procesos analógicos y digitales",
+                        "objetivo1": "Propiciar la utilización de hardware analógico y digital orientado a imagen y sonido",
                         "tramo": "comun",
                         "url": "#tecnologias",
                         "cuatrimestre": "3",
@@ -84,8 +86,8 @@
                     "labels": ["Cuatrimestre 4"],
                     "properties": {
                         "name":"Laboratorio IV",
-                        "objetivo1": "Manipular datos y programar visualización de información",
-                        "objetivo2":"Familiarizarse con la estructura visual",
+                        "objetivo1": "Ofrecer herramientas técnico-teóricas para la visualización de información",
+                        "objetivo2":"Brindar herramientas técnico-teóricas para producir y/o procesar imágenes fijas y en movimiento",
                         "tramo": "comun",
                         "url": "#laboratorio4",
                         "cuatrimestre": "4",
@@ -110,8 +112,8 @@
                     "labels": ["Cuatrimestre 5"],
                     "properties": {
                         "name":"Laboratorio V",
-                        "objetivo1": "Programar estructura de datos",
-                        "objetivo2":"Ciencias físicas vinculadas a taller de electrónica",
+                        "objetivo1": "Propiciar el desarrollo de proyectos de electrónica",
+                        "objetivo2":"Aproximar conceptos matemáticos y físicos vinculados al taller de electrónica",
                         "tramo": "comun",
                         "url": "#laboratorio5",
                         "cuatrimestre": "5",
@@ -123,8 +125,8 @@
                     "labels": ["Cuatrimestre 5"],
                     "properties": {
                         "name":"Estructuras Sonoras y Visuales",
-                        "objetivo1": "Familiarización con las estéticas de la imagen y sonido",
-                        "objetivo2":"Manejo de las estructuras, composición y morfología de la imagen y sonido",
+                        "objetivo1": "Ofrecer un panorama de diferentes estéticas de la imagen y el sonido",
+                        "objetivo2": "Propiciar el análisis de diferentes estructuras de la imagen y el sonido",
                         "tramo": "comun",
                         "url": "#estructuras",
                         "cuatrimestre": "5",
@@ -136,8 +138,8 @@
                     "labels": ["Cuatrimestre 5"],
                     "properties": {
                         "name":"Taller de Producción y Postproducción Sonora y Visual I",
-                        "objetivo1": "Manejo de tecnologías de producción de imagen y sonido",
-                        "objetivo2":"Explorar expresividad en narrativas con tecnologías de sonido e imagen",
+                        "objetivo1": "Propiciar la utilización de tecnologías de producción de imagen y sonido",
+                        "objetivo2":"Explorar narrativas de las tecnologías de sonido e imagen",
                         "tramo": "comun",
                         "url": "#produccion",
                         "cuatrimestre": "5",
@@ -149,7 +151,7 @@
                     "labels": ["Cuatrimestre 6"],
                     "properties": {
                         "name":"Laboratorio VI",
-                        "objetivo1": "Construir interfaces mecatrónicas controladas",
+                        "objetivo1": "Propiciar la construcción interfaces mecatrónicas controladas",
                         "tramo": "comun",
                         "url": "",
                         "cuatrimestre": "6",
@@ -161,8 +163,8 @@
                     "labels": ["Cuatrimestre 6"],
                     "properties": {
                         "name":"Seminario de Artes Electrónicas",
-                        "objetivo1": "Familiarización con producciones de AE globales y regionales",
-                        "objetivo2":"Analizar obras de AE desde perspectivas integradas de Arte-Ciencia-Tecnología",
+                        "objetivo1": "Ofrecer un panorama global y regional de producciones de AE",
+                        "objetivo2":"Favorecer el análisis de obras de AE a partir de perspectivas integradas de Arte-Ciencia-Tecnología",
                         "tramo": "comun",
                         "url": "",
                         "cuatrimestre": "6",
@@ -174,9 +176,10 @@
                     "labels": ["Cuatrimestre 6"],
                     "properties": {
                         "name":"Taller de Producción y Postproducción Sonora y Visual II",
-                        "objetivo1": "Manejar técnicas de producción y postproducción en múltiples plataformas",
-                        "objetivo2":"Conocer técnicas avanzadas de registros sonoros y visuales",
+                        "objetivo1": "Favorecer el empleo de técnicas de producción y postproducción en múltiples plataformas",
+                        "objetivo2":"Ofrecer herramientas avanzadas para el registro sonoro y visual",
                         "tramo": "comun",
+                        "url": "",
                         "cuatrimestre": "6",
                         "estilo": "punteado",
                         "lineas":"4"
@@ -184,20 +187,20 @@
                 }, {
                     "id": "15",
                     "labels": ["Comunes"],
-                    "group":2,
                     "properties": {
                         "name":"Informática Imagen",
                         "tramo": "comun",
+                        "url": "",
                         "estilo": "comunes",
                         "lineas":"2"
                     }
                 }, {
                     "id": "16",
                     "labels": ["Comunes"],
-                    "group":1,
                     "properties": {
                         "name":"Computación Algoritmos y Datos",
                         "tramo": "comun",
+                        "url": "",
                         "estilo": "comunes",
                         "lineas":"3"
                     }
@@ -207,6 +210,7 @@
                     "properties": {
                         "name": "Inglés I/Francés I",
                         "tramo": "comun",
+                        "url": "",
                         "estilo": "comunes",
                         "lineas":"1"
                     }
@@ -216,6 +220,7 @@
                     "properties": {
                         "name": "Inglés II/Francés II",
                         "tramo": "comun",
+                        "url": "",
                         "estilo": "comunes",
                         "lineas":"1"
                     }
@@ -225,6 +230,7 @@
                     "properties": {
                         "name": "Introducción a la Problemática del Mundo Contemporáneo",
                         "tramo": "comun",
+                        "url": "",
                         "estilo": "comunes",
                         "lineas":"4"
                     }
@@ -234,6 +240,7 @@
                     "properties": {
                         "name": "Problemas de Historia del Siglo XX",
                         "tramo": "comun",
+                        "url": "",
                         "estilo": "comunes",
                         "lineas":"3"
                     }
@@ -243,6 +250,7 @@
                     "properties": {
                         "name": "Cuestiones de Sociología Economía y Política",
                         "tramo": "comun",
+                        "url": "",
                         "estilo": "comunes",
                         "lineas":"4"
                     }                        
@@ -252,6 +260,7 @@
                     "properties": {
                         "name": "Cultura Contemporánea",
                         "tramo": "comun",
+                        "url": "",
                         "estilo": "comunes",
                         "lineas":"2"
                     }
@@ -262,6 +271,7 @@
                         "name": "Laboratorio de Tecnologías Inmersivas Básico",
                         "objetivo1": "Diseñar narrativas generativas",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "NARRATIVAS DIGITALES INTERACTIVAS",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -273,6 +283,7 @@
                         "name": "Laboratorio de Tecnologías Inmersivas Avanzado",
                         "objetivo1": "Desarrollar narrativas aumentadas en multiplataformas",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "NARRATIVAS DIGITALES INTERACTIVAS",
                         "estilo": "punteado",
                         "lineas":"4"
@@ -284,6 +295,7 @@
                         "name": "Videojuegos Básico",
                         "objetivo1": "Plantear, diseñar, programar y desarrollar un videojuego",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "NARRATIVAS DIGITALES INTERACTIVAS",
                         "estilo": "punteado",
                         "lineas":"2"
@@ -295,6 +307,7 @@
                         "name": "Videojuegos Avanzado",
                         "objetivo1": "Desarrollar la interacción con el usuario y programar en diferentes soportes",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "NARRATIVAS DIGITALES INTERACTIVAS",
                         "estilo": "punteado",
                         "lineas":"2"
@@ -307,6 +320,7 @@
                         "objetivo1": "Desarrollo de guion y narrativas",
                         "objetivo2":"Familiarización con diferentes materiales y procesos",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "NARRATIVAS DIGITALES INTERACTIVAS",
                         "estilo": "punteado",
                         "lineas":"1"
@@ -318,6 +332,7 @@
                         "name": "Animación Avanzada",
                         "objetivo1": "Manejar técnicas de animación digital y programación",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "NARRATIVAS DIGITALES INTERACTIVAS",
                         "estilo": "punteado",
                         "lineas":"2"
@@ -329,6 +344,7 @@
                         "name": "Laboratorio de Interfaces Básico",
                         "objetivo1": "Desarrollar proyectos de interfaces en diversos soportes y formas",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "DISPOSITIVOS E INTERFACES",
                         "estilo": "punteado",
                         "lineas":"2"
@@ -340,6 +356,7 @@
                         "name": "Laboratorio de Interfaces Avanzado",
                         "objetivo1": "Desarrollar interfaces considerando su dimensión estética",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "DISPOSITIVOS E INTERFACES",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -351,6 +368,7 @@
                         "name": "Laboratorio de Computación Física",
                         "objetivo1": "Diseñar y desarrollar dispositivos interactivos digitales",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "DISPOSITIVOS E INTERFACES",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -363,6 +381,7 @@
                         "objetivo1": "Desarrollar circuitería orientada a proyectos",
                         "objetivo2": "Familiarizarse con métodos manuales e industriales de armado de circuito",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "DISPOSITIVOS E INTERFACES",
                         "estilo": "punteado",
                         "lineas":"2"
@@ -375,6 +394,7 @@
                         "objetivo1": "Diseñar de hardware y software para dispositivos autónomos",
                         "objetivo2": "Incorporar elementos formales de diseño al dispositivo",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "DISPOSITIVOS E INTERFACES",
                         "estilo": "punteado",
                         "lineas":"2"
@@ -387,6 +407,7 @@
                         "objetivo1": "Diseñar y montar propuestas performáticas",
                         "objetivo2": "Manejo de tecnologías de audio y sonido para la performance",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "PRODUCCION AUDIOVISUAL",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -398,6 +419,7 @@
                         "name": "Producción de Imagen",
                         "objetivo1": "Familiarizarse con tecnologías de registro y postproducción de imagen",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "PRODUCCION AUDIOVISUAL",
                         "estilo": "punteado",
                         "lineas":"2"
@@ -409,6 +431,7 @@
                         "name": "Refuerzo Sonoro, Registro y Grabación",
                         "objetivo1": "Diseñar y desarrollar proyectos de sonorización",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "PRODUCCION AUDIOVISUAL",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -420,6 +443,7 @@
                         "name": "Composición con Medios Electrónicos y Electroacústicos",
                         "objetivo1": "Trabajar sobre proyectos de composición",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "PRODUCCION AUDIOVISUAL",
                         "estilo": "punteado",
                         "lineas":"4"
@@ -431,6 +455,7 @@
                         "name": "Producción y Postproducción Sonora",
                         "objetivo1": "Familiarizarse con tecnologías de registro y postproducción de sonido",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "PRODUCCION AUDIOVISUAL",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -442,6 +467,7 @@
                         "name": "Laboratorio de Creación Algorítmica",
                         "objetivo1": "Manejar algoritmos aplicados a la música",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "ALGORITMOS Y DATOS",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -453,6 +479,7 @@
                         "name": "Tecnologías Hipermediales",
                         "objetivo1": "Desarrollar aplicaciones orientadas a navegadores",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "ALGORITMOS Y DATOS",
                         "estilo": "punteado",
                         "lineas":"2"
@@ -464,6 +491,7 @@
                         "name": "Laboratorio de Inteligencia Artificial y Arte",
                         "objetivo1": "Familiarizarse con la programación de inteligencia artificial",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "ALGORITMOS Y DATOS",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -475,6 +503,7 @@
                         "name": "Minería de Datos",
                         "objetivo1": "Programar algoritmos, obtener y procesar datos",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "ALGORITMOS Y DATOS",
                         "estilo": "punteado",
                         "lineas":"1"
@@ -486,6 +515,7 @@
                         "name": "Seminarios Complementarios de Programación",
                         "objetivo1": "Familiarizarse con programas necesarios para AE",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "ALGORITMOS Y DATOS",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -497,6 +527,7 @@
                         "name": "Artes Electrónicas",
                         "objetivo1": "Estudio de referencias historicas de las AE global y regional",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "ARTE Y TECNOCIENCIA",
                         "estilo": "punteado",
                         "lineas":"2"
@@ -509,6 +540,7 @@
                         "objetivo1": "Estudio de referencias históricas de las prácticas artísticas vinculadas a AE",
                         "objetivo2": "Articulación creativa de conceptos y teorías para su aplicación al análisis de obras en AE",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "ARTE Y TECNOCIENCIA",
                         "estilo": "punteado",
                         "lineas":"2"
@@ -521,6 +553,7 @@
                         "objetivo1": "Estudio de historia y epistemología de la ciencia y tecnología",
                         "objetivo2": "Articulación creativa de conceptos y teorías de la tecno-ciencia",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "ARTE Y TECNOCIENCIA",
                         "estilo": "punteado",
                         "lineas":"2"
@@ -533,6 +566,7 @@
                         "objetivo1": "Estudiar temas y contextos de ciencia y tecnología vinculados al arte de forma integrada",
                         "objetivo2": "Desarrollar proyectos de investigación teórica interdisciplinar",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "ARTE Y TECNOCIENCIA",
                         "estilo": "punteado",
                         "lineas":"2"
@@ -545,6 +579,7 @@
                         "objetivo1": "Desarrollar obra",
                         "objetivo2": "Estudio de movimientos y artistas de referencia",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "ARTE CONTEMPORANEO",
                         "estilo": "punteado",
                         "lineas":"4"
@@ -557,6 +592,7 @@
                         "objetivo1": "Desarrollar obra / Análisis de obra",
                         "objetivo2": "Estudio y análisis de contextos de validación artísticos",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "ARTE CONTEMPORANEO",
                         "estilo": "punteado",
                         "lineas":"4"
@@ -568,6 +604,7 @@
                     "properties": {
                         "name": "Seminario de Pensamiento sobre la Imagen",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "ARTE CONTEMPORANEO",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -581,6 +618,7 @@
                         "objetivo1": "Desarrollar interfaces vinculadas al cuerpo",
                         "objetivo2": "Elaborar diferentes aproximaciones a la noción de cuerpo",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "MATERIALIDAD EXPANDIDA",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -593,6 +631,7 @@
                         "objetivo1": "Familiarizarse con el diseño y procesos de diferentes materiales",
                         "objetivo2": "Conocer diferentes tecnologías de trabajo sobre materiales",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "MATERIALIDAD EXPANDIDA",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -606,6 +645,7 @@
                         "objetivo1": "Manejo experimental de diferentes técnicas de biología sintética",
                         "objetivo2": "Dar referencias en el campo de las AE",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "MATERIALIDAD EXPANDIDA",
                         "estilo": "punteado",
                         "lineas":"2"
@@ -616,6 +656,7 @@
                     "properties": {
                         "name": "Trabajo Integrador de Artes Electrónicas",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio":"FINAL",
                         "estilo": "punteado",
                         "lineas":"4"
@@ -626,6 +667,7 @@
                     "properties": {
                         "name": "Trayectos Formativos Alternativos",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio":"TRAYECTOS FORMATIVOS ALTERNATIVOS",
                         "estilo": "punteado",
                         "lineas":"3"
@@ -636,6 +678,7 @@
                     "properties": {
                         "name": "Ingeniería en Computación",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "OTRAS CARRERAS",
                         "estilo": "solido",
                         "lineas":"2"
@@ -646,6 +689,7 @@
                     "properties": {
                         "name": "Licenciatura en Psicomotricidad",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "OTRAS CARRERAS",
                         "estilo": "solido",
                         "lineas":"2"
@@ -656,6 +700,7 @@
                     "properties": {
                         "name": "Licenciatura en Producción Audiovisual",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "OTRAS CARRERAS",
                         "estilo": "solido",
                         "lineas":"3"
@@ -666,6 +711,7 @@
                     "properties": {
                         "name": "Ingeniería de Sonido",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "OTRAS CARRERAS",
                         "estilo": "solido",
                         "lineas":"2"
@@ -676,6 +722,7 @@
                     "properties": {
                         "name": "Especialización en sonido",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "OTRAS CARRERAS",
                         "estilo": "solido",
                         "lineas":"2"
@@ -686,6 +733,7 @@
                     "properties": {
                         "name": "Licenciatura en Música",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "OTRAS CARRERAS",
                         "estilo": "solido",
                         "lineas":"2"
@@ -696,6 +744,7 @@
                     "properties": {
                         "name": "MUNTREF CENTRO DE ARTE y CIENCIA",
                         "tramo": "electivo",
+                        "url": "",
                         "territorio": "TRAYECTOS FORMATIVOS ALTERNATIVOS",
                         "estilo": "solido",
                         "lineas":"2"
@@ -705,7 +754,7 @@
                     "labels": ["Cuatrimestre 1"],
                     "properties": {
                         "tipo": "intersección",
-                        "objetivo1": "Introducir prácticas artísticas relacionadas a las AE",
+                        "objetivo1": "Introducir producciones del campo de las AE",
                         "objetivo2":"",
                         "cuatrimestre":"1",
                         "estilo": "solido"
@@ -715,7 +764,7 @@
                     "labels": ["Cuatrimestre 2"],
                     "properties": {
                         "tipo": "intersección",
-                        "objetivo1": "Abordar el marco epistemológico de la ciencia y tecnologia en referencia a AE",
+                        "objetivo1": "Aproximar el marco epistemológico de la ciencia y la tecnología en referencia a AE",
                         "objetivo2":"",
                         "cuatrimestre":"2",
                         "estilo": "solido"
@@ -725,7 +774,7 @@
                     "labels": ["Cuatrimestre 3"],
                     "properties": {
                         "tipo": "intersección",
-                        "objetivo1": "Comprender las tecnologías sonoras y visuales de control y codificación de información",
+                        "objetivo1": "Investigar las tecnologías sonoras y visuales de control y codificación de información",
                         "objetivo2":"",
                         "cuatrimestre":"3",
                         "estilo": "solido"
@@ -735,7 +784,7 @@
                     "labels": ["Cuatrimestre 5"],
                     "properties": {
                         "tipo": "intersección",
-                        "objetivo1": "Incorporar estructuras de la imagen sonido en desarrollo de narrativas",
+                        "objetivo1": "Incorporar estructuras de la imagen y el sonido para el desarrollo de narrativas",
                         "objetivo2":"",
                         "cuatrimestre":"5",
                         "estilo": "solido"
@@ -745,7 +794,7 @@
                     "labels": ["Cuatrimestre 6"],
                     "properties": {
                         "tipo": "intersección",
-                        "objetivo1": "Elaborar un marco referencial sobre el desarrollo de interfaces en AE",
+                        "objetivo1": "Construir un marco referencial sobre el desarrollo de interfaces en AE",
                         "objetivo2":"",
                         "cuatrimestre":"6",
                         "estilo": "solido"
@@ -755,7 +804,7 @@
                     "labels": ["Cuatrimestre 6"],
                     "properties": {
                         "tipo": "intersección",
-                        "objetivo1": "Marco teórico y analítico de producciones de imagen y sonido en AE",
+                        "objetivo1": "Ofrecer un marco teórico y analítico para las producciones de las AE",
                         "objetivo2":"",
                         "cuatrimestre":"6",
                         "estilo": "solido"
@@ -865,8 +914,7 @@
                         "startNode": "1",
                         "endNode": "63",
                         "properties": {
-                            "estilo": "invisible",
-                            "value":1
+                            "estilo": "invisible"
                         }
                     }, {
                         "id": "2",
@@ -1948,3 +1996,5 @@
     }],
     "errors": []
 }
+
+
