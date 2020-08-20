@@ -71,6 +71,7 @@
                         nodeOutlineStroke: undefined,
                         nodeFillByType: undefined,
                         nodeRadius: 25,
+                        infoPanel: true,
                         relationshipColor: undefined,
                         zoomFit: false,
                         titled: false,
@@ -124,6 +125,42 @@
                         .style("fill", "#a5abb6");
                 }
 
+                function appendInfoPanel(container) {
+                    return container.append('div')
+                        .attr('class', 'neo4jd3-info')
+                }
+
+                function appendInfoElement(cls, isNode, property, value) {
+                    var elem = info.append('a');
+
+                    elem.attr('href', '#')
+                        .attr('class', cls)
+                        .html('<strong>' + property + '</strong>' + (value ? (': ' + value) : ''));
+
+                    if (!value) {
+                        elem.style('background-color', function(d) {
+                            return options.nodeOutlineFillColor ? options.nodeOutlineFillColor : (isNode ? class2color(property) : defaultColor());
+                        })
+                            .style('border-color', function(d) {
+                            return options.nodeOutlineFillColor ? class2darkenColor(options.nodeOutlineFillColor) : (isNode ? class2darkenColor(property) : defaultDarkenColor());
+                        })
+                            .style('color', function(d) {
+                            return options.nodeOutlineFillColor ? class2darkenColor(options.nodeOutlineFillColor) : '#fff';
+                        });
+                    }
+                }
+
+                function appendInfoElementClass(cls, node) {
+                    appendInfoElement(cls, true, node);
+                }
+
+                function appendInfoElementProperty(cls, property, value) {
+                    appendInfoElement(cls, false, property, value);
+                }
+
+                function appendInfoElementRelationship(cls, relationship) {
+                    appendInfoElement(cls, false, relationship);
+                }
 
                 function appendNode() {
                     return node.enter()
@@ -190,6 +227,7 @@
                               .on('end', dragEnded));
                 }
 
+
                 function appendNodeToGraph() {
                     var n = appendNode();
 
@@ -212,6 +250,17 @@
                             return options.nodeRadius * 1.16 
                         }else{
                             return options.nodeRadius
+                        }
+                    })
+                        .style("cursor", function(d){
+                        if(d.properties.url==""){
+                            return "auto"
+                        }
+                        if(d.properties.tipo=="intersección"){
+                            return "auto"
+                        }
+                        else{
+                            return "pointer"
                         }
                     })
                     //Rellenar el nodo por color según estilo
@@ -703,7 +752,7 @@
                          options.nodeRadius * 3;
                         }*/
                     }).iterations(2))
-                    
+
                     //.force('charge', d3.forceManyBody().strength(10))
                     .force('charge', d3.forceManyBody().strength(function(d){
                         if(d.type=="comunes"){
@@ -734,7 +783,7 @@
                         if(d.type==="interseccion"){
                             return options.nodeRadius*0.5
                         }
-                        
+
                         else{
                             return 500
                         }
@@ -849,7 +898,7 @@
                             return 1000
                         }
                     }))
-                    
+
                     .on('tick', function() {
                         tick();
                     })
@@ -1202,17 +1251,19 @@ Z`;
                 function updateInfo(d) {
                     clearInfo();
 
-                    if (d.labels) {
-                        appendInfoElementClass('class', d.labels[0]);
-                    } else {
-                        appendInfoElementRelationship('class', d.type);
+                    //if (d.labels) {
+                    appendInfoElementClass('class', d.labels[0]);
+                    //} else {
+                    //  appendInfoElementRelationship('class', d.type);
+                    //}
+                    if(d.properties.name){
+                        appendInfoElementProperty('property', d.properties.name);
                     }
 
-                    appendInfoElementProperty('property', '&lt;id&gt;', d.id);
 
-                    Object.keys(d.properties).forEach(function(property) {
+                    /*Object.keys(d.properties).forEach(function(property) {
                         appendInfoElementProperty('property', property, JSON.stringify(d.properties[property]));
-                    });
+                    });*/
                 }
 
                 function updateNodes(n) {
@@ -1292,4 +1343,3 @@ Z`;
 
         },{}]},{},[1])(1)
 });
-
