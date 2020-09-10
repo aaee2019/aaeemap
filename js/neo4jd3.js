@@ -256,7 +256,7 @@
                         if(d.properties.url==""){
                             return "auto"
                         }
-                        if(d.properties.tipo=="intersección"){
+                        if(d.properties.tipo=="Intersección"){
                             return "auto"
                         }
                         else{
@@ -394,7 +394,7 @@
                         .style ('font-size', '4px')
                         .attr('pointer-events', 'none')
                         .attr('text-anchor', function(d){
-                        if (d.properties.tipo=="intersección"){
+                        if (d.properties.tipo=="Intersección"){
                             return "middle"
                         }else{
                             return'left'
@@ -402,10 +402,10 @@
                     })
                         .attr("font-family","Roboto")
                         .attr('y', function(d){
-                        if (d.properties.tipo=="intersección" && d.properties.objetivo2 !=""){
+                        if (d.properties.tipo=="Intersección" && d.properties.objetivo2 !=""){
                             return "2.5px"
                         }
-                        if (d.properties.objetivo2=="" && d.properties.tipo=="intersección"){
+                        if (d.properties.objetivo2=="" && d.properties.tipo=="Intersección"){
                             return "0px"
                         }
                         if (d.properties.tramo=="comun" || d.properties.tramo=="electivo"){
@@ -426,7 +426,7 @@
                         .style ('font-size', '4px')
                         .attr('pointer-events', 'none')
                         .attr('text-anchor', function(d){
-                        if (d.properties.tipo=="intersección"){
+                        if (d.properties.tipo=="Intersección"){
                             return "middle"
                         }else{
                             return'left'
@@ -434,7 +434,7 @@
                     })
                         .attr("font-family","Roboto")
                         .attr('y', function(d){
-                        if (d.properties.tipo=="intersección"){
+                        if (d.properties.tipo=="Intersección"){
                             return "-2.5px"
                         }else{
                             return '-16px'
@@ -1258,6 +1258,9 @@ Z`;
                     //}
                     if(d.properties.name){
                         appendInfoElementProperty('property', d.properties.name);
+                    }
+                    if(d.properties.tipo){
+                        appendInfoElementProperty('property', d.properties.tipo);
                     }
 
 
