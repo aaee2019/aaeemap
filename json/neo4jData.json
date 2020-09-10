@@ -5,7 +5,7 @@
             "graph": {
                 "nodes": [{
                     "id": "1",
-                    "labels": ["Cuatrimestre 1"],
+                    "labels": ["Tramo común - Cuatrimestre 1"],
                     "properties": {
                         "name":"Laboratorio I",
                         "objetivo1": "Explorar posibilidades expresivas",
@@ -18,7 +18,7 @@
                     }
                 }, {
                     "id": "2",
-                    "labels": ["Cuatrimestre 1"],
+                    "labels": ["Tramo común - Cuatrimestre 1"],
                     "properties": {
                         "name":"Seminario de Prácticas Artísticas",
                         "objetivo1": "Introducir prácticas artísticas relacionadas al las AE",
@@ -31,7 +31,7 @@
                     }
                 }, {
                     "id": "3",
-                    "labels": ["Cuatrimestre 2"],
+                    "labels": ["Tramo común - Cuatrimestre 2"],
                     "properties": {
                         "name":"Laboratorio II",
                         "objetivo1": "Introducir principios físicos fundamentales de las tecnologías de las AE",
@@ -44,7 +44,7 @@
                     }
                 }, {
                     "id": "4",
-                    "labels": ["Cuatrimestre 2"],
+                    "labels": ["Tramo común - Cuatrimestre 2"],
                     "properties": {
                         "name":"Seminario de Pensamiento Tecno-científico",
                         "objetivo1": "Aproximar conocimientos históricos de la tecno-ciencia",
@@ -57,7 +57,7 @@
                     }
                 }, {
                     "id": "5",
-                    "labels": ["Cuatrimestre 3"],
+                    "labels": ["Tramo común - Cuatrimestre 3"],
                     "properties": {
                         "name":"Laboratorio III",
                         "objetivo1": "Brindar técnicas para la obtención, procesamiento y sonificación de datos",
@@ -71,7 +71,7 @@
                     }
                 }, {
                     "id": "6",
-                    "labels": ["Cuatrimestre 3"],
+                    "labels": ["Tramo común - Cuatrimestre 3"],
                     "properties": {
                         "name":"Tecnologías Sonoras y Visuales",
                         "objetivo1": "Propiciar la utilización de hardware analógico y digital orientado a imagen y sonido",
@@ -83,7 +83,7 @@
                     }
                 }, {
                     "id": "7",
-                    "labels": ["Cuatrimestre 4"],
+                    "labels": ["Tramo común - Cuatrimestre 4"],
                     "properties": {
                         "name":"Laboratorio IV",
                         "objetivo1": "Ofrecer herramientas técnico-teóricas para la visualización de información",
@@ -96,7 +96,7 @@
                     }
                 }, {
                     "id": "8",
-                    "labels": ["Cuatrimestre 4"],
+                    "labels": ["Tramo común - Cuatrimestre 4"],
                     "properties": {
                         "name":"Taller de Técnicas y Procesos de Materiales",
                         "objetivo1": "Diseñar y adquirir pericia en el procesamiento de materiales",
@@ -109,7 +109,7 @@
                     }
                 }, {
                     "id": "9",
-                    "labels": ["Cuatrimestre 5"],
+                    "labels": ["Tramo común - Cuatrimestre 5"],
                     "properties": {
                         "name":"Laboratorio V",
                         "objetivo1": "Propiciar el desarrollo de proyectos de electrónica",
@@ -122,7 +122,7 @@
                     }
                 }, {
                     "id": "10",
-                    "labels": ["Cuatrimestre 5"],
+                    "labels": ["Tramo común - Cuatrimestre 5"],
                     "properties": {
                         "name":"Estructuras Sonoras y Visuales",
                         "objetivo1": "Ofrecer un panorama de diferentes estéticas de la imagen y el sonido",
@@ -135,7 +135,7 @@
                     }
                 }, {
                     "id": "11",
-                    "labels": ["Cuatrimestre 5"],
+                    "labels": ["Tramo común - Cuatrimestre 5"],
                     "properties": {
                         "name":"Taller de Producción y Postproducción Sonora y Visual I",
                         "objetivo1": "Propiciar la utilización de tecnologías de producción de imagen y sonido",
@@ -148,7 +148,7 @@
                     }
                 }, {
                     "id": "12",
-                    "labels": ["Cuatrimestre 6"],
+                    "labels": ["Tramo común - Cuatrimestre 6"],
                     "properties": {
                         "name":"Laboratorio VI",
                         "objetivo1": "Propiciar la construcción interfaces mecatrónicas controladas",
@@ -160,7 +160,7 @@
                     }
                 }, {
                     "id": "13",
-                    "labels": ["Cuatrimestre 6"],
+                    "labels": ["Tramo común - Cuatrimestre 6"],
                     "properties": {
                         "name":"Seminario de Artes Electrónicas",
                         "objetivo1": "Ofrecer un panorama global y regional de producciones de AE",
@@ -173,7 +173,7 @@
                     }
                 }, {
                     "id": "14",
-                    "labels": ["Cuatrimestre 6"],
+                    "labels": ["Tramo común - Cuatrimestre 6"],
                     "properties": {
                         "name":"Taller de Producción y Postproducción Sonora y Visual II",
                         "objetivo1": "Favorecer el empleo de técnicas de producción y postproducción en múltiples plataformas",
@@ -186,7 +186,7 @@
                     }
                 }, {
                     "id": "15",
-                    "labels": ["Comunes"],
+                    "labels": ["Tramo común - Comunes"],
                     "properties": {
                         "name":"Informática Imagen",
                         "tramo": "comun",
@@ -196,7 +196,7 @@
                     }
                 }, {
                     "id": "16",
-                    "labels": ["Comunes"],
+                    "labels": ["Tramo común - Comunes"],
                     "properties": {
                         "name":"Computación Algoritmos y Datos",
                         "tramo": "comun",
@@ -206,7 +206,7 @@
                     }
                 }, {
                     "id": "17",
-                    "labels": ["Comunes"],
+                    "labels": ["Tramo común - Comunes"],
                     "properties": {
                         "name": "Inglés I/Francés I",
                         "tramo": "comun",
@@ -216,7 +216,7 @@
                     }
                 }, {
                     "id": "18",
-                    "labels": ["Comunes"],
+                    "labels": ["Tramo común - Comunes"],
                     "properties": {
                         "name": "Inglés II/Francés II",
                         "tramo": "comun",
@@ -226,7 +226,7 @@
                     }
                 }, {
                     "id": "19",
-                    "labels": ["Comunes"],
+                    "labels": ["Tramo común - Comunes"],
                     "properties": {
                         "name": "Introducción a la Problemática del Mundo Contemporáneo",
                         "tramo": "comun",
@@ -236,7 +236,7 @@
                     }
                 }, {
                     "id": "20",
-                    "labels": ["Comunes"],
+                    "labels": ["Tramo común - Comunes"],
                     "properties": {
                         "name": "Problemas de Historia del Siglo XX",
                         "tramo": "comun",
@@ -246,7 +246,7 @@
                     }
                 }, {
                     "id": "21",
-                    "labels": ["Comunes"],
+                    "labels": ["Tramo común - Comunes"],
                     "properties": {
                         "name": "Cuestiones de Sociología Economía y Política",
                         "tramo": "comun",
@@ -256,7 +256,7 @@
                     }                        
                 }, {
                     "id": "22",
-                    "labels": ["Comunes"],
+                    "labels": ["Tramo común - Comunes"],
                     "properties": {
                         "name": "Cultura Contemporánea",
                         "tramo": "comun",
@@ -266,7 +266,7 @@
                     }
                 }, {
                     "id": "23",
-                    "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
+                    "labels": ["Tramo electivo - Narrativas digitales interactivas"],
                     "properties": {
                         "name": "Laboratorio de Tecnologías Inmersivas Básico",
                         "objetivo1": "Diseñar narrativas generativas",
@@ -278,7 +278,7 @@
                     }
                 }, {
                     "id": "24",
-                    "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
+                    "labels": ["Tramo electivo - Narrativas digitales interactivas"],
                     "properties": {
                         "name": "Laboratorio de Tecnologías Inmersivas Avanzado",
                         "objetivo1": "Desarrollar narrativas aumentadas en multiplataformas",
@@ -290,7 +290,7 @@
                     }
                 }, {
                     "id": "25",
-                    "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
+                    "labels": ["Tramo electivo - Narrativas digitales interactivas"],
                     "properties": {
                         "name": "Videojuegos Básico",
                         "objetivo1": "Plantear, diseñar, programar y desarrollar un videojuego",
@@ -302,7 +302,7 @@
                     }
                 }, {
                     "id": "26",
-                    "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
+                    "labels": ["Tramo electivo - Narrativas digitales interactivas"],
                     "properties": {
                         "name": "Videojuegos Avanzado",
                         "objetivo1": "Desarrollar la interacción con el usuario y programar en diferentes soportes",
@@ -314,7 +314,7 @@
                     }
                 }, {
                     "id": "27",
-                    "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
+                    "labels": ["Tramo electivo - Narrativas digitales interactivas"],
                     "properties": {
                         "name": "Animación Básica",
                         "objetivo1": "Desarrollo de guion y narrativas",
@@ -327,7 +327,7 @@
                     }
                 }, {
                     "id": "28",
-                    "labels": ["NARRATIVAS DIGITALES INTERACTIVAS"],
+                    "labels": ["Tramo electivo - Narrativas digitales interactivas"],
                     "properties": {
                         "name": "Animación Avanzada",
                         "objetivo1": "Manejar técnicas de animación digital y programación",
@@ -339,7 +339,7 @@
                     }
                 }, {
                     "id": "29",
-                    "labels": ["DISPOSITIVOS E INTERFACES"],
+                    "labels": ["Tramo electivo - Dispositivos e interfaces"],
                     "properties": {
                         "name": "Laboratorio de Interfaces Básico",
                         "objetivo1": "Desarrollar proyectos de interfaces en diversos soportes y formas",
@@ -351,7 +351,7 @@
                     }
                 }, {
                     "id": "30",
-                    "labels": ["DISPOSITIVOS E INTERFACES"],
+                    "labels": ["Tramo electivo - Dispositivos e interfaces"],
                     "properties": {
                         "name": "Laboratorio de Interfaces Avanzado",
                         "objetivo1": "Desarrollar interfaces considerando su dimensión estética",
@@ -363,7 +363,7 @@
                     }
                 }, {
                     "id": "31",
-                    "labels": ["DISPOSITIVOS E INTERFACES"],
+                    "labels": ["Tramo electivo - Dispositivos e interfaces"],
                     "properties": {
                         "name": "Laboratorio de Computación Física",
                         "objetivo1": "Diseñar y desarrollar dispositivos interactivos digitales",
@@ -375,7 +375,7 @@
                     }
                 }, {
                     "id": "32",
-                    "labels": ["DISPOSITIVOS E INTERFACES"],
+                    "labels": ["Tramo electivo - Dispositivos e interfaces"],
                     "properties": {
                         "name": "Laboratorio de Electrónica",
                         "objetivo1": "Desarrollar circuitería orientada a proyectos",
@@ -388,7 +388,7 @@
                     }
                 }, {
                     "id": "33",
-                    "labels": ["DISPOSITIVOS E INTERFACES"],
+                    "labels": ["Tramo electivo - Dispositivos e interfaces"],
                     "properties": {
                         "name": "Seminarios de Robótica",
                         "objetivo1": "Diseñar de hardware y software para dispositivos autónomos",
@@ -401,7 +401,7 @@
                     }
                 }, {
                     "id": "34",
-                    "labels": ["PRODUCCIÓN AUDIOVISUAL"],
+                    "labels": ["Tramo electivo - Producción audiovisual"],
                     "properties": {
                         "name": "Laboratorio de Performance Sonora y Visual",
                         "objetivo1": "Diseñar y montar propuestas performáticas",
@@ -414,7 +414,7 @@
                     }
                 }, {
                     "id": "35",
-                    "labels": ["PRODUCCIÓN AUDIOVISUAL"],
+                    "labels": ["Tramo electivo - Producción audiovisual"],
                     "properties": {
                         "name": "Producción de Imagen",
                         "objetivo1": "Familiarizarse con tecnologías de registro y postproducción de imagen",
@@ -426,7 +426,7 @@
                     }
                 }, {
                     "id": "36",
-                    "labels": ["PRODUCCIÓN AUDIOVISUAL"],
+                    "labels": ["Tramo electivo - Producción audiovisual"],
                     "properties": {
                         "name": "Refuerzo Sonoro, Registro y Grabación",
                         "objetivo1": "Diseñar y desarrollar proyectos de sonorización",
@@ -438,7 +438,7 @@
                     }
                 }, {
                     "id": "37",
-                    "labels": ["PRODUCCIÓN AUDIOVISUAL"],
+                    "labels": ["Tramo electivo - Producción audiovisual"],
                     "properties": {
                         "name": "Composición con Medios Electrónicos y Electroacústicos",
                         "objetivo1": "Trabajar sobre proyectos de composición",
@@ -450,7 +450,7 @@
                     }
                 }, {
                     "id": "38",
-                    "labels": ["PRODUCCIÓN AUDIOVISUAL"],
+                    "labels": ["Tramo electivo - Producción audiovisual"],
                     "properties": {
                         "name": "Producción y Postproducción Sonora",
                         "objetivo1": "Familiarizarse con tecnologías de registro y postproducción de sonido",
@@ -462,7 +462,7 @@
                     }
                 }, {
                     "id": "39",
-                    "labels": ["ALGORITMOS Y DATOS"],
+                    "labels": ["Tramo electivo - Algoritmos y datos"],
                     "properties": {
                         "name": "Laboratorio de Creación Algorítmica",
                         "objetivo1": "Manejar algoritmos aplicados a la música",
@@ -474,7 +474,7 @@
                     }
                 }, {
                     "id": "40",
-                    "labels": ["ALGORITMOS Y DATOS"],
+                    "labels": ["Tramo electivo - Algoritmos y datos"],
                     "properties": {
                         "name": "Tecnologías Hipermediales",
                         "objetivo1": "Desarrollar aplicaciones orientadas a navegadores",
@@ -486,7 +486,7 @@
                     }
                 }, {
                     "id": "41",
-                    "labels": ["ALGORITMOS Y DATOS"],
+                    "labels": ["Tramo electivo - Algoritmos y datos"],
                     "properties": {
                         "name": "Laboratorio de Inteligencia Artificial y Arte",
                         "objetivo1": "Familiarizarse con la programación de inteligencia artificial",
@@ -498,7 +498,7 @@
                     }
                 }, {
                     "id": "42",
-                    "labels": ["ALGORITMOS Y DATOS"],
+                    "labels": ["Tramo electivo - Algoritmos y datos"],
                     "properties": {
                         "name": "Minería de Datos",
                         "objetivo1": "Programar algoritmos, obtener y procesar datos",
@@ -510,7 +510,7 @@
                     }
                 }, {
                     "id": "43",
-                    "labels": ["ALGORITMOS Y DATOS"],
+                    "labels": ["Tramo electivo - Algoritmos y datos"],
                     "properties": {
                         "name": "Seminarios Complementarios de Programación",
                         "objetivo1": "Familiarizarse con programas necesarios para AE",
@@ -522,7 +522,7 @@
                     }
                 }, {
                     "id": "44",
-                    "labels": ["ARTE Y TECNOCIENCIA"],
+                    "labels": ["Tramo electivo - Arte y tecnociencia"],
                     "properties": {
                         "name": "Artes Electrónicas",
                         "objetivo1": "Estudio de referencias historicas de las AE global y regional",
@@ -534,7 +534,7 @@
                     }
                 }, {
                     "id": "45",
-                    "labels": ["ARTE Y TECNOCIENCIA"],
+                    "labels": ["Tramo electivo - Arte y tecnociencia"],
                     "properties": {
                         "name": "Practicas Artísticas",
                         "objetivo1": "Estudio de referencias históricas de las prácticas artísticas vinculadas a AE",
@@ -547,7 +547,7 @@
                     }
                 }, {
                     "id": "46",
-                    "labels": ["ARTE Y TECNOCIENCIA"],
+                    "labels": ["Tramo electivo - Arte y tecnociencia"],
                     "properties": {
                         "name": "Pensamiento Tecno-científico",
                         "objetivo1": "Estudio de historia y epistemología de la ciencia y tecnología",
@@ -560,7 +560,7 @@
                     }
                 }, {
                     "id": "47",
-                    "labels": ["ARTE Y TECNOCIENCIA"],
+                    "labels": ["Tramo electivo - Arte y tecnociencia"],
                     "properties": {
                         "name": "Laboratorios de Ciencia y Arte",
                         "objetivo1": "Estudiar temas y contextos de ciencia y tecnología vinculados al arte de forma integrada",
@@ -573,7 +573,7 @@
                     }
                 }, {
                     "id": "48",
-                    "labels": ["ARTE CONTEMPORÁNEO"],
+                    "labels": ["Tramo electivo - Arte contemporáneo"],
                     "properties": {
                         "name": "Laboratorio de Arte Contemporáneo Básico",
                         "objetivo1": "Desarrollar obra",
@@ -586,7 +586,7 @@
                     }    
                 }, {
                     "id": "49",
-                    "labels": ["ARTE CONTEMPORÁNEO"],
+                    "labels": ["Tramo electivo - Arte contemporáneo"],
                     "properties": {
                         "name": "Laboratorio de Arte Contemporáneo Avanzado",
                         "objetivo1": "Desarrollar obra / Análisis de obra",
@@ -600,7 +600,7 @@
 
                 }, {
                     "id": "50",
-                    "labels": ["ARTE CONTEMPORÁNEO"],
+                    "labels": ["Tramo electivo - Arte contemporáneo"],
                     "properties": {
                         "name": "Seminario de Pensamiento sobre la Imagen",
                         "tramo": "electivo",
@@ -612,7 +612,7 @@
 
                 }, {
                     "id": "51",
-                    "labels": ["MATERIALIDAD EXPANDIDA"],
+                    "labels": ["Tramo electivo - Materialidad expandida"],
                     "properties": {
                         "name":"Laboratorio de Interfaces y Cuerpo",
                         "objetivo1": "Desarrollar interfaces vinculadas al cuerpo",
@@ -625,7 +625,7 @@
                     }    
                 }, {
                     "id": "52",
-                    "labels": ["MATERIALIDAD EXPANDIDA"],
+                    "labels": ["Tramo electivo - Materialidad expandida"],
                     "properties": {
                         "name": "Laboratorio de Materialidad Expandida",
                         "objetivo1": "Familiarizarse con el diseño y procesos de diferentes materiales",
@@ -639,7 +639,7 @@
 
                 }, {
                     "id": "53",
-                    "labels": ["MATERIALIDAD EXPANDIDA"],
+                    "labels": ["Tramo electivo - Materialidad expandida"],
                     "properties": {
                         "name": "Laboratorio de Bioarte",
                         "objetivo1": "Manejo experimental de diferentes técnicas de biología sintética",
@@ -652,7 +652,7 @@
                     }
                 }, {
                     "id": "54",
-                    "labels": ["TRABAJO FINAL DE GRADO"],
+                    "labels": ["Trabajo Final de Grado"],
                     "properties": {
                         "name": "Trabajo Integrador de Artes Electrónicas",
                         "tramo": "electivo",
@@ -663,9 +663,9 @@
                     }
                 }, {
                     "id": "55",
-                    "labels": ["TRAYECTOS FORMATIVOS ALTERNATIVOS"],
+                    "labels": ["Tramo electivo"],
                     "properties": {
-                        "name": "Trayectos Formativos Alternativos",
+                        "name": "Trayectos formativos alternativos",
                         "tramo": "electivo",
                         "url": "",
                         "territorio":"TRAYECTOS FORMATIVOS ALTERNATIVOS",
@@ -674,7 +674,7 @@
                     }
                 }, {
                     "id": "56",
-                    "labels": ["ELECTIVAS"],
+                    "labels": ["Tramo electivo - Otras formaciones"],
                     "properties": {
                         "name": "Ingeniería en Computación",
                         "tramo": "electivo",
@@ -685,7 +685,7 @@
                     }
                 }, {
                     "id": "57",
-                    "labels": ["ELECTIVAS"],
+                    "labels": ["Tramo electivo - Otras formaciones"],
                     "properties": {
                         "name": "Licenciatura en Psicomotricidad",
                         "tramo": "electivo",
@@ -696,7 +696,7 @@
                     }
                 }, {
                     "id": "58",
-                    "labels": ["ELECTIVAS"],
+                    "labels": ["Tramo electivo - Otras formaciones"],
                     "properties": {
                         "name": "Licenciatura en Producción Audiovisual",
                         "tramo": "electivo",
@@ -707,7 +707,7 @@
                     }               
                 }, {
                     "id": "59",
-                    "labels": ["ELECTIVAS"],
+                    "labels": ["Tramo electivo - Otras formaciones"],
                     "properties": {
                         "name": "Ingeniería de Sonido",
                         "tramo": "electivo",
@@ -718,7 +718,7 @@
                     }  
                 }, {
                     "id": "60",
-                    "labels": ["ELECTIVAS"],
+                    "labels": ["Tramo electivo - Otras formaciones"],
                     "properties": {
                         "name": "Especialización en sonido",
                         "tramo": "electivo",
@@ -729,7 +729,7 @@
                     }    
                 }, {
                     "id": "61",
-                    "labels": ["ELECTIVAS"],
+                    "labels": ["Tramo electivo - Otras formaciones"],
                     "properties": {
                         "name": "Licenciatura en Música",
                         "tramo": "electivo",
@@ -740,9 +740,9 @@
                     }   
                 }, {
                     "id": "62",
-                    "labels": ["ELECTIVAS"],
+                    "labels": ["Tramo electivo - Otras formaciones"],
                     "properties": {
-                        "name": "MUNTREF CENTRO DE ARTE y CIENCIA",
+                        "name": "MUNTREF Centro de Arte y Ciencia",
                         "tramo": "electivo",
                         "url": "",
                         "territorio": "TRAYECTOS FORMATIVOS ALTERNATIVOS",
@@ -751,9 +751,9 @@
                     }   
                 }, {
                     "id": "63",
-                    "labels": ["Cuatrimestre 1"],
+                    "labels": ["Tramo común - Cuatrimestre 1"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Introducir producciones del campo de las AE",
                         "objetivo2":"",
                         "cuatrimestre":"1",
@@ -761,9 +761,9 @@
                     }     
                 }, {
                     "id": "64",
-                    "labels": ["Cuatrimestre 2"],
+                    "labels": ["Tramo común - Cuatrimestre 2"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Aproximar el marco epistemológico de la ciencia y la tecnología en referencia a AE",
                         "objetivo2":"",
                         "cuatrimestre":"2",
@@ -771,9 +771,9 @@
                     }     
                 }, {
                     "id": "65",
-                    "labels": ["Cuatrimestre 3"],
+                    "labels": ["Tramo común - Cuatrimestre 3"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Investigar las tecnologías sonoras y visuales de control y codificación de información",
                         "objetivo2":"",
                         "cuatrimestre":"3",
@@ -781,9 +781,9 @@
                     }     
                 }, {
                     "id": "66",
-                    "labels": ["Cuatrimestre 5"],
+                    "labels": ["Tramo común - Cuatrimestre 5"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Incorporar estructuras de la imagen y el sonido para el desarrollo de narrativas",
                         "objetivo2":"",
                         "cuatrimestre":"5",
@@ -791,9 +791,9 @@
                     }   
                 }, {
                     "id": "67",
-                    "labels": ["Cuatrimestre 6"],
+                    "labels": ["Tramo común - Cuatrimestre 6"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Construir un marco referencial sobre el desarrollo de interfaces en AE",
                         "objetivo2":"",
                         "cuatrimestre":"6",
@@ -801,9 +801,9 @@
                     }     
                 }, {
                     "id": "68",
-                    "labels": ["Cuatrimestre 6"],
+                    "labels": ["Tramo común - Cuatrimestre 6"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Ofrecer un marco teórico y analítico para las producciones de las AE",
                         "objetivo2":"",
                         "cuatrimestre":"6",
@@ -811,9 +811,9 @@
                     }     
                 }, {
                     "id": "69",
-                    "labels": ["DISPOSITIVOS E INTERFACES"],
+                    "labels": ["Tramo electivo - Dispositivos e interfaces"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Desarrollar aspectos estéticos de interacción y diseño",
                         "objetivo2":"",
                         "territorio":"DISPOSITIVOS E INTERFACES",
@@ -821,9 +821,9 @@
                     }   
                 }, {
                     "id": "70",
-                    "labels": ["DISPOSITIVOS E INTERFACES"],
+                    "labels": ["Tramo electivo - Dispositivos e interfaces"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Desarrollar aspectos estéticos del vínculo objeto - espectador",
                         "objetivo2": "Incorporar referencias artísticas con robótica",
                         "territorio":"DISPOSITIVOS E INTERFACES",
@@ -831,9 +831,9 @@
                     }   
                 }, {
                     "id": "71",
-                    "labels": ["PRODUCCIÓN AUDIOVISUAL"],
+                    "labels": ["Tramo electivo - Producción audiovisual"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Diseño y puesta en escena integral",
                         "objetivo2":"",
                         "territorio":"PRODUCCION AUDIOVISUAL",
@@ -842,9 +842,9 @@
 
                 }, {
                     "id": "72",
-                    "labels": ["ALGORITMOS Y DATOS"],
+                    "labels": ["Tramo electivo - Algoritmos y datos"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Desarrollar proyectos artísticos de visualización de datos",
                         "objetivo2": "Manejo de data sets, semántica",
                         "territorio":"ALGORITMOS Y DATOS",
@@ -852,9 +852,9 @@
                     }    
                 }, {
                     "id": "73",
-                    "labels": ["ALGORITMOS Y DATOS"],
+                    "labels": ["Tramo electivo - Algoritmos y datos"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Procesar datos para el desarrollo de aplicaciones",
                         "objetivo2":"",
                         "territorio":"ALGORITMOS Y DATOS",
@@ -862,9 +862,9 @@
                     }   
                 }, {
                     "id": "74",
-                    "labels": ["ARTE Y TECNOCIENCIA"],
+                    "labels": ["Tramo electivo - Arte y tecnociencia"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Integrar al análisis de obra en AE el contexto estético",
                         "objetivo2":"",
                         "territorio":"ARTE Y TECNOCIENCIA",
@@ -872,9 +872,9 @@
                     }    
                 }, {
                     "id": "75",
-                    "labels": ["ARTE Y TECNOCIENCIA"],
+                    "labels": ["Tramo electivo - Arte y tecnociencia"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Integrar al análisis de obra en AE el contexto tecno-científico",
                         "objetivo2":"",
                         "territorio":"ARTE Y TECNOCIENCIA",
@@ -883,9 +883,9 @@
 
                 }, {
                     "id": "76",
-                    "labels": ["MATERIALIDAD EXPANDIDA"],
+                    "labels": ["Tramo electivo - Materialidad expandida"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Desarrollar criterios sobre cuestiones éticas relación Arte - Ciencia -Tecnología",
                         "objetivo2": "Cuerpo, género, diversidad, perspectivas culturales",
                         "objetivo2":"",
@@ -894,9 +894,9 @@
                     }   
                 }, {
                     "id": "77",
-                    "labels": ["MATERIALIDAD EXPANDIDA"],
+                    "labels": ["Tramo electivo - Materialidad expandida"],
                     "properties": {
-                        "tipo": "intersección",
+                        "tipo": "Intersección",
                         "objetivo1": "Trabajar en la relación Soft - Wet",
                         "objetivo2": "Conocer tecnologías híbridas de procesos de materiales",
                         "objetivo3": "Estudiar casos en el arte, industria e investigació",
@@ -1996,5 +1996,3 @@
     }],
     "errors": []
 }
-
-
